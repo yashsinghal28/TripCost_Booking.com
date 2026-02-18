@@ -22,7 +22,7 @@ public class BaseClass {
         else if(Utils.fetchPropertyValue("browser").equals("edge")){
             driver = new EdgeDriver();
         }
-
+        driver.manage().window().maximize();
         driver.get(Utils.fetchPropertyValue("URL").toString());
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
     }

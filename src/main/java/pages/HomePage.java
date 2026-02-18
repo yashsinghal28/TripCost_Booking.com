@@ -85,6 +85,7 @@ public class HomePage extends Commoncode  {
     }
 
     public void searchResults() {
+
         searchBtn.click();
     }
 }

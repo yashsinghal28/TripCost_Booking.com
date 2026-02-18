@@ -8,7 +8,7 @@ import utils.Commoncode;
 import utils.Log;
 
 public class TC_01_Home_PopupPresentAndClosable extends BaseClass {
-    @Test
+    @Test(priority = 1)
     public void test1() throws Exception{
         HomePage home = new HomePage(driver);
         if (home.popupCloseBtn.isDisplayed()) {
