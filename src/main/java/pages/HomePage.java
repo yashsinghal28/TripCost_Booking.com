@@ -16,7 +16,7 @@ import java.time.format.DateTimeFormatter;
 
 public class HomePage extends Commoncode  {
 
-    private final WebDriver driver;
+    public WebDriver driver;
 
     @FindBy(xpath = "//form[@aria-label='Search properties']//button[@data-testid='occupancy-config']")
     public WebElement adultCnt;
@@ -42,7 +42,7 @@ public class HomePage extends Commoncode  {
     @FindBy(xpath = "//form[@aria-label='Search properties']//button[@type='submit' and .//span[normalize-space()='Search']]")
     public WebElement searchBtn;
 
-    public HomePageActions(WebDriver driver) {
+    public HomePage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
