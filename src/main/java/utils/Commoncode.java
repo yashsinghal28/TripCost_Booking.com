@@ -14,6 +14,7 @@ import java.time.Duration;
 
 public class Commoncode {
     public void implicitWait(WebDriver driver) {
+
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
