@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="BookingTestSuite">
+    <listeners>
+        <listener class-name="org.reports.ExtentTestNGListener"/>
+    </listeners>
+
+    <test thread-count="1" name="BookingTests_Sequential">
+        <classes>
+            <class name="Test.TC_001_HomePopupHandling"/>
+            <class name="Test.TC_002_LocationInput"/>
+            <class name="Test.TC_003_DateSelection"/>
+            <class name="Test.TC_004_OccupancyAdjustment"/>
+            <class name="Test.TC_005_SearchAndNavigate"/>
+            <class name="Test.TC_006_FilterVisibility"/>
+            <class name="Test.TC_007_SortByReview"/>
+            <class name="Test.TC_008_ElevatorFilter"/>
+            <class name="Test.TC_009_HotelListValidation"/>
+            <class name="Test.TC_010_FinalScreenshot"/>
+            <class name="Test.TC_011_GridViewScreenshot"/>
+        </classes>
+    </test>
+
+    <test thread-count="1" name="CruiseTests">
+        <classes>
+            <class name="Test.CuriseTest"/>
+        </classes>
+    </test>
+</suite>
