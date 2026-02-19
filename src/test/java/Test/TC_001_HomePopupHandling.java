@@ -15,13 +15,13 @@ public class TC_001_HomePopupHandling extends BaseClass {
         if (home == null) home = new HomePageActions(driver);
         driver.get(url1);
 
-            if (home.popupCloseBtn.isDisplayed()) {
-                home.closePopUp();
-                Log.info("Popup closed successfully");
-            }
+        if (home.popupCloseBtn.isDisplayed()) {
+            home.closePopUp();
+            Log.info("Popup closed successfully");
+        }
 
-            Log.warn("Popup not present or not interactable. Continuing.");
+        Log.warn("Popup not present or not interactable. Continuing.");
 
-            takeScreenShot(driver, "TC01_Home_Popup_Handled");
+        takeScreenShot(driver, "TC01_Home_Popup_Handled");
     }
 }

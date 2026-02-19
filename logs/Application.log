@@ -11,3 +11,7 @@
 12:05:21.870 INFO  Log - Hotel page ready
 12:05:22.196 INFO  Log - Elevator accessibility filter applied.
 12:05:24.459 INFO  Log - Driver quit successfully.
+12:10:26.584 INFO  Log - Launched URL1: https://www.booking.com
+12:10:32.634 INFO  Log - Popup closed successfully
+12:10:32.634 WARN  Log - Popup not present or not interactable. Continuing.
+12:10:34.366 INFO  Log - Driver quit successfully.
