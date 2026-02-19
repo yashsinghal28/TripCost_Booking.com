@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TC_001_HomePopupHandling">
+    <listeners>
+        <listener class-name="org.reports.ExtentTestNGListener"/>
+    </listeners>
+
+    <test thread-count="1" name="TC_001_Test">
+        <classes>
+            <class name="Test.TC_001_HomePopupHandling"/>
+        </classes>
+    </test>
+</suite>
