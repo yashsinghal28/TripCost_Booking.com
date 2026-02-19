@@ -10,7 +10,7 @@ import static CommonCode.Commoncode.takeScreenShot;
 public class TC_001_HomePopupHandling extends BaseClass {
     private HomePageActions home;
 
-    @Test(groups = {"TC_001"})
+    @Test()
     public void handleHomePopup() {
         if (home == null) home = new HomePageActions(driver);
         driver.get(url1);

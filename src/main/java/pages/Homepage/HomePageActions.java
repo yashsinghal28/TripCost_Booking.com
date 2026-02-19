@@ -1,6 +1,7 @@
 package pages.Homepage;
 
 import CommonCode.Commoncode;
+import baseclass.BaseClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,7 +15,7 @@ import java.time.LocalDate;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 
-public class HomePageActions extends Commoncode {
+public class HomePageActions extends BaseClass {
 
     private final WebDriver driver;
 
