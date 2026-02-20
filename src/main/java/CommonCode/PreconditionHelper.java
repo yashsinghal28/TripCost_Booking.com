@@ -2,8 +2,8 @@ package CommonCode;
 
 import Logs.Log;
 import baseclass.BaseClass;
-import pages.Hotelpage.HotelPageActions;
-import pages.Homepage.HomePageActions;
+import pages.HotelPageActions;
+import pages.HomePageActions;
 import org.openqa.selenium.WebDriver;
 
 public class PreconditionHelper {
