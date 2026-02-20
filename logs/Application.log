@@ -1,0 +1,55 @@
+12:04:44.776 INFO  Log - Launched URL1: https://www.booking.com
+12:04:48.938 INFO  Log - Popup closed successfully
+12:04:48.938 WARN  Log - Popup not present or not interactable. Continuing.
+12:04:51.173 INFO  Log - Driver quit successfully.
+12:05:10.419 INFO  Log - Launched URL1: https://www.booking.com
+12:05:15.675 INFO  Log - Popup closed by precondition helper
+12:05:16.180 INFO  Log - Location set by precondition helper: Nairobi
+12:05:16.485 INFO  Log - Dates selected by precondition helper
+12:05:16.841 INFO  Log - Occupancy adjusted by precondition helper
+12:05:21.825 INFO  Log - Search performed by precondition helper
+12:05:21.870 INFO  Log - Hotel page ready
+12:05:22.196 INFO  Log - Elevator accessibility filter applied.
+12:05:24.459 INFO  Log - Driver quit successfully.
+12:10:26.584 INFO  Log - Launched URL1: https://www.booking.com
+12:10:32.634 INFO  Log - Popup closed successfully
+12:10:32.634 WARN  Log - Popup not present or not interactable. Continuing.
+12:10:34.366 INFO  Log - Driver quit successfully.
+12:13:40.621 INFO  Log - Launched URL1: https://www.booking.com
+12:13:49.668 INFO  Log - Popup closed by precondition helper
+12:13:50.068 INFO  Log - Location set by precondition helper: Nairobi
+12:13:50.393 INFO  Log - Dates selected by precondition helper
+12:13:50.758 INFO  Log - Occupancy adjusted by precondition helper
+12:13:55.961 INFO  Log - Search performed by precondition helper
+12:13:56.011 INFO  Log - Hotel page ready
+12:13:59.031 INFO  Log - Driver quit successfully.
+12:17:33.761 INFO  Log - Launched URL1: https://www.booking.com
+12:17:39.061 INFO  Log - Popup closed by precondition helper
+12:17:39.556 INFO  Log - Location set by precondition helper: Nairobi
+12:17:39.844 INFO  Log - Dates selected by precondition helper
+12:17:40.150 INFO  Log - Occupancy adjusted by precondition helper
+12:17:40.229 INFO  Log - Search performed by precondition helper
+12:17:44.718 INFO  Log - Hotel page ready
+12:17:44.760 INFO  Log - Total hotels found: 28, prices found: 28
+12:17:44.857 INFO  Log - Hotel 1:La Maison Royale
+12:17:44.857 INFO  Log - Price for 5 Days: ₹ 37,571
+12:17:44.858 INFO  Log - Price for 1 Day: ₹ 7514.2
+12:17:44.895 INFO  Log - Hotel 2:Gem Forest Hotel Nairobi - MGallery Collection
+12:17:44.895 INFO  Log - Price for 5 Days: ₹ 136,424
+12:17:44.895 INFO  Log - Price for 1 Day: ₹ 27284.8
+12:17:44.942 INFO  Log - Hotel 3:The Library Hostel
+12:17:44.942 INFO  Log - Price for 5 Days: ₹ 27,883
+12:17:44.942 INFO  Log - Price for 1 Day: ₹ 5576.6
+12:17:46.981 INFO  Log - Driver quit successfully.
+12:19:13.703 INFO  Log - Launched URL1: https://www.booking.com
+12:19:15.382 INFO  Log - Driver quit successfully.
+12:19:23.719 INFO  Log - Launched URL1: https://www.booking.com
+12:19:27.900 INFO  Log - Driver quit successfully.
+12:19:35.650 INFO  Log - Launched URL1: https://www.booking.com
+12:19:40.459 INFO  Log - Popup closed successfully
+12:19:40.459 WARN  Log - Popup not present or not interactable. Continuing.
+12:19:42.164 INFO  Log - Driver quit successfully.
+12:21:39.769 INFO  Log - Launched URL1: https://www.booking.com
+12:21:45.527 INFO  Log - Popup closed successfully
+12:21:45.527 WARN  Log - Popup not present or not interactable. Continuing.
+12:21:47.143 INFO  Log - Driver quit successfully.
