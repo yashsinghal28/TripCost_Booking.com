@@ -3,7 +3,7 @@ package Test;
 import CommonCode.PreconditionHelper;
 import Logs.Log;
 import baseclass.BaseClass;
-import pages.Hotelpage.HotelPageActions;
+import pages.HotelPageActions;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;

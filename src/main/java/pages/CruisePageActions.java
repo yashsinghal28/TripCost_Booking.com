@@ -1,4 +1,4 @@
-package pages.CurisePage;
+package pages;
 
 import Logs.Log;
 import org.openqa.selenium.By;

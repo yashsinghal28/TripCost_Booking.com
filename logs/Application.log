@@ -103,3 +103,10 @@
 14:25:13.416 INFO  Log - Launched URL1: https://www.booking.com/Driver started successfully
 14:25:19.230 INFO  Log - Popup closed successfully
 14:25:21.553 INFO  Log - Driver quit successfully.
+09:23:53.241 INFO  Log - Launched URL1: https://www.booking.com/Driver started successfully
+09:23:55.288 INFO  Log - Driver quit successfully.
+09:24:01.724 INFO  Log - Launched URL1: https://www.booking.com/Driver started successfully
+09:24:07.548 INFO  Log - Popup closed by precondition helper
+09:24:08.044 INFO  Log - Location set by precondition helper: Nairobi
+09:24:08.431 INFO  Log - Dates selected by precondition helper
+09:24:10.910 INFO  Log - Driver quit successfully.

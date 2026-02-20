@@ -14,9 +14,15 @@ import java.time.LocalDate;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 
-public class HomePage extends BaseClass {
+public class HomePageActions extends BaseClass {
 
     public WebDriver driver;
+
+    public HomePageActions(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+    }
+
 
     @FindBy(xpath = "//form[@aria-label='Search properties']//button[@data-testid='occupancy-config']")
     public WebElement adultCnt;
@@ -42,10 +48,6 @@ public class HomePage extends BaseClass {
     @FindBy(xpath = "//form[@aria-label='Search properties']//button[@type='submit' and .//span[normalize-space()='Search']]")
     public WebElement searchBtn;
 
-    public HomePage(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
-    }
 
     public void closePopUp() {
         popupCloseBtn.click();
@@ -85,7 +87,6 @@ public class HomePage extends BaseClass {
     }
 
     public void searchResults() {
-
         searchBtn.click();
     }
 }

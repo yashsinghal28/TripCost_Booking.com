@@ -2,7 +2,7 @@ package Test;
 
 import Logs.Log;
 import baseclass.BaseClass;
-import pages.Homepage.HomePageActions;
+import pages.HomePageActions;
 import org.testng.annotations.Test;
 
 import static CommonCode.Commoncode.takeScreenShot;

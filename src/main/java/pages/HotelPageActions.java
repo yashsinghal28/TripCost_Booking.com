@@ -1,4 +1,4 @@
-package pages.Hotelpage;
+package pages;
 
 import Logs.Log;
 import org.openqa.selenium.JavascriptExecutor;
