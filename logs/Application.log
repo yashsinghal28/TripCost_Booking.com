@@ -110,3 +110,12 @@
 09:24:08.044 INFO  Log - Location set by precondition helper: Nairobi
 09:24:08.431 INFO  Log - Dates selected by precondition helper
 09:24:10.910 INFO  Log - Driver quit successfully.
+09:56:48.875 INFO  Log - Launched URL1: https://www.booking.com/Driver started successfully
+09:56:53.730 INFO  Log - Popup closed by precondition helper
+09:56:54.408 INFO  Log - Location set by precondition helper: Nairobi
+09:56:54.783 INFO  Log - Dates selected by precondition helper
+09:56:55.175 INFO  Log - Occupancy adjusted by precondition helper
+09:56:59.829 INFO  Log - Search performed by precondition helper
+09:57:00.463 INFO  Log - Hotel page ready
+09:57:00.733 INFO  Log - Elevator accessibility filter applied.
+09:57:03.723 INFO  Log - Driver quit successfully.
