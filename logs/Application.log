@@ -53,3 +53,53 @@
 12:21:45.527 INFO  Log - Popup closed successfully
 12:21:45.527 WARN  Log - Popup not present or not interactable. Continuing.
 12:21:47.143 INFO  Log - Driver quit successfully.
+14:00:33.079 INFO  Log - Launched URL1: https://www.booking.com/
+14:00:43.190 INFO  Log - Popup closed successfully
+14:00:43.190 WARN  Log - Popup not present or not interactable. Continuing.
+14:00:45.407 INFO  Log - Driver quit successfully.
+14:00:56.264 INFO  Log - Launched URL1: https://www.booking.com/
+14:01:01.791 INFO  Log - Popup closed by precondition helper
+14:01:02.234 INFO  Log - Location set by precondition helper: Nairobi
+14:01:02.701 INFO  Log - Dates selected by precondition helper
+14:01:03.104 INFO  Log - Occupancy adjusted by precondition helper
+14:01:09.324 INFO  Log - Search performed by precondition helper
+14:01:09.374 INFO  Log - Hotel page ready
+14:01:09.544 INFO  Log - Total hotels found: 28, prices found: 28
+14:01:09.632 INFO  Log - Hotel 1:Silverstone Apartments Nairobi, Kilimani
+14:01:09.632 INFO  Log - Price for 5 Days: ₹ 35,591
+14:01:09.632 INFO  Log - Price for 1 Day: ₹ 7118.2
+14:01:09.701 INFO  Log - Hotel 2:Pullman Nairobi Upper Hill
+14:01:09.701 INFO  Log - Price for 5 Days: ₹ 166,847
+14:01:09.701 INFO  Log - Price for 1 Day: ₹ 33369.4
+14:01:09.767 INFO  Log - Hotel 3:Marina Bay Apartments Nairobi, Westlands
+14:01:09.767 INFO  Log - Price for 5 Days: ₹ 51,414
+14:01:09.767 INFO  Log - Price for 1 Day: ₹ 10282.8
+14:01:12.464 INFO  Log - Driver quit successfully.
+14:01:37.230 INFO  Log - Launched URL1: https://www.booking.com/
+14:01:42.579 INFO  Log - Popup closed by precondition helper
+14:01:43.031 INFO  Log - Location set by precondition helper: Nairobi
+14:01:43.405 INFO  Log - Dates selected by precondition helper
+14:01:43.802 INFO  Log - Occupancy adjusted by precondition helper
+14:01:48.325 INFO  Log - Search performed by precondition helper
+14:01:48.883 INFO  Log - Hotel page ready
+14:01:51.918 INFO  Log - Driver quit successfully.
+14:02:28.514 INFO  Log - Launched URL1: https://www.booking.com/
+14:02:30.764 INFO  Log - Driver quit successfully.
+14:05:25.494 INFO  Log - Launched URL1: https://www.booking.com/
+14:05:31.967 INFO  Log - Popup closed by precondition helper
+14:05:32.635 INFO  Log - Location set by precondition helper: Nairobi
+14:05:33.055 INFO  Log - Dates selected by precondition helper
+14:05:33.478 INFO  Log - Occupancy adjusted by precondition helper
+14:05:38.186 INFO  Log - Search performed by precondition helper
+14:05:38.737 INFO  Log - Hotel page ready
+14:05:38.917 INFO  Log - Elevator accessibility filter applied.
+14:05:42.124 INFO  Log - Driver quit successfully.
+14:22:53.507 INFO  Log - Launched URL1: https://www.booking.com/
+14:22:58.317 INFO  Log - Popup closed successfully
+14:23:00.618 INFO  Log - Driver quit successfully.
+14:23:35.568 INFO  Log - Launched URL1: https://www.booking.com/
+14:23:41.079 INFO  Log - Popup closed successfully
+14:23:43.359 INFO  Log - Driver quit successfully.
+14:25:13.416 INFO  Log - Launched URL1: https://www.booking.com/Driver started successfully
+14:25:19.230 INFO  Log - Popup closed successfully
+14:25:21.553 INFO  Log - Driver quit successfully.

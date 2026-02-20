@@ -19,8 +19,8 @@ public class TC_009_HotelListValidation extends BaseClass {
         HotelPageActions HotelPage = new HotelPageActions(driver);
         List<WebElement> hotels = HotelPage.getHoteList();
         List<WebElement> price = HotelPage.getHotelPrice();
-        int hotelCount = hotels == null ? 0 : hotels.size();
-        int priceCount = price == null ? 0 : price.size();
+        int hotelCount =  hotels.size();
+        int priceCount =   price.size();
         int available = Math.min(hotelCount, priceCount);
         Log.info("Total hotels found: " + hotelCount + ", prices found: " + priceCount);
         int toPrint = Math.min(3, available);

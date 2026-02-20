@@ -4,12 +4,15 @@ import Logs.Log;
 import CommonCode.Commoncode;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.CurisePage.CruisePageActions;
 import pages.Homepage.HomePageActions;
 import pages.Hotelpage.HotelPageActions;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+import utils.Utils;
 
 import java.time.Duration;
 
@@ -24,15 +27,22 @@ public class BaseClass {
     public HotelPageActions hotelActions;
 
     @BeforeSuite
-    public void setUp() {
-        url1 = "https://www.booking.com";
-        url2 = "https://cruises.booking.com";
-        driver = new ChromeDriver();
+    public void setUp() throws  Exception{
+        url1 = Utils.fetchPropertyValue("URL1").toString();
+        url2 = Utils.fetchPropertyValue("URL2").toString();
+        if(Utils.fetchPropertyValue("browser").equals("chrome")) {
+            driver = new ChromeDriver();
+        }else if(Utils.fetchPropertyValue("browser").equals("firefox")){
+            driver = new FirefoxDriver();
+        }
+        else if(Utils.fetchPropertyValue("browser").equals("edge")){
+            driver = new EdgeDriver();
+        }
         driver.manage().window().maximize();
         cm.implicitWait(driver);
         wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         home = new HomePageActions(driver);
-        Log.info("Launched URL1: " + url1);
+        Log.info("Launched URL1: " + url1 +"Driver started successfully");
     }
 
     @AfterSuite

@@ -17,7 +17,13 @@ import java.time.format.DateTimeFormatter;
 
 public class HomePageActions extends BaseClass {
 
-    private final WebDriver driver;
+    public WebDriver driver;
+
+    public HomePageActions(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+    }
+
 
     @FindBy(xpath = "//form[@aria-label='Search properties']//button[@data-testid='occupancy-config']")
     public WebElement adultCnt;
@@ -43,10 +49,6 @@ public class HomePageActions extends BaseClass {
     @FindBy(xpath = "//form[@aria-label='Search properties']//button[@type='submit' and .//span[normalize-space()='Search']]")
     public WebElement searchBtn;
 
-    public HomePageActions(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
-    }
 
     public void closePopUp() {
         popupCloseBtn.click();

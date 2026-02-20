@@ -30,19 +30,19 @@ public class CruisePageActions {
     @FindBy(xpath = "(//p[@class='ui-block-a'])[22]")
     public WebElement numberOfElevators;
     @FindBy(xpath = "//button[@class='onetrust-close-btn-handler onetrust-close-btn-ui banner-close-button ot-close-icon']")
-    protected WebElement closeButton;
+    public WebElement closeButton;
     @FindBy(xpath = "//button[@id='expandCollapse_stateroom']")
-    protected WebElement stateRoom;
+    public WebElement stateRoom;
     @FindBy(xpath = "//button[@id='expandCollapse_onboardExperience']")
-    protected WebElement onBoarding;
+    public WebElement onBoarding;
     @FindBy(xpath = "//div[@id='expandCollapse_stateroom_Content']/div/div[1]")
-    protected List<WebElement> suitItems;
+    public List<WebElement> suitItems;
     @FindBy(xpath = "//div[@id='expandCollapse_stateroom_Content']/div/div[1]/div[1]")
-    protected List<WebElement> deck;
+    public List<WebElement> deck;
     @FindBy(xpath = "//div[@class='ui-block-a mPadBottom']")
     public WebElement stats;
     @FindBy(xpath = "//a[@id='hp_searchContinue']")
-    protected WebElement image;
+    public WebElement image;
     public CruisePageActions(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
@@ -105,7 +105,7 @@ public class CruisePageActions {
     }
 
     public void printStatsList() {
-        Log.info("<<<<STATS>>>>");
+        Log.info("<STATS>");
         List<String> c = getResult();
         for (String cc : c) {
             Log.info(cc);

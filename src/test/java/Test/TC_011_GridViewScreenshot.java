@@ -20,14 +20,10 @@ public class TC_011_GridViewScreenshot extends BaseClass {
             this.hotelActions = hp;
         }
 
-        try {
             hp.gridViewBtn.click();
             Log.info("Clicked Grid view button");
             JavascriptExecutor js = (JavascriptExecutor) driver;
             js.executeScript("window.scrollBy(0, 800);");
-        } catch (Exception e) {
-            Log.warn("Grid button click failed: " + e.getMessage());
-        }
         takeScreenShot(driver, "TC11_Grid_Click");
     }
 }
