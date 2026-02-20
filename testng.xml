@@ -7,6 +7,14 @@
             <class name="Test.TC_001_HomePopupHandling"/>
             <class name="Test.TC_002_LocationInput"/>
             <class name="Test.TC_003_DateSelection"/>
+            <class name="Test.TC_004_OccupancyAdjustment"/>
+            <class name="Test.TC_005_SearchAndNavigate"/>
+            <class name="Test.TC_006_FilterVisibility"/>
+            <class name="Test.TC_007_SortByReview"/>
+            <class name="Test.TC_008_ElevatorFilter"/>
+            <class name="Test.TC_009_HotelListValidation"/>
+            <class name="Test.TC_010_FinalScreenshot"/>
+            <class name="Test.TC_011_GridViewScreenshot"/>
         </classes>
     </test>
 

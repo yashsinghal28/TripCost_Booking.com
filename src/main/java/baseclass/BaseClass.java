@@ -7,6 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import pages.CruisePageActions;
 import pages.HomePageActions;
 import pages.HotelPageActions;
@@ -26,7 +28,7 @@ public class BaseClass {
     public HomePageActions home;
     public HotelPageActions hotelActions;
 
-    @BeforeSuite
+    @BeforeMethod
     public void setUp() throws  Exception{
         url1 = Utils.fetchPropertyValue("URL1").toString();
         url2 = Utils.fetchPropertyValue("URL2").toString();
@@ -45,7 +47,7 @@ public class BaseClass {
         Log.info("Launched URL1: " + url1 +" Driver started successfully");
     }
 
-    @AfterSuite
+    @AfterMethod
     public void tearDown() {
         if (driver != null) {
             driver.quit();

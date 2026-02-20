@@ -11,6 +11,7 @@ public class TC_007_SortByReview extends BaseClass {
     @Test()
     public void sortHotelsByTopReviewed() {
         PreconditionHelper pre = new PreconditionHelper(this);
+        driver.get(url1);
         pre.ensureUpToStep(6);
 
         HotelPageActions HotelPage = new HotelPageActions(driver);

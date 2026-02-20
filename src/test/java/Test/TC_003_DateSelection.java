@@ -11,6 +11,7 @@ public class TC_003_DateSelection extends BaseClass {
     @Test()
     public void selectCheckInCheckOutDates() {
         PreconditionHelper pre = new PreconditionHelper(this);
+        driver.get(url1);
         pre.ensureUpToStep(2);
         home.selectDateRange();
         Log.info("Selected check in and check out dates");

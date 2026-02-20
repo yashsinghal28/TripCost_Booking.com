@@ -292,3 +292,148 @@ Please Note: Staterooms 9252 and 9652 have obstructed views. -> Deck: Deck 9,Dec
 11:39:03.684 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
 11:39:09.905 INFO  Log - Popup closed successfully
 11:39:12.222 INFO  Log - Driver quit successfully.
+11:46:13.650 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+11:46:20.225 INFO  Log - Popup closed successfully
+11:46:22.811 INFO  Log - Driver quit successfully.
+11:49:47.583 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+11:49:53.442 INFO  Log - Popup closed successfully
+11:49:55.729 INFO  Log - Driver quit successfully.
+11:54:23.871 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+11:54:37.968 INFO  Log - Popup not present or already closed
+11:54:37.987 INFO  Log - Popup not present or already closed
+11:54:38.007 INFO  Log - Driver quit successfully.
+11:54:49.814 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+11:54:55.914 INFO  Log - Popup closed successfully
+11:55:06.398 INFO  Log - Popup not present or already closed
+11:55:06.694 INFO  Log - Typed location: Nairobi
+11:55:06.733 INFO  Log - Captured location value: Nairobi
+11:55:17.005 INFO  Log - Popup not present or already closed
+11:55:17.566 INFO  Log - Selected check in and check out dates
+11:55:20.499 INFO  Log - Driver quit successfully.
+11:57:51.267 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+11:57:56.909 INFO  Log - Popup closed successfully
+11:57:59.231 INFO  Log - Driver quit successfully.
+11:58:01.181 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+11:58:11.204 INFO  Log - Popup not present or already closed
+11:58:22.584 INFO  Log - Driver quit successfully.
+11:58:24.542 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+11:58:32.713 INFO  Log - Popup not present or already closed
+11:58:32.739 INFO  Log - Driver quit successfully.
+11:58:55.191 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+11:59:01.238 INFO  Log - Popup closed successfully
+11:59:03.587 INFO  Log - Driver quit successfully.
+11:59:05.481 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+11:59:11.259 INFO  Log - Popup closed by precondition helper
+11:59:11.889 INFO  Log - Typed location: Nairobi
+11:59:11.918 INFO  Log - Captured location value: Nairobi
+11:59:14.106 INFO  Log - Driver quit successfully.
+11:59:16.043 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+11:59:21.774 INFO  Log - Popup closed by precondition helper
+11:59:22.366 INFO  Log - Location set by precondition helper: Nairobi
+11:59:22.875 INFO  Log - Selected check in and check out dates
+11:59:25.264 INFO  Log - Driver quit successfully.
+12:00:29.507 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+12:00:37.021 INFO  Log - Popup closed successfully
+12:00:39.377 INFO  Log - Driver quit successfully.
+12:00:41.347 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+12:00:47.552 INFO  Log - Popup closed by precondition helper
+12:00:48.188 INFO  Log - Typed location: Nairobi
+12:00:48.220 INFO  Log - Captured location value: Nairobi
+12:00:50.406 INFO  Log - Driver quit successfully.
+12:00:52.336 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+12:00:58.456 INFO  Log - Popup closed by precondition helper
+12:00:59.080 INFO  Log - Location set by precondition helper: Nairobi
+12:00:59.534 INFO  Log - Selected check in and check out dates
+12:01:01.861 INFO  Log - Driver quit successfully.
+12:01:03.742 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+12:01:10.012 INFO  Log - Popup closed by precondition helper
+12:01:10.616 INFO  Log - Location set by precondition helper: Nairobi
+12:01:11.081 INFO  Log - Dates selected by precondition helper
+12:01:13.717 INFO  Log - Driver quit successfully.
+12:03:41.467 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+12:03:47.536 INFO  Log - Popup closed successfully
+12:03:49.888 INFO  Log - Driver quit successfully.
+12:03:52.012 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+12:03:57.625 INFO  Log - Popup closed by precondition helper
+12:03:58.290 INFO  Log - Typed location: Nairobi
+12:03:58.317 INFO  Log - Captured location value: Nairobi
+12:04:00.570 INFO  Log - Driver quit successfully.
+12:04:02.537 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+12:04:09.069 INFO  Log - Popup closed by precondition helper
+12:04:09.703 INFO  Log - Location set by precondition helper: Nairobi
+12:04:10.223 INFO  Log - Selected check in and check out dates
+12:04:12.643 INFO  Log - Driver quit successfully.
+12:04:14.680 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+12:04:20.302 INFO  Log - Popup closed by precondition helper
+12:04:20.965 INFO  Log - Location set by precondition helper: Nairobi
+12:04:21.469 INFO  Log - Dates selected by precondition helper
+12:04:24.360 INFO  Log - Driver quit successfully.
+12:04:26.371 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+12:04:32.315 INFO  Log - Popup closed by precondition helper
+12:04:32.956 INFO  Log - Location set by precondition helper: Nairobi
+12:04:33.412 INFO  Log - Dates selected by precondition helper
+12:04:33.867 INFO  Log - Occupancy adjusted by precondition helper
+12:04:38.843 INFO  Log - Clicked Search on Home page.
+12:04:43.120 INFO  Log - Driver quit successfully.
+12:04:45.157 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+12:04:49.095 INFO  Log - Popup closed by precondition helper
+12:04:50.549 INFO  Log - Location set by precondition helper: Nairobi
+12:04:51.115 INFO  Log - Dates selected by precondition helper
+12:04:51.572 INFO  Log - Occupancy adjusted by precondition helper
+12:04:56.399 INFO  Log - Search performed by precondition helper
+12:04:57.269 INFO  Log - Hotel page ready
+12:04:57.295 INFO  Log - Hotel options button is visible.
+12:05:00.413 INFO  Log - Driver quit successfully.
+12:05:02.431 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+12:05:08.684 INFO  Log - Popup closed by precondition helper
+12:05:09.344 INFO  Log - Location set by precondition helper: Nairobi
+12:05:09.798 INFO  Log - Dates selected by precondition helper
+12:05:10.255 INFO  Log - Occupancy adjusted by precondition helper
+12:05:15.521 INFO  Log - Search performed by precondition helper
+12:05:16.263 INFO  Log - Hotel page ready
+12:05:20.344 INFO  Log - Driver quit successfully.
+12:05:22.315 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+12:05:27.172 INFO  Log - Popup closed by precondition helper
+12:05:28.036 INFO  Log - Location set by precondition helper: Nairobi
+12:05:28.544 INFO  Log - Dates selected by precondition helper
+12:05:28.957 INFO  Log - Occupancy adjusted by precondition helper
+12:05:33.837 INFO  Log - Search performed by precondition helper
+12:05:34.590 INFO  Log - Hotel page ready
+12:05:35.144 INFO  Log - Elevator accessibility filter applied.
+12:05:38.649 INFO  Log - Driver quit successfully.
+12:05:40.595 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+12:05:45.737 INFO  Log - Popup closed by precondition helper
+12:05:46.347 INFO  Log - Location set by precondition helper: Nairobi
+12:05:46.761 INFO  Log - Dates selected by precondition helper
+12:05:47.193 INFO  Log - Occupancy adjusted by precondition helper
+12:05:51.748 INFO  Log - Search performed by precondition helper
+12:05:52.581 INFO  Log - Hotel page ready
+12:05:52.623 INFO  Log - Total hotels found: 25, prices found: 25
+12:05:52.682 INFO  Log - Hotel 1:La Maison Royale
+12:05:52.682 INFO  Log - Price for 5 Days: ₹ 37,571
+12:05:52.686 INFO  Log - Price for 1 Day: ₹ 7514.2
+12:05:52.801 INFO  Log - Hotel 2:The Library Hostel
+12:05:52.801 INFO  Log - Price for 5 Days: ₹ 27,883
+12:05:52.801 INFO  Log - Price for 1 Day: ₹ 5576.6
+12:05:53.011 INFO  Log - Hotel 3:Holiday Inn - Nairobi Two Rivers Mall by IHG
+12:05:53.011 INFO  Log - Price for 5 Days: ₹ 141,910
+12:05:53.011 INFO  Log - Price for 1 Day: ₹ 28382.0
+12:05:56.054 INFO  Log - Driver quit successfully.
+12:05:58.018 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+12:06:03.967 INFO  Log - Popup closed by precondition helper
+12:06:04.604 INFO  Log - Location set by precondition helper: Nairobi
+12:06:05.120 INFO  Log - Dates selected by precondition helper
+12:06:05.562 INFO  Log - Occupancy adjusted by precondition helper
+12:06:11.555 INFO  Log - Search performed by precondition helper
+12:06:12.282 INFO  Log - Hotel page ready
+12:06:12.538 INFO  Log - Captured final hotel results screenshot.
+12:06:15.315 INFO  Log - Driver quit successfully.
+12:06:17.209 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+12:06:23.645 INFO  Log - Popup closed by precondition helper
+12:06:24.100 INFO  Log - Location set by precondition helper: Nairobi
+12:06:24.727 INFO  Log - Dates selected by precondition helper
+12:06:25.190 INFO  Log - Occupancy adjusted by precondition helper
+12:06:29.807 INFO  Log - Search performed by precondition helper
+12:06:30.624 INFO  Log - Hotel page ready
+12:06:31.001 INFO  Log - Clicked Grid view button
+12:06:34.818 INFO  Log - Driver quit successfully.
