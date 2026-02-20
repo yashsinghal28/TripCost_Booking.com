@@ -1,5 +1,6 @@
 package baseclass;
 
+<<<<<<< HEAD
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -11,11 +12,24 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import utils.ConfigReader;
+=======
+import Logs.Log;
+import CommonCode.Commoncode;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import pages.CurisePage.CruisePageActions;
+import pages.Homepage.HomePageActions;
+import pages.Hotelpage.HotelPageActions;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+>>>>>>> caa7a549c9f5368c1a9d2e9ab213bb9d9830108a
 
 import java.time.Duration;
 import java.util.Arrays;
 
 public class BaseClass {
+<<<<<<< HEAD
 
     protected WebDriver driver;
 
@@ -79,6 +93,34 @@ public class BaseClass {
                 } catch (Exception ex) {
                 }
             }
+=======
+    public static WebDriver driver;
+    public CruisePageActions cruise;
+    public WebDriverWait wait;
+    public Commoncode cm=new Commoncode();
+    public String url1;
+    protected String url2;
+    public HomePageActions home;
+    public HotelPageActions hotelActions;
+
+    @BeforeSuite
+    public void setUp() {
+        url1 = "https://www.booking.com";
+        url2 = "https://cruises.booking.com";
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        cm.implicitWait(driver);
+        wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+        home = new HomePageActions(driver);
+        Log.info("Launched URL1: " + url1);
+    }
+
+    @AfterSuite
+    public void tearDown() {
+        if (driver != null) {
+            driver.quit();
+            Log.info("Driver quit successfully.");
+>>>>>>> caa7a549c9f5368c1a9d2e9ab213bb9d9830108a
         }
     }
 }
