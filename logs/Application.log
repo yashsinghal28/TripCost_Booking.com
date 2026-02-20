@@ -53,3 +53,5 @@
 12:21:45.527 INFO  Log - Popup closed successfully
 12:21:45.527 WARN  Log - Popup not present or not interactable. Continuing.
 12:21:47.143 INFO  Log - Driver quit successfully.
+09:19:53.668 INFO  Log - Launched URL1: https://www.booking.com
+09:20:05.482 INFO  Log - Driver quit successfully.
