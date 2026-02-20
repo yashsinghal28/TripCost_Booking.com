@@ -42,7 +42,7 @@ public class BaseClass {
         cm.implicitWait(driver);
         wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         home = new HomePageActions(driver);
-        Log.info("Launched URL1: " + url1 +"Driver started successfully");
+        Log.info("Launched URL1: " + url1 +" Driver started successfully");
     }
 
     @AfterSuite
