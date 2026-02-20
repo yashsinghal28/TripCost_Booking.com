@@ -25,6 +25,8 @@ public class BaseClass {
 
     @BeforeSuite
     public void setUp() {
+        url1 = "https://www.booking.com";
+        url2 = "https://cruises.booking.com";
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         cm.implicitWait(driver);
