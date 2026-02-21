@@ -65,7 +65,7 @@ public class CuriseTest extends BaseClass {
             if (!nonLeadingFound) {
                 if (Character.isWhitespace(c) || Character.getType(c) == Character.OTHER_PUNCTUATION ||
                         Character.getType(c) == Character.DASH_PUNCTUATION ||
-                        c == '•' || c == '-' || c == ':' ) {
+                        c == '•' || c == '-' || c == ':') {
                     continue;
                 }
                 nonLeadingFound = true;
@@ -92,6 +92,7 @@ public class CuriseTest extends BaseClass {
             Assert.fail("Unable to parse sailing month/year: '" + cleanedText + "' -> " + e.getMessage());
         }
     }
+
 
     @Test(priority = 15)
     public void tc_15_testCruisePage() {

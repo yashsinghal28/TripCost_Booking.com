@@ -119,3 +119,300 @@
 09:57:00.463 INFO  Log - Hotel page ready
 09:57:00.733 INFO  Log - Elevator accessibility filter applied.
 09:57:03.723 INFO  Log - Driver quit successfully.
+10:02:00.603 INFO  Log - Launched URL1: https://www.booking.com/Driver started successfully
+10:02:12.719 INFO  Log - Driver quit successfully.
+10:04:13.718 INFO  Log - Launched URL1: nullDriver started successfully
+10:04:13.718 INFO  Log - Launched URL1: https://cruises.booking.comDriver started successfully
+10:04:19.348 INFO  Log - Driver quit successfully.
+10:04:59.556 INFO  Log - Launched URL1: nullDriver started successfully
+10:04:59.561 INFO  Log - Launched URL1: https://cruises.booking.com/Driver started successfully
+10:05:02.964 INFO  Log - Driver quit successfully.
+10:07:33.126 INFO  Log - Launched URL1: https://cruises.booking.com/Driver started successfully
+10:07:39.459 INFO  Log - Driver quit successfully.
+10:19:35.246 INFO  Log - Launched URL1: https://cruises.booking.com/Driver started successfully
+10:19:44.436 INFO  Log - Driver quit successfully.
+10:24:13.032 INFO  Log - Launched URL1: https://cruises.booking.com/Driver started successfully
+10:24:24.758 INFO  Log - Home Page | Booking.com Cruises
+10:24:26.683 INFO  Log - Driver quit successfully.
+10:27:11.470 INFO  Log - Launched URL1: https://cruises.booking.com/Driver started successfully
+10:27:12.930 INFO  Log - Driver quit successfully.
+10:27:34.113 INFO  Log - Launched URL1: https://cruises.booking.com/Driver started successfully
+10:27:35.372 INFO  Log - Driver quit successfully.
+10:29:15.945 INFO  Log - Launched URL1: https://cruises.booking.com/Driver started successfully
+10:29:17.290 INFO  Log - Driver quit successfully.
+10:29:32.319 INFO  Log - Launched URL1: https://cruises.booking.com/Driver started successfully
+10:29:33.664 INFO  Log - Driver quit successfully.
+10:29:44.332 INFO  Log - Launched URL1: https://cruises.booking.com/Driver started successfully
+10:29:54.702 INFO  Log - Home Page | Booking.com Cruises
+10:29:54.720 INFO  Log - Validation of Title-->Passed
+10:29:55.197 INFO  Log - Validation of Cookies
+10:29:57.369 INFO  Log - Validation of curise Line
+10:29:57.811 INFO  Log - Choosing Cruise Line --> Passed
+10:29:57.884 INFO  Log - Checked the Sailing Month date and Validated: 2026-08
+10:29:57.931 INFO  Log - Selected Cruise is Present and Verified Sailing Date
+10:30:05.136 INFO  Log - Validated and Selected Correct Curise
+10:30:07.036 INFO  Log - Test for Suit Element Passed
+10:30:07.848 INFO  Log - Owner's Suite - 2 Bedroom
+Deck: Deck 7,Deck 8,Deck 9
+Category: OT
+Size: 584 sq. ft.; Balcony: 191 sq. ft.
+Occupancy: Up to 8 guests
+Amenities: Two bedrooms with two twin beds that convert to Royal King (one room with third and fourth Pullman beds), two bathrooms (one with shower, one with bathtub), living area with double sofa bed, private balcony, walk-in closet, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more. -> Deck: Deck 7,Deck 8,Deck 9
+10:30:07.848 INFO  Log - Owner's Suite - 1 Bedroom
+Deck: Deck 10
+Category: OS
+Size: 512 sq. ft.; Balcony: 57 sq. ft.
+Occupancy: Up to 4 guests
+Amenities: Queen-size bed, private balcony, private bathroom with whirlpool tub, double sinks, separate shower and bidet, separate living area with double sofa bed, walk-in closet, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more. -> Deck: Deck 10
+10:30:07.848 INFO  Log - Grand Suite - 1 Bedroom
+Deck: Deck 10
+Category: GS
+Size: 385 sq. ft.; Balcony: 106 sq. ft.
+Occupancy: Up to 4 guests
+Amenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, private bathroom with tub and double sink, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more. -> Deck: Deck 10
+10:30:07.851 INFO  Log - Junior Suite
+Deck: Deck 10
+Category: J3
+Size: 299 sq. ft.; Balcony: 41 sq. ft.
+Occupancy: Up to 4 guests
+Amenities: Two twin beds that convert to Royal King, private balcony, private bathroom with tub and shower, sitting area with sofa bed, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.
+Please Note: Staterooms 1098 and 1598 have obstructed views.
+Wheelchair Accessible Staterooms: 1028 and 1528. (362 sq. ft.; Balcony 86 sq. ft.)
+Wheelchair Accessible Amenities: Open bed frames, wider entry door, turning spaces, sitting area with lowered vanity, closet rods and private bathroom with a wider door, roll-in shower, grab bars, fold-down shower bench, hand-held shower head, raised toilet, and a lowered sink.
+Please Note: Royal Caribbean requires guests booked in this category to acknowledge need for the accessible stateroom by completing a Guest Special Needs Form. -> Deck: Deck 10
+10:30:07.851 INFO  Log - Ocean View Suite - 2 Bedroom (No Balcony)
+Deck: Deck 10
+Category: VT
+Size: 592 sq. ft.
+Occupancy: Up to 8 guests
+Amenities: Two bedrooms. Master with two twin beds that convert to Royal King and private bathroom with tub; second bedroom with four pullman beds and living area with double sofa bed, additional bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer. -> Deck: Deck 10
+10:30:07.851 INFO  Log - Suite Guarantee
+Please note that this is a 'guarantee' rate.
+By booking this category, you are guaranteed a suite for this sailing at this rate. However, this rate is not associated with a specific stateroom, deck, or bedding configuration.
+Staterooms may be located anywhere on this ship.
+You will be assigned a specific suite at check-in. -> Please note that this is a 'guarantee' rate.
+By booking this category, you are guaranteed a suite for this sailing at this rate. However, this rate is not associated with a specific stateroom, deck, or bedding configuration.
+Staterooms may be located anywhere on this ship.
+You will be assigned a specific suite at check-in.
+10:30:07.851 INFO  Log - Spacious Sunset Ocean View Balcony
+Deck: Deck 7,Deck 8,Deck 9,Deck 10
+Category: SG
+Size: 204 sq. ft.; Balcony: 41 sq. ft.
+Occupancy: 2 guests standard
+Amenities: Two twin beds that convert to Royal King, aft-facing private balcony, sitting area with sofa, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer. -> Deck: Deck 7,Deck 8,Deck 9,Deck 10
+10:30:07.851 INFO  Log - Spacious Ocean View Balcony
+Deck: Deck 9,Deck 10
+Category: 1B
+Size: 204 sq. ft.; Balcony: 41 sq. ft.
+Occupancy: Up to 4 guests
+Amenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, or some stateooms have single sofa bed and one Pullman bed, or sitting area with sofa and two Pullman beds, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.
+Please Note: Stateroom 9050 has obstructed views. -> Deck: Deck 9,Deck 10
+10:30:07.851 INFO  Log - Spacious Ocean View Balcony
+Deck: Deck 9
+Category: 2B
+Size: 204 sq. ft.; Balcony: 41 sq. ft.
+Occupancy: 2 guests standard
+Amenities: Two twin beds that convert to Royal King, a private balcony, sitting area with sofa, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer. -> Deck: Deck 9
+10:30:07.851 INFO  Log - Spacious Ocean View Balcony
+Deck: Deck 9,Deck 10
+Category: 3B
+Size: 204 sq. ft.; Balcony: 41 sq. ft.
+Occupancy: Up to 4 guests
+Amenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, or some stateooms have sitting area with sofa and two Pullman beds, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.
+Please Note: Staterooms 9252 and 9652 have obstructed views. -> Deck: Deck 9,Deck 10
+10:30:08.219 INFO  Log - SuccessFull Print of Stats Of Cruise
+10:30:08.367 INFO  Log - Presence of Header is Verified
+10:30:09.306 INFO  Log - Presence of Elevators is valid: 4
+10:30:09.309 INFO  Log - <STATS>
+10:30:09.678 INFO  Log - Dining
+10:30:09.678 INFO  Log - My Family Time Dining
+10:30:09.678 INFO  Log - Tides Dining Room
+10:30:09.678 INFO  Log - Chef's Table
+10:30:09.678 INFO  Log - Giovanni's Table
+10:30:09.678 INFO  Log - Chops Grille
+10:30:09.678 INFO  Log - Izumi
+10:30:09.678 INFO  Log - Windjammer Cafe
+10:30:09.678 INFO  Log - Sorrento's Pizza
+10:30:09.678 INFO  Log - Cafe Latte-tudes
+10:30:09.678 INFO  Log - Crown Lounge
+10:30:09.678 INFO  Log - 
+			Ship Statistics
+			
+					
+					Name : Jewel of the Seas
+					
+					Registry : Bahamas
+					
+					Builder : Meyer Werft
+					
+					Country Built In : Germany
+					
+					Ship Completed Date : 5/8/2004
+					
+					Christened By : Kathy Mellor
+					
+					Call Letters : C6FW9
+					
+					Refurbished Date : 1/1/2016
+					
+					Capacity : 2112
+					
+					Number of Crew, Nationality : 859, International
+					
+					Gross Tonnage : 90090
+					
+					Stabilized : Yes
+					
+					Average Speed : 25 knots
+				
+			
+			
+					
+					Maximum Speed : 25 knots
+					
+					Length : 962 feet
+					
+					Beam : 105.6 feet
+					
+					Number of Passenger Decks : 12
+					
+					Number of Inside Rooms : 238
+					
+					Number of Outside Rooms : 817
+					
+					Number of Restaurants : 5
+					
+					Number of Pools : 3
+					
+					Number of Elevators : 4
+					
+					Voltage : 110/220
+					
+					Non-Smoking Dining : Yes
+					
+					Non-Smoking Ship : No
+				
+			
+		
+10:30:09.894 INFO  Log - TC-18: Validate price/currency token on cruise details page
+10:30:12.603 INFO  Log - Driver quit successfully.
+10:30:56.832 INFO  Log - Launched URL1: https://cruises.booking.com/Driver started successfully
+10:30:58.145 INFO  Log - Driver quit successfully.
+10:31:25.371 INFO  Log - Launched URL1: https://cruises.booking.com/Driver started successfully
+10:31:26.530 INFO  Log - Driver quit successfully.
+10:31:36.208 INFO  Log - Launched URL1: https://cruises.booking.com/Driver started successfully
+10:31:37.480 INFO  Log - Driver quit successfully.
+10:32:04.489 INFO  Log - Launched URL1: https://www.booking.com/Driver started successfully
+10:32:04.489 INFO  Log - Launched URL1: https://cruises.booking.com/Driver started successfully
+10:32:13.541 INFO  Log - Popup closed by precondition helper
+10:32:14.076 INFO  Log - Location set by precondition helper: Nairobi
+10:32:14.771 INFO  Log - Dates selected by precondition helper
+10:32:15.392 INFO  Log - Occupancy adjusted by precondition helper
+10:32:21.136 INFO  Log - Search performed by precondition helper
+10:32:21.806 INFO  Log - Hotel page ready
+10:32:21.840 INFO  Log - Hotel options button is visible.
+10:32:26.999 INFO  Log - Driver quit successfully.
+10:33:19.900 INFO  Log - Launched URL1: https://www.booking.com/Driver started successfully
+10:33:19.904 INFO  Log - Launched URL1: https://cruises.booking.com/Driver started successfully
+10:33:29.969 INFO  Log - Home Page | Booking.com Cruises
+10:33:31.810 INFO  Log - Driver quit successfully.
+10:34:22.282 INFO  Log - Launched URL1: https://www.booking.com/Driver started successfully
+10:34:22.300 INFO  Log - Launched URL1: https://cruises.booking.com/Driver started successfully
+10:34:27.155 INFO  Log - Validation of Title-->Passed
+10:34:28.721 INFO  Log - Driver quit successfully.
+10:35:03.134 INFO  Log - Launched URL1: https://www.booking.com/Driver started successfully
+10:35:03.150 INFO  Log - Launched URL1: https://cruises.booking.com/Driver started successfully
+10:35:11.980 INFO  Log - Validation of Title-->Passed
+10:35:13.701 INFO  Log - Driver quit successfully.
+10:36:40.765 INFO  Log - Launched URL1: https://www.booking.com/Driver started successfully
+10:36:40.765 INFO  Log - Launched URL1: https://cruises.booking.com/Driver started successfully
+10:36:46.120 INFO  Log - Home Page | Booking.com Cruises
+10:36:46.131 INFO  Log - Validation of Title-->Passed
+10:36:47.710 INFO  Log - Driver quit successfully.
+10:48:02.988 INFO  Log - Launched URL1: https://www.booking.com/Driver started successfully
+10:48:02.994 INFO  Log - Launched URL1: https://cruises.booking.com/Driver started successfully
+10:48:04.537 INFO  Log - Driver quit successfully.
+10:49:01.002 INFO  Log - Launched URL1: https://cruises.booking.com/Driver started successfully
+10:49:02.498 INFO  Log - Driver quit successfully.
+10:50:32.672 INFO  Log - Launched URL1: https://cruises.booking.com/Driver started successfully
+10:50:45.210 INFO  Log - Driver quit successfully.
+10:51:14.991 INFO  Log - Launched URL1: https://cruises.booking.com/Driver started successfully
+10:51:16.402 INFO  Log - Driver quit successfully.
+10:51:47.946 INFO  Log - Launched URL1: https://cruises.booking.com/Driver started successfully
+10:51:57.250 INFO  Log - Validation of Title-->Passed
+10:51:59.007 INFO  Log - Driver quit successfully.
+11:49:41.992 INFO  Log - Launched URL1: https://cruises.booking.com/Driver started successfully
+11:50:00.583 INFO  Log - Driver quit successfully.
+12:01:34.145 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+12:01:34.692 INFO  Log - Validation of Cookies
+12:01:40.172 INFO  Log - Validation of curise Line
+12:01:40.596 INFO  Log - Choosing Cruise Line --> Passed
+12:01:43.045 INFO  Log - Driver quit successfully.
+12:08:13.569 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+12:08:26.382 INFO  Log - Driver quit successfully.
+12:09:24.878 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+12:09:37.562 INFO  Log - Driver quit successfully.
+12:30:09.511 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+12:30:11.551 INFO  Log - Driver quit successfully.
+12:31:24.607 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+12:31:37.355 INFO  Log - Driver quit successfully.
+17:46:21.351 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+17:46:23.859 INFO  Log - Home Page | Booking.com Cruises
+17:46:23.876 INFO  Log - Validation of Title-->Passed
+17:46:24.322 INFO  Log - Validation of Cookies
+17:46:26.437 INFO  Log - Validation of curise Line
+17:46:26.842 INFO  Log - Choosing Cruise Line --> Passed
+17:46:26.895 INFO  Log - Checked the Sailing Month date and Validated: 2026-08
+17:46:28.881 INFO  Log - Driver quit successfully.
+17:47:14.725 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+17:47:16.777 INFO  Log - Home Page | Booking.com Cruises
+17:47:16.794 INFO  Log - Validation of Title-->Passed
+17:47:17.346 INFO  Log - Validation of Cookies
+17:47:19.334 INFO  Log - Validation of curise Line
+17:47:19.764 INFO  Log - Choosing Cruise Line --> Passed
+17:47:19.812 INFO  Log - Checked the Sailing Month date and Validated: 2026-08
+17:55:54.511 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+17:56:20.233 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+17:57:34.022 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+17:58:28.700 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+18:02:43.411 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+18:02:43.973 INFO  Log - Validation of Cookies
+18:02:45.710 INFO  Log - Validation of curise Line
+18:02:46.147 INFO  Log - Choosing Cruise Line --> Passed
+18:02:46.192 INFO  Log - Checked the Sailing Month date and Validated: 2026-08
+18:06:17.718 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+18:06:17.869 INFO  Log - Validation of Cookies
+18:06:19.783 INFO  Log - Validation of curise Line
+20:00:08.190 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+20:05:43.293 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+20:06:34.075 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+20:07:28.766 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+20:07:28.916 INFO  Log - Validation of Cookies
+20:07:34.516 INFO  Log - Validation of curise Line
+20:07:34.579 INFO  Log - Checked the Sailing Month date and Validated: 2026-08
+20:13:43.531 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+20:14:30.945 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+20:35:18.294 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+20:37:57.569 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+20:37:57.708 INFO  Log - Validation of Cookies
+20:38:04.091 INFO  Log - Validation of curise Line
+20:38:04.174 INFO  Log - Selected Cruise is Present and Verified Sailing Date
+20:42:06.149 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+20:42:06.315 INFO  Log - Validation of Cookies
+20:42:08.302 INFO  Log - Validation of curise Line
+20:42:08.348 INFO  Log - Selected Cruise is Present and Verified Sailing Date
+20:42:15.301 INFO  Log - Validated and Selected Correct Cruise
+20:43:35.675 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+20:44:32.920 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+20:44:34.998 INFO  Log - Selected Cruise is Present and Verified Sailing Date
+20:44:42.261 INFO  Log - Validated and Selected Correct Cruise
+20:49:27.112 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+20:50:28.038 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+20:50:30.549 INFO  Log - Selected Cruise is Present and Verified Sailing Date
+20:52:05.735 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+20:52:08.120 INFO  Log - Selected Cruise is Present and Verified Sailing Date
+20:52:15.803 INFO  Log - Validated and Selected Correct Curise
+20:54:08.235 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+20:54:55.690 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+20:56:13.995 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+20:56:24.630 INFO  Log - Test for Suit Element Passed

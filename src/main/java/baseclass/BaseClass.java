@@ -28,7 +28,7 @@ public class BaseClass {
 
     @BeforeSuite
     public void setUp() throws  Exception{
-        url1 = Utils.fetchPropertyValue("URL1").toString();
+       // url1 = Utils.fetchPropertyValue("URL1").toString();
         url2 = Utils.fetchPropertyValue("URL2").toString();
         if(Utils.fetchPropertyValue("browser").equals("chrome")) {
             driver = new ChromeDriver();
@@ -41,15 +41,18 @@ public class BaseClass {
         driver.manage().window().maximize();
         cm.implicitWait(driver);
         wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+        driver.get(url2);
         home = new HomePageActions(driver);
-        Log.info("Launched URL1: " + url1 +"Driver started successfully");
+        cruise=new CruisePageActions(driver);
+       // Log.info("Launched URL1: " + url1 +"Driver started successfully");
+        Log.info("Launched URL2: " + url2 +"Driver started successfully");
     }
 
     @AfterSuite
     public void tearDown() {
-        if (driver != null) {
-            driver.quit();
-            Log.info("Driver quit successfully.");
-        }
+//        if (driver != null) {
+//            driver.quit();
+//            Log.info("Driver quit successfully.");
+//        }
     }
 }

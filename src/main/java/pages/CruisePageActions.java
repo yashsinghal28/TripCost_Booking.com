@@ -6,14 +6,17 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
 public class CruisePageActions {
     public By onB = By.xpath("//div[@id='expandCollapse_stateroom_Content']/h3[1]");
-    @FindBy(xpath = "//div[contains(@class,'rowbutton') and normalize-space(.)='Royal Caribbean']")
+    @FindBy(xpath = "//div[contains(text(),  'Royal Caribbean')]")
     public WebElement chooseCruiseLine;
     @FindBy(xpath = "//h2[@id='brochureName1']") //h2[starts-with(text(),'3 Night Ensenada')]
     public WebElement cruiseButton;
