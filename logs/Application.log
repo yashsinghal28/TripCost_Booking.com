@@ -437,3 +437,90 @@ Please Note: Staterooms 9252 and 9652 have obstructed views. -> Deck: Deck 9,Dec
 12:06:30.624 INFO  Log - Hotel page ready
 12:06:31.001 INFO  Log - Clicked Grid view button
 12:06:34.818 INFO  Log - Driver quit successfully.
+18:43:43.879 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+18:43:50.500 INFO  Log - Popup closed successfully
+18:43:52.727 INFO  Log - Driver quit successfully.
+18:43:54.415 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+18:44:01.244 INFO  Log - Popup closed by precondition helper
+18:44:01.730 INFO  Log - Typed location: Nairobi
+18:44:01.768 INFO  Log - Captured location value: Nairobi
+18:44:03.937 INFO  Log - Driver quit successfully.
+18:44:05.651 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+18:44:10.199 INFO  Log - Popup closed by precondition helper
+18:44:10.681 INFO  Log - Location set by precondition helper: Nairobi
+18:44:11.099 INFO  Log - Selected check in and check out dates
+18:44:13.441 INFO  Log - Driver quit successfully.
+18:44:15.102 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+18:44:20.730 INFO  Log - Popup closed by precondition helper
+18:44:21.232 INFO  Log - Location set by precondition helper: Nairobi
+18:44:21.587 INFO  Log - Dates selected by precondition helper
+18:44:24.713 INFO  Log - Driver quit successfully.
+18:44:26.814 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+18:44:31.566 INFO  Log - Popup closed by precondition helper
+18:44:32.027 INFO  Log - Location set by precondition helper: Nairobi
+18:44:32.393 INFO  Log - Dates selected by precondition helper
+18:44:32.780 INFO  Log - Occupancy adjusted by precondition helper
+18:44:39.686 INFO  Log - Clicked Search on Home page.
+18:44:43.460 INFO  Log - Driver quit successfully.
+18:44:45.259 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+18:44:50.739 INFO  Log - Popup closed by precondition helper
+18:44:51.211 INFO  Log - Location set by precondition helper: Nairobi
+18:44:51.574 INFO  Log - Dates selected by precondition helper
+18:44:51.947 INFO  Log - Occupancy adjusted by precondition helper
+18:44:56.299 INFO  Log - Search performed by precondition helper
+18:44:56.787 INFO  Log - Hotel page ready
+18:44:56.894 INFO  Log - Hotel options button is visible.
+18:44:59.791 INFO  Log - Driver quit successfully.
+18:45:02.141 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+18:45:06.455 INFO  Log - Popup closed by precondition helper
+18:45:07.308 INFO  Log - Location set by precondition helper: Nairobi
+18:45:07.751 INFO  Log - Dates selected by precondition helper
+18:45:08.156 INFO  Log - Occupancy adjusted by precondition helper
+18:45:14.537 INFO  Log - Search performed by precondition helper
+18:45:15.148 INFO  Log - Hotel page ready
+18:45:18.982 INFO  Log - Driver quit successfully.
+18:45:21.056 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+18:45:25.619 INFO  Log - Popup closed by precondition helper
+18:45:26.125 INFO  Log - Location set by precondition helper: Nairobi
+18:45:26.524 INFO  Log - Dates selected by precondition helper
+18:45:26.955 INFO  Log - Occupancy adjusted by precondition helper
+18:45:31.074 INFO  Log - Search performed by precondition helper
+18:45:31.780 INFO  Log - Hotel page ready
+18:45:32.320 INFO  Log - Elevator accessibility filter applied.
+18:45:35.789 INFO  Log - Driver quit successfully.
+18:45:37.764 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+18:45:40.984 INFO  Log - Popup closed by precondition helper
+18:45:42.187 INFO  Log - Location set by precondition helper: Nairobi
+18:45:42.642 INFO  Log - Dates selected by precondition helper
+18:45:43.023 INFO  Log - Occupancy adjusted by precondition helper
+18:45:46.727 INFO  Log - Search performed by precondition helper
+18:45:47.471 INFO  Log - Hotel page ready
+18:45:47.509 INFO  Log - Total hotels found: 26, prices found: 26
+18:45:47.571 INFO  Log - Hotel 1:Clarence House Nairobi
+18:45:47.571 INFO  Log - Price for 5 Days: ₹ 70,754
+18:45:47.573 INFO  Log - Price for 1 Day: ₹ 14150.8
+18:45:47.619 INFO  Log - Hotel 2:Gem Forest Hotel Nairobi - MGallery Collection
+18:45:47.619 INFO  Log - Price for 5 Days: ₹ 136,894
+18:45:47.619 INFO  Log - Price for 1 Day: ₹ 27378.8
+18:45:47.654 INFO  Log - Hotel 3:Slucie Serviced & Furnished Apartment
+18:45:47.654 INFO  Log - Price for 5 Days: ₹ 22,747
+18:45:47.654 INFO  Log - Price for 1 Day: ₹ 4549.4
+18:45:50.573 INFO  Log - Driver quit successfully.
+18:45:52.344 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+18:45:57.225 INFO  Log - Popup closed by precondition helper
+18:45:57.821 INFO  Log - Location set by precondition helper: Nairobi
+18:45:58.176 INFO  Log - Dates selected by precondition helper
+18:45:58.581 INFO  Log - Occupancy adjusted by precondition helper
+18:46:03.231 INFO  Log - Search performed by precondition helper
+18:46:03.924 INFO  Log - Hotel page ready
+18:46:04.140 INFO  Log - Captured final hotel results screenshot.
+18:46:07.167 INFO  Log - Driver quit successfully.
+18:46:08.975 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+18:46:14.239 INFO  Log - Popup closed by precondition helper
+18:46:14.758 INFO  Log - Location set by precondition helper: Nairobi
+18:46:15.166 INFO  Log - Dates selected by precondition helper
+18:46:15.543 INFO  Log - Occupancy adjusted by precondition helper
+18:46:19.272 INFO  Log - Search performed by precondition helper
+18:46:19.822 INFO  Log - Hotel page ready
+18:46:20.073 INFO  Log - Clicked Grid view button
+18:46:23.462 INFO  Log - Driver quit successfully.

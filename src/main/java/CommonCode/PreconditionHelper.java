@@ -19,13 +19,12 @@ public class PreconditionHelper {
         this.home = base.home;
         if (this.home == null) {
             this.home = new HomePageActions(driver);
-            base.home = this.home;  // Update BaseClass reference
+            base.home = this.home;
         }
         this.hotelActions = base.hotelActions;
         this.url1 = base.url1;
     }
 
-    // Ensure steps 1..n are satisfied; methods are idempotent and safe to call repeatedly.
     public void ensureUpToStep(int step) {
         if (step >= 1) ensureHomePopupClosed();
         if (step >= 2) ensureLocationSet("Nairobi");
