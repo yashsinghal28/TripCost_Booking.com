@@ -7,11 +7,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import pages.CruisePageActions;
 import pages.HomePageActions;
 import pages.HotelPageActions;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
 import utils.Utils;
 
 import java.time.Duration;
@@ -26,7 +26,7 @@ public class BaseClass {
     public HomePageActions home;
     public HotelPageActions hotelActions;
 
-    @BeforeSuite
+    @BeforeMethod
     public void setUp() throws  Exception{
         url1 = Utils.fetchPropertyValue("URL1").toString();
         url2 = Utils.fetchPropertyValue("URL2").toString();
@@ -41,14 +41,11 @@ public class BaseClass {
         driver.manage().window().maximize();
         cm.implicitWait(driver);
         wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-        driver.get(url2);
         home = new HomePageActions(driver);
-        cruise=new CruisePageActions(driver);
-       // Log.info("Launched URL1: " + url1 +"Driver started successfully");
-        Log.info("Launched URL2: " + url2 +"Driver started successfully");
+        Log.info("Launched URL1: " + url1 +" Driver started successfully");
     }
 
-    @AfterSuite
+    @AfterMethod
     public void tearDown() {
         if (driver != null) {
             driver.quit();

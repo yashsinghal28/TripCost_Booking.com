@@ -1434,3 +1434,45 @@ Please Note: Staterooms 9252 and 9652 have obstructed views. -> Deck: Deck 9,Dec
 				
 			
 		
+09:33:46.279 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+09:34:13.900 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+09:34:17.539 INFO  Log - Driver quit successfully.
+09:35:07.745 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+09:35:14.358 INFO  Log - Popup closed successfully
+09:35:17.161 INFO  Log - Driver quit successfully.
+09:35:48.221 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+09:35:49.521 INFO  Log - Driver quit successfully.
+09:36:28.881 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+09:36:30.465 INFO  Log - Driver quit successfully.
+09:36:35.837 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+09:38:00.541 INFO  Log - Launched URL2: https://cruises.booking.com/Driver started successfully
+09:39:39.063 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+09:39:46.174 INFO  Log - Popup closed successfully
+09:39:48.477 INFO  Log - Driver quit successfully.
+09:40:35.646 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+09:40:41.633 INFO  Log - Popup closed successfully
+09:40:43.777 INFO  Log - Driver quit successfully.
+09:40:45.624 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+09:40:55.669 INFO  Log - Home Page | Booking.com Cruises
+09:40:57.560 INFO  Log - Driver quit successfully.
+09:40:59.361 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+09:41:05.383 INFO  Log - Popup closed by precondition helper
+09:41:06.126 INFO  Log - Typed location: Nairobi
+09:41:06.163 INFO  Log - Captured location value: Nairobi
+09:41:08.347 INFO  Log - Driver quit successfully.
+09:41:10.180 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+09:41:11.534 INFO  Log - Popup not present or already closed
+09:41:12.810 INFO  Log - Driver quit successfully.
+09:41:38.594 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+09:41:39.955 INFO  Log - Driver quit successfully.
+09:41:55.985 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+09:41:57.236 INFO  Log - Driver quit successfully.
+09:43:06.131 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+09:43:14.085 INFO  Log - Driver quit successfully.
+09:43:21.572 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+09:43:30.400 INFO  Log - Validation of Title-->Passed
+09:43:32.123 INFO  Log - Driver quit successfully.
+09:43:44.536 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+09:43:46.015 INFO  Log - Driver quit successfully.
+09:44:15.346 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+09:44:27.286 INFO  Log - Driver quit successfully.

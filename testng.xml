@@ -15,6 +15,9 @@
             <class name="Test.TC_009_HotelListValidation"/>
             <class name="Test.TC_010_FinalScreenshot"/>
             <class name="Test.TC_011_GridViewScreenshot"/>
+            <class name="Test.TC_012SecondURLOpen"/>
+
+
         </classes>
     </test>
 

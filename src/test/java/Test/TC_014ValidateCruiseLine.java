@@ -11,6 +11,7 @@ public class TC_014ValidateCruiseLine extends BaseClass{
     public void tc_14_validateCruiseLine() {
 
         Commoncode cm = new Commoncode();
+        driver.get(url2);
         cm.implicitWait(driver);
         Commoncode.takeScreenShot(driver, "TC-14 Cookie -visible");
         cruise.ClosePopUp();
