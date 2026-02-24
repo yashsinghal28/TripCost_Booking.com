@@ -50,9 +50,9 @@ public class BaseClass {
 
     @AfterSuite
     public void tearDown() {
-//        if (driver != null) {
-//            driver.quit();
-//            Log.info("Driver quit successfully.");
-//        }
+        if (driver != null) {
+            driver.quit();
+            Log.info("Driver quit successfully.");
+        }
     }
 }
