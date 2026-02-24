@@ -28,7 +28,7 @@ public class BaseClass {
 
     @BeforeSuite
     public void setUp() throws  Exception{
-       // url1 = Utils.fetchPropertyValue("URL1").toString();
+        url1 = Utils.fetchPropertyValue("URL1").toString();
         url2 = Utils.fetchPropertyValue("URL2").toString();
         if(Utils.fetchPropertyValue("browser").equals("chrome")) {
             driver = new ChromeDriver();
