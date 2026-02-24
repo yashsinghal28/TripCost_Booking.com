@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import static CommonCode.Commoncode.takeScreenShot;
 import org.openqa.selenium.JavascriptExecutor;
 
-public class TC_011_GridViewScreenshot extends BaseClass {
+public class TC_011_GridView extends BaseClass {
     @Test()
     public void clickGridAndScreenshot() {
         PreconditionHelper pre = new PreconditionHelper(this);

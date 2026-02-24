@@ -2211,3 +2211,161 @@ Please Note: Staterooms 9252 and 9652 have obstructed views. -> Deck: Deck 9,Dec
 10:53:02.554 INFO  Log - TC-18: Validate price/currency token on cruise details page
 10:53:04.094 INFO  Log - TC-20 PASSED: Price/currency token detected.
 10:53:05.860 INFO  Log - Driver quit successfully.
+15:57:00.733 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+15:57:08.964 INFO  Log - Popup closed successfully
+15:57:11.189 INFO  Log - Driver quit successfully.
+15:57:13.133 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+15:57:35.820 INFO  Log - Popup closed by precondition helper
+15:57:36.620 INFO  Log - Typed location: Nairobi
+15:57:36.652 INFO  Log - Captured location value: Nairobi
+15:57:39.053 INFO  Log - Driver quit successfully.
+15:57:40.817 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+15:57:46.842 INFO  Log - Popup closed by precondition helper
+15:57:47.442 INFO  Log - Location set by precondition helper: Nairobi
+15:57:47.856 INFO  Log - Selected check in and check out dates
+15:57:50.035 INFO  Log - Driver quit successfully.
+15:57:51.883 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+15:57:59.572 INFO  Log - Popup closed by precondition helper
+15:58:00.314 INFO  Log - Location set by precondition helper: Nairobi
+15:58:00.837 INFO  Log - Dates selected by precondition helper
+15:58:03.671 INFO  Log - Driver quit successfully.
+15:58:05.506 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+15:58:12.563 INFO  Log - Popup closed by precondition helper
+15:58:13.227 INFO  Log - Location set by precondition helper: Nairobi
+15:58:13.661 INFO  Log - Dates selected by precondition helper
+15:58:14.109 INFO  Log - Occupancy adjusted by precondition helper
+15:58:19.638 INFO  Log - Clicked Search on Home page.
+15:58:23.634 INFO  Log - Driver quit successfully.
+15:58:25.455 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+15:58:35.272 INFO  Log - Popup closed by precondition helper
+15:58:35.746 INFO  Log - Location set by precondition helper: Nairobi
+15:58:36.148 INFO  Log - Dates selected by precondition helper
+15:58:36.927 INFO  Log - Occupancy adjusted by precondition helper
+15:58:43.966 INFO  Log - Search performed by precondition helper
+15:58:44.643 INFO  Log - Hotel page ready
+15:58:44.712 INFO  Log - Hotel options button is visible.
+15:58:48.417 INFO  Log - Driver quit successfully.
+15:58:50.189 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+15:58:58.630 INFO  Log - Popup closed by precondition helper
+15:58:59.132 INFO  Log - Location set by precondition helper: Nairobi
+15:58:59.512 INFO  Log - Dates selected by precondition helper
+15:59:00.121 INFO  Log - Occupancy adjusted by precondition helper
+15:59:21.600 INFO  Log - Search performed by precondition helper
+15:59:22.326 INFO  Log - Hotel page ready
+15:59:26.028 INFO  Log - Driver quit successfully.
+15:59:27.908 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+15:59:34.130 INFO  Log - Popup closed by precondition helper
+15:59:34.771 INFO  Log - Location set by precondition helper: Nairobi
+15:59:35.165 INFO  Log - Dates selected by precondition helper
+15:59:35.612 INFO  Log - Occupancy adjusted by precondition helper
+15:59:41.396 INFO  Log - Search performed by precondition helper
+15:59:42.157 INFO  Log - Hotel page ready
+15:59:42.614 INFO  Log - Elevator accessibility filter applied.
+15:59:45.686 INFO  Log - Driver quit successfully.
+15:59:47.541 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+15:59:53.592 INFO  Log - Popup closed by precondition helper
+15:59:54.279 INFO  Log - Location set by precondition helper: Nairobi
+15:59:54.688 INFO  Log - Dates selected by precondition helper
+15:59:55.128 INFO  Log - Occupancy adjusted by precondition helper
+15:59:59.826 INFO  Log - Search performed by precondition helper
+16:00:00.576 INFO  Log - Hotel page ready
+16:00:00.626 INFO  Log - Total hotels found: 27, prices found: 27
+16:00:00.778 INFO  Log - Hotel 1:Nest & Rest Luxurious Homes
+16:00:00.779 INFO  Log - Price for 5 Days: ₹ 34,082
+16:00:00.780 INFO  Log - Price for 1 Day: ₹ 6816.4
+16:00:00.839 INFO  Log - Hotel 2:Vignette Collection -Fairview Hotel Nairobi
+16:00:00.839 INFO  Log - Price for 5 Days: ₹ 351,912
+16:00:00.839 INFO  Log - Price for 1 Day: ₹ 70382.4
+16:00:01.054 INFO  Log - Hotel 3:Lavish 2 bedroom apartment in Lavington
+16:00:01.054 INFO  Log - Price for 5 Days: ₹ 34,764
+16:00:01.054 INFO  Log - Price for 1 Day: ₹ 6952.8
+16:00:04.012 INFO  Log - Driver quit successfully.
+16:00:05.796 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:00:10.323 INFO  Log - Popup closed by precondition helper
+16:00:11.446 INFO  Log - Location set by precondition helper: Nairobi
+16:00:11.885 INFO  Log - Dates selected by precondition helper
+16:00:12.291 INFO  Log - Occupancy adjusted by precondition helper
+16:00:16.561 INFO  Log - Search performed by precondition helper
+16:00:17.728 INFO  Log - Hotel page ready
+16:00:17.996 INFO  Log - Captured final hotel results screenshot.
+16:00:20.828 INFO  Log - Driver quit successfully.
+16:00:22.684 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:00:28.096 INFO  Log - Popup closed by precondition helper
+16:00:28.610 INFO  Log - Location set by precondition helper: Nairobi
+16:00:29.033 INFO  Log - Dates selected by precondition helper
+16:00:29.475 INFO  Log - Occupancy adjusted by precondition helper
+16:00:34.646 INFO  Log - Search performed by precondition helper
+16:00:35.424 INFO  Log - Hotel page ready
+16:00:35.776 INFO  Log - Clicked Grid view button
+16:00:39.324 INFO  Log - Driver quit successfully.
+16:00:41.181 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:01:01.188 INFO  Log - Home Page | Booking.com Cruises
+16:01:03.181 INFO  Log - Driver quit successfully.
+16:01:04.971 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:01:09.631 INFO  Log - Validation of Title-->Passed
+16:01:11.181 INFO  Log - Driver quit successfully.
+16:01:12.998 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:01:22.531 INFO  Log - Validation of Cookies
+16:01:24.354 INFO  Log - Validation of curise Line
+16:01:24.789 INFO  Log - Choosing Cruise Line --> Passed
+16:01:26.746 INFO  Log - Driver quit successfully.
+16:01:28.617 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:01:33.302 INFO  Log - Validation of Cookies
+16:01:35.663 INFO  Log - Validation of curise Line
+16:01:35.723 INFO  Log - Checked the Sailing Month date and Validated: 2026-08
+16:01:37.553 INFO  Log - Driver quit successfully.
+16:01:39.307 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:01:54.515 INFO  Log - Driver quit successfully.
+16:01:56.391 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:02:00.716 INFO  Log - Driver quit successfully.
+16:02:02.532 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:06:47.346 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:06:56.680 INFO  Log - Validation of Title-->Passed
+16:06:58.588 INFO  Log - Driver quit successfully.
+16:07:25.425 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:07:33.720 INFO  Log - Validation of Title-->Passed
+16:07:33.864 INFO  Log - Pop up closed Succesfully
+16:07:35.545 INFO  Log - Driver quit successfully.
+16:08:42.137 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:09:01.211 INFO  Log - TC-18: Validate price/currency token on cruise details page
+16:09:02.982 INFO  Log - TC-20 PASSED: Price/currency token detected.
+16:09:05.218 INFO  Log - Driver quit successfully.
+16:21:32.937 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:21:34.729 INFO  Log - Popup not present or already closed
+16:21:36.217 INFO  Log - Driver quit successfully.
+16:22:28.788 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:22:33.464 INFO  Log - Popup closed by precondition helper
+16:22:34.403 INFO  Log - Location set by precondition helper: Nairobi
+16:22:34.812 INFO  Log - Dates selected by precondition helper
+16:22:35.254 INFO  Log - Occupancy adjusted by precondition helper
+16:22:39.733 INFO  Log - Search performed by precondition helper
+16:22:40.526 INFO  Log - Hotel page ready
+16:22:40.683 INFO  Log - Hotel options button is visible.
+16:22:40.975 INFO  Log - Lavish 2 bedroom apartment in Lavington
+16:22:40.988 INFO  Log - Vignette Collection -Fairview Hotel Nairobi
+16:22:41.000 INFO  Log - Nest & Rest Luxurious Homes
+16:22:41.012 INFO  Log - Gem Forest Hotel Nairobi - MGallery Collection
+16:22:41.025 INFO  Log - 4 bdrm beachfront Nyali
+16:22:41.039 INFO  Log - Curated Art Stay - Central Lavington
+16:22:41.052 INFO  Log - Natalia
+16:22:41.065 INFO  Log - MkakaTwo-Bed Apartments Kilimani
+16:22:41.078 INFO  Log - modern executive three bedroom apartment which features swimming pool, state of the art fully equipped gym and all modern unmatched luxurious facilities which offfers luxury lifestyle
+16:22:41.090 INFO  Log - Stelly furnished apartment
+16:22:41.102 INFO  Log - Barfatha living
+16:22:41.115 INFO  Log - modern and luxury two bedroom apartment with heated swimming pool fully equipped gym children playing ground and amazing scenic views
+16:22:41.127 INFO  Log - spacious luxury two bedroom apartment with heated swimming pool fully equipped gym children playing ground ample parking space and relaxing rooftop with amazing views
+16:22:41.139 INFO  Log - Executive 2BR in Westlands 2-Min Walk to GTC & JW Marriott
+16:22:41.150 INFO  Log - LARGE FAMILY & GROUPS HOMEs
+16:22:41.162 INFO  Log - FURNISHED ROSEVILLE APARTMENTs
+16:22:41.174 INFO  Log - Executive elegant wanderers rest three bedroom apartment with amazing city views, swimming pool ,gym and private ample parking space which offers not only comfortable but also luxurious lifestyle
+16:22:41.189 INFO  Log - Golden Horizon two bedroom apartment with heated swimming pool fully equipped gym children play ground ample parking space and a relaxing rooftop with breathtaking scenic views
+16:22:41.202 INFO  Log - celestial stays two bedroom apartment with well equipped gym swimming pool and, ample parking space and proximity to major shopping malls
+16:22:41.214 INFO  Log - Executive elegantly furnished three bedroom apartment with all modern facilities ,modern swimming pool ,fully equipped gym,children playground and close proximity to major shopping centers and gourmet restaurants
+16:22:41.226 INFO  Log - skyline living apartments with heated swimming pool fully equipped gym ample parking space and proximity major shopping malls
+16:22:41.237 INFO  Log - Comfort living two bedroom apartment with fully equipped gym swimming pool private parking space ,child play area and amazing scenic views which offers comfort and luxurious lifestyle
+16:22:41.249 INFO  Log - modern retreat residencies with breathtaking city views , swimming pool ,gym and ample parking space
+16:22:41.260 INFO  Log - The royal executive retreat residencies which offers a modern luxurious lifestyle in kilimani
+16:22:41.271 INFO  Log - Elegant luxury three bedroom apartment with swimming pool fully equipped gym children playing ground ample parking space and amazing scenic view
+16:22:41.281 INFO  Log - Misty Springs Westlands road
+16:22:41.292 INFO  Log - Apartment in Nairobi
+16:22:44.255 INFO  Log - Driver quit successfully.

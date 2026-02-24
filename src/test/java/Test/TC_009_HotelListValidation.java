@@ -24,7 +24,7 @@ public class TC_009_HotelListValidation extends BaseClass {
         int priceCount =   price.size();
         int available = Math.min(hotelCount, priceCount);
         Log.info("Total hotels found: " + hotelCount + ", prices found: " + priceCount);
-        int toPrint = Math.min(3, available);
+        int toPrint = Math.min(10, available);
         for (int i = 0; i < toPrint; i++) {
             float curNum = 0;
             String priceText = price.get(i).getText();
