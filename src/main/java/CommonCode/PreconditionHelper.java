@@ -2,8 +2,8 @@ package CommonCode;
 
 import Logs.Log;
 import baseclass.BaseClass;
-import pages.Hotelpage.HotelPageActions;
-import pages.Homepage.HomePageActions;
+import pages.HotelPageActions;
+import pages.HomePageActions;
 import org.openqa.selenium.WebDriver;
 
 public class PreconditionHelper {
@@ -17,11 +17,14 @@ public class PreconditionHelper {
         this.base = base;
         this.driver = base.driver;
         this.home = base.home;
+        if (this.home == null) {
+            this.home = new HomePageActions(driver);
+            base.home = this.home;
+        }
         this.hotelActions = base.hotelActions;
         this.url1 = base.url1;
     }
 
-    // Ensure steps 1..n are satisfied; methods are idempotent and safe to call repeatedly.
     public void ensureUpToStep(int step) {
         if (step >= 1) ensureHomePopupClosed();
         if (step >= 2) ensureLocationSet("Nairobi");
@@ -31,12 +34,17 @@ public class PreconditionHelper {
     }
 
     public void ensureHomePopupClosed() {
-        if (driver == null) return;
-        driver.get(url1);
-        if (home == null) return;
-        if (home.popupCloseBtn != null && home.popupCloseBtn.isDisplayed()) {
-            home.closePopUp();
-            Log.info("Popup closed by precondition helper");
+        if (driver == null || home == null) return;
+
+        // Remove driver.get(url1) - page is already loaded in setUp()
+        // Only close popup if it's displayed
+        try {
+            if (home.popupCloseBtn != null && home.popupCloseBtn.isDisplayed()) {
+                home.closePopUp();
+                Log.info("Popup closed by precondition helper");
+            }
+        } catch (Exception e) {
+            Log.info("Popup not present or already closed");
         }
     }
 

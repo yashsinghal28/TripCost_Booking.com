@@ -10,6 +10,7 @@ public class TC_004_OccupancyAdjustment extends BaseClass {
     @Test()
     public void adjustOccupancy() {
         PreconditionHelper pre = new PreconditionHelper(this);
+        driver.get(url1);
         pre.ensureUpToStep(3);
 
         home.setOccupancy();

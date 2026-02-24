@@ -2,7 +2,7 @@ package Test;
 
 import CommonCode.PreconditionHelper;
 import baseclass.BaseClass;
-import pages.Hotelpage.HotelPageActions;
+import pages.HotelPageActions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import static CommonCode.Commoncode.takeScreenShot;
@@ -11,6 +11,7 @@ public class TC_007_SortByReview extends BaseClass {
     @Test()
     public void sortHotelsByTopReviewed() {
         PreconditionHelper pre = new PreconditionHelper(this);
+        driver.get(url1);
         pre.ensureUpToStep(6);
 
         HotelPageActions HotelPage = new HotelPageActions(driver);

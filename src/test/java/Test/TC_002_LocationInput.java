@@ -11,8 +11,9 @@ public class TC_002_LocationInput extends BaseClass {
     @Test()
     public void validateLocationInput() {
         PreconditionHelper pre = new PreconditionHelper(this);
+        driver.get(url1);
         pre.ensureUpToStep(1);
-        final String location = "Nairobi";
+        String location = "Nairobi";
         home.setLocation(location);
         Log.info("Typed location: " + location);
 

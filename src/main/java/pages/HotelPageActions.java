@@ -1,4 +1,4 @@
-package pages.Hotelpage;
+package pages;
 
 import Logs.Log;
 import org.openqa.selenium.JavascriptExecutor;
@@ -14,7 +14,12 @@ import java.time.Duration;
 import java.util.List;
 
 public class HotelPageActions {
-    private final WebDriver driver;
+    public WebDriver driver;
+    public HotelPageActions(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+    }
+
     @FindBy(xpath = "//button[@data-testid='sorters-dropdown-trigger']")
     public WebElement optionsBtn;
 
@@ -31,11 +36,6 @@ public class HotelPageActions {
     public List<WebElement> priceList;
     @FindBy(xpath = "//label[text()='Grid']")
     public WebElement gridViewBtn;
-
-    public HotelPageActions(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
-    }
 
     public void sortByReview() {
         optionsBtn.click();

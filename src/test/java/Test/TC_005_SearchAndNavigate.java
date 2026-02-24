@@ -3,7 +3,7 @@ package Test;
 import CommonCode.PreconditionHelper;
 import Logs.Log;
 import baseclass.BaseClass;
-import pages.Hotelpage.HotelPageActions;
+import pages.HotelPageActions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import static CommonCode.Commoncode.takeScreenShot;
@@ -12,6 +12,7 @@ public class TC_005_SearchAndNavigate extends BaseClass {
     @Test()
     public void searchAndNavigateToResults() {
         PreconditionHelper pre = new PreconditionHelper(this);
+        driver.get(url1);
         pre.ensureUpToStep(4);
 
         home.searchResults();

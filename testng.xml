@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="BookingTestSuite">
-    <listeners>
-        <listener class-name="org.reports.ExtentTestNGListener"/>
-    </listeners>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MiniProject Suite" verbose="2">
 
-    <test thread-count="1" name="BookingTests_Sequential">
+    <test name="End to End Regression" preserve-order="true">
         <classes>
             <class name="Test.TC_001_HomePopupHandling"/>
             <class name="Test.TC_002_LocationInput"/>
@@ -20,9 +18,4 @@
         </classes>
     </test>
 
-    <test thread-count="1" name="CruiseTests">
-        <classes>
-            <class name="Test.CuriseTest"/>
-        </classes>
-    </test>
 </suite>

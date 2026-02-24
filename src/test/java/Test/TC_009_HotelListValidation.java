@@ -3,7 +3,7 @@ package Test;
 import CommonCode.PreconditionHelper;
 import Logs.Log;
 import baseclass.BaseClass;
-import pages.Hotelpage.HotelPageActions;
+import pages.HotelPageActions;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -14,13 +14,14 @@ public class TC_009_HotelListValidation extends BaseClass {
     @Test()
     public void validateHotelListAndPrices() {
         PreconditionHelper pre = new PreconditionHelper(this);
+        driver.get(url1);
         pre.ensureUpToStep(8);
 
         HotelPageActions HotelPage = new HotelPageActions(driver);
         List<WebElement> hotels = HotelPage.getHoteList();
         List<WebElement> price = HotelPage.getHotelPrice();
-        int hotelCount = hotels == null ? 0 : hotels.size();
-        int priceCount = price == null ? 0 : price.size();
+        int hotelCount =  hotels.size();
+        int priceCount =   price.size();
         int available = Math.min(hotelCount, priceCount);
         Log.info("Total hotels found: " + hotelCount + ", prices found: " + priceCount);
         int toPrint = Math.min(3, available);
