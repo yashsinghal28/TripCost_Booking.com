@@ -11,6 +11,7 @@ public class TC_006_FilterVisibility extends BaseClass {
     @Test()
     public void validateFilterOptionsVisible() {
         PreconditionHelper pre = new PreconditionHelper(this);
+        driver.get(url1);
         pre.ensureUpToStep(5);
 
         Assert.assertTrue(hotelActions.optionsBtn.isDisplayed(), "Options/Filters button should be visible.");

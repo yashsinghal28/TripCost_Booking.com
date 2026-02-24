@@ -14,6 +14,7 @@ public class TC_009_HotelListValidation extends BaseClass {
     @Test()
     public void validateHotelListAndPrices() {
         PreconditionHelper pre = new PreconditionHelper(this);
+        driver.get(url1);
         pre.ensureUpToStep(8);
 
         HotelPageActions HotelPage = new HotelPageActions(driver);

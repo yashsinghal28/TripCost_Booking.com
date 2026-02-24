@@ -10,8 +10,8 @@ public class TC_004_OccupancyAdjustment extends BaseClass {
     @Test()
     public void adjustOccupancy() {
         PreconditionHelper pre = new PreconditionHelper(this);
+        driver.get(url1);
         pre.ensureUpToStep(3);
-
         home.setOccupancy();
         takeScreenShot(driver, "TC04_Home_Occupancy_Updated");
         Integer adultCnt = Integer.parseInt(String.valueOf(home.adultCnt.getText().charAt(0)));

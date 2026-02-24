@@ -17,11 +17,14 @@ public class PreconditionHelper {
         this.base = base;
         this.driver = base.driver;
         this.home = base.home;
+        if (this.home == null) {
+            this.home = new HomePageActions(driver);
+            base.home = this.home;
+        }
         this.hotelActions = base.hotelActions;
         this.url1 = base.url1;
     }
 
-    // Ensure steps 1..n are satisfied; methods are idempotent and safe to call repeatedly.
     public void ensureUpToStep(int step) {
         if (step >= 1) ensureHomePopupClosed();
         if (step >= 2) ensureLocationSet("Nairobi");
@@ -31,17 +34,17 @@ public class PreconditionHelper {
     }
 
     public void ensureHomePopupClosed() {
-        if (driver == null) return;
-        driver.get(url1);
-        if (home == null) return;
-        if (home.popupCloseBtn != null && home.popupCloseBtn.isDisplayed()) {
-            home.closePopUp();
-            Log.info("Popup closed by precondition helper");
+        try {
+            if (home.popupCloseBtn != null && home.popupCloseBtn.isDisplayed()) {
+                home.closePopUp();
+                Log.info("Popup closed by precondition helper");
+            }
+        } catch (Exception e) {
+            Log.info("Popup not present or already closed");
         }
     }
 
     public void ensureLocationSet(String location) {
-        if (home == null) return;
         String cur = home.locationInput.getAttribute("value");
         if (cur == null || !cur.equals(location)) {
             home.setLocation(location);
@@ -50,13 +53,11 @@ public class PreconditionHelper {
     }
 
     public void ensureDatesSelected() {
-        if (home == null) return;
         home.selectDateRange();
         Log.info("Dates selected by precondition helper");
     }
 
     public void ensureOccupancy() {
-        if (home == null) return;
         String text = home.adultCnt.getText();
         int cur = Character.getNumericValue(text.charAt(0));
         if (cur != 4) {

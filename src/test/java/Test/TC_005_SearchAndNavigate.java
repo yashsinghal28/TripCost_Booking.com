@@ -12,6 +12,7 @@ public class TC_005_SearchAndNavigate extends BaseClass {
     @Test()
     public void searchAndNavigateToResults() {
         PreconditionHelper pre = new PreconditionHelper(this);
+        driver.get(url1);
         pre.ensureUpToStep(4);
 
         home.searchResults();

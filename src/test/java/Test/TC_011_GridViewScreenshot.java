@@ -12,6 +12,7 @@ public class TC_011_GridViewScreenshot extends BaseClass {
     @Test()
     public void clickGridAndScreenshot() {
         PreconditionHelper pre = new PreconditionHelper(this);
+        driver.get(url1);
         pre.ensureUpToStep(5);
 
         HotelPageActions hp = this.hotelActions;
