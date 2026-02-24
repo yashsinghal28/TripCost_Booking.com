@@ -5,12 +5,14 @@ import Logs.Log;
 import baseclass.BaseClass;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import pages.CruisePageActions;
 
 public class TC_019_ValidateOnboarding  extends BaseClass {
 
+    @Test
     public void TC_19_validateOnboarding() {
-        Commoncode cm = new Commoncode();
-        cm.implicitWait(driver);
+        cruise = new CruisePageActions(driver);
+        driver.get(url2);
         cruise.ClosePopUp();
         String source = driver.getPageSource();
         cruise.chooseCruise();

@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import pages.CruisePageActions;
 
 import java.time.Duration;
 
@@ -18,8 +19,8 @@ import static CommonCode.Commoncode.takeScreenShot;
 public class TC_17_SuiteValidation extends BaseClass {
     @Test
     public void TC_17_validationOfSuits() {
-        Commoncode cm = new Commoncode();
-        cm.implicitWait(driver);
+        cruise = new CruisePageActions(driver);
+        driver.get(url2);
         cruise.ClosePopUp();
         cruise.chooseCruise();
         cruise.triggerCruiseButton();
@@ -34,9 +35,6 @@ public class TC_17_SuiteValidation extends BaseClass {
         Log.info("Test for Suit Element Passed");
         js.executeScript("window.scrollBy(0, -500);");
 
-        // screenshot should be added here
-//        takeScreenShot(driver, "TC-17 suit validation screenshot-1 captured ");
-//        js.executeScript("window.scrollBy(0, 800);");
         takeScreenShot(driver, "TC-17 suit validation screenshot-2 captured ");
 
     }

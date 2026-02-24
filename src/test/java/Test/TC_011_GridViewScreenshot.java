@@ -16,11 +16,6 @@ public class TC_011_GridViewScreenshot extends BaseClass {
         pre.ensureUpToStep(5);
 
         HotelPageActions hp = this.hotelActions;
-        if (hp == null) {
-            hp = new HotelPageActions(driver);
-            this.hotelActions = hp;
-        }
-
             hp.gridViewBtn.click();
             Log.info("Clicked Grid view button");
             JavascriptExecutor js = (JavascriptExecutor) driver;

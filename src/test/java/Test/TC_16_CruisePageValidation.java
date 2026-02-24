@@ -5,6 +5,7 @@ import Logs.Log;
 import baseclass.BaseClass;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import pages.CruisePageActions;
 
 import static CommonCode.Commoncode.takeScreenShot;
 
@@ -12,8 +13,8 @@ public class TC_16_CruisePageValidation extends BaseClass {
 
     @Test
     public void tc_16_testCruisePage() {
-        Commoncode cm = new Commoncode();
-        cm.implicitWait(driver);
+        cruise = new CruisePageActions(driver);
+        driver.get(url2);
         cruise.ClosePopUp();
         cruise.chooseCruise();
         Assert.assertTrue(cruise.cruiseButton.isDisplayed(), "Cruise button not visible");

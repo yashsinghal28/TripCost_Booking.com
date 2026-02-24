@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="MiniProject Suite" verbose="2">
 
-    <test name="End to End Regression" preserve-order="true">
+    <test name="Trip-Cost-Booking" preserve-order="true">
         <classes>
             <class name="Test.TC_001_HomePopupHandling"/>
             <class name="Test.TC_002_LocationInput"/>
@@ -16,8 +16,15 @@
             <class name="Test.TC_010_FinalScreenshot"/>
             <class name="Test.TC_011_GridViewScreenshot"/>
             <class name="Test.TC_012SecondURLOpen"/>
-
-
+            <class name="Test.TC_013ValidateTitlePage"/>
+            <class name="Test.TC_014ValidateCruiseLine"/>
+            <class name="Test.TC_15_SailingMonthValidation"/>
+            <class name="Test.TC_16_CruisePageValidation"/>
+            <class name="Test.TC_17_SuiteValidation"/>
+            <class name="Test.TC_018_PrintListOfRooms"/>
+            <class name="Test.TC_019_ValidateOnboarding"/>
+            <class name="Test.TC_020_PrintStateList"/>
+            <class name="Test.TC_21_ValidatePriceOrCurr_Token"/>
         </classes>
     </test>
 

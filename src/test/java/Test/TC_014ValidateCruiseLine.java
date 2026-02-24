@@ -5,12 +5,12 @@ import Logs.Log;
 import baseclass.BaseClass;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import pages.CruisePageActions;
 
 public class TC_014ValidateCruiseLine extends BaseClass{
-    @Test()
+    @Test
     public void tc_14_validateCruiseLine() {
-
-        Commoncode cm = new Commoncode();
+        cruise = new CruisePageActions(driver);
         driver.get(url2);
         cm.implicitWait(driver);
         Commoncode.takeScreenShot(driver, "TC-14 Cookie -visible");

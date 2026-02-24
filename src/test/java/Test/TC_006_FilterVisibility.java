@@ -13,7 +13,6 @@ public class TC_006_FilterVisibility extends BaseClass {
         PreconditionHelper pre = new PreconditionHelper(this);
         driver.get(url1);
         pre.ensureUpToStep(5);
-
         Assert.assertTrue(hotelActions.optionsBtn.isDisplayed(), "Options/Filters button should be visible.");
         Log.info("Hotel options button is visible.");
         takeScreenShot(driver, "TC06_Hotel_Options_Visible");

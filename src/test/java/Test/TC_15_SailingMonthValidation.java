@@ -5,17 +5,19 @@ import CommonCode.Commoncode;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import Logs.Log;
+import pages.CruisePageActions;
+
 import java.time.YearMonth;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.util.Locale;
 
 public class TC_15_SailingMonthValidation extends BaseClass {
-    @Test()
+    @Test
     public void tc_15_checkSailingMonth() {
 
-        Commoncode cm = new Commoncode();
-        cm.implicitWait(driver);
+        cruise = new CruisePageActions(driver);
+        driver.get(url2);
         cruise.ClosePopUp();
         Log.info("Validation of Cookies");
         cruise.chooseCruise();

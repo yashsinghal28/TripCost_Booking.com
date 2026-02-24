@@ -12,7 +12,6 @@ import static baseclass.BaseClass.driver;
 public class TC_012SecondURLOpen extends BaseClass {
     @Test
     public void tc_11_testSecondUrl() {
-        Commoncode cm = new Commoncode();
         cruise = new CruisePageActions(driver);
         driver.navigate().to(url2);
         Commoncode.takeScreenShot(driver, "TC-11 Opened The Page");

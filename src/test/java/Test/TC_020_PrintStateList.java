@@ -4,14 +4,16 @@ import CommonCode.Commoncode;
 import baseclass.BaseClass;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
+import pages.CruisePageActions;
 
 import static CommonCode.Commoncode.takeScreenShot;
 
-@Test
 public class TC_020_PrintStateList extends BaseClass {
+
+    @Test
     public void tc_20_shipDetailsPrint() throws InterruptedException {
-        Commoncode cm = new Commoncode();
-        cm.implicitWait(driver);
+        cruise = new CruisePageActions(driver);
+        driver.get(url2);
         cruise.ClosePopUp();
         cruise.chooseCruise();
         cruise.triggerCruiseButton();
@@ -22,6 +24,5 @@ public class TC_020_PrintStateList extends BaseClass {
         cm.waitForDocumentReady(driver, 5);
         js.executeScript("window.scrollBy(0,-600)");
         takeScreenShot(driver, "TC-20_Print_State_List");
-//        Thread.sleep(10000);
     }
 }

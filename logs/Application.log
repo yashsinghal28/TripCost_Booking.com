@@ -1476,3 +1476,738 @@ Please Note: Staterooms 9252 and 9652 have obstructed views. -> Deck: Deck 9,Dec
 09:43:46.015 INFO  Log - Driver quit successfully.
 09:44:15.346 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
 09:44:27.286 INFO  Log - Driver quit successfully.
+09:47:50.628 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+09:48:02.905 INFO  Log - Driver quit successfully.
+09:48:14.145 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+09:48:15.559 INFO  Log - Driver quit successfully.
+09:48:39.723 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+09:48:51.386 INFO  Log - Driver quit successfully.
+09:50:36.135 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+09:50:48.097 INFO  Log - Driver quit successfully.
+09:55:48.574 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+09:56:08.819 INFO  Log - Owner's Suite - 2 Bedroom
+			
+			Deck: Deck 7,Deck 8,Deck 9
+							
+			Category: OTSize: 584 sq. ft.; Balcony: 191 sq. ft.Occupancy: Up to 8 guestsAmenities: Two bedrooms with two twin beds that convert to Royal King (one room with third and fourth Pullman beds), two bathrooms (one with shower, one with bathtub), living area with double sofa bed, private balcony, walk-in closet, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more. -> Deck: Deck 7,Deck 8,Deck 9
+09:56:08.821 INFO  Log - Owner's Suite - 1 Bedroom
+			
+			Deck: Deck 10
+							
+			Category: OSSize: 512 sq. ft.; Balcony: 57 sq. ft.Occupancy: Up to 4 guestsAmenities: Queen-size bed, private balcony, private bathroom with whirlpool tub, double sinks, separate shower and bidet, separate living area with double sofa bed, walk-in closet, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more. -> Deck: Deck 10
+09:56:08.821 INFO  Log - Grand Suite - 1 Bedroom
+			
+			Deck: Deck 10
+							
+			Category: GSSize: 385 sq. ft.; Balcony: 106 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, private bathroom with tub and double sink, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more. -> Deck: Deck 10
+09:56:08.821 INFO  Log - Junior Suite
+			
+			Deck: Deck 10
+							
+			Category: J3Size: 299 sq. ft.; Balcony: 41 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, private bathroom with tub and shower, sitting area with sofa bed, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.Please Note: Staterooms 1098 and 1598 have obstructed views.Wheelchair Accessible Staterooms: 1028 and 1528. (362 sq. ft.; Balcony 86 sq. ft.)Wheelchair Accessible Amenities: Open bed frames, wider entry door, turning spaces, sitting area with lowered vanity, closet rods and private bathroom with a wider door, roll-in shower, grab bars, fold-down shower bench, hand-held shower head, raised toilet, and a lowered sink.Please Note: Royal Caribbean requires guests booked in this category to acknowledge need for the accessible stateroom by completing a Guest Special Needs Form. -> Deck: Deck 10
+09:56:08.821 INFO  Log - Ocean View Suite - 2 Bedroom (No Balcony)
+			
+			Deck: Deck 10
+							
+			Category: VTSize: 592 sq. ft.Occupancy: Up to 8 guestsAmenities: Two bedrooms. Master with two twin beds that convert to Royal King and private bathroom with tub; second bedroom with four pullman beds and living area with double sofa bed, additional bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer. -> Deck: Deck 10
+09:56:08.821 INFO  Log - Suite Guarantee
+							
+			Please note that this is a 'guarantee' rate.By booking this category, you are guaranteed a suite for this sailing at this rate. However, this rate is not associated with a specific stateroom, deck, or bedding configuration.Staterooms may be located anywhere on this ship.You will be assigned a specific suite at check-in. -> Please note that this is a 'guarantee' rate.By booking this category, you are guaranteed a suite for this sailing at this rate. However, this rate is not associated with a specific stateroom, deck, or bedding configuration.Staterooms may be located anywhere on this ship.You will be assigned a specific suite at check-in.
+09:56:08.821 INFO  Log - Spacious Sunset Ocean View Balcony
+			
+			Deck: Deck 7,Deck 8,Deck 9,Deck 10
+							
+			Category: SGSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: 2 guests standardAmenities: Two twin beds that convert to Royal King, aft-facing private balcony, sitting area with sofa, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer. -> Deck: Deck 7,Deck 8,Deck 9,Deck 10
+09:56:08.821 INFO  Log - Spacious Ocean View Balcony
+			
+			Deck: Deck 9,Deck 10
+							
+			Category: 1BSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, or some stateooms have single sofa bed and one Pullman bed, or sitting area with sofa and two Pullman beds, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.Please Note: Stateroom 9050 has obstructed views. -> Deck: Deck 9,Deck 10
+09:56:08.821 INFO  Log - Spacious Ocean View Balcony
+			
+			Deck: Deck 9
+							
+			Category: 2BSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: 2 guests standardAmenities: Two twin beds that convert to Royal King, a private balcony, sitting area with sofa, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer. -> Deck: Deck 9
+09:56:08.823 INFO  Log - Spacious Ocean View Balcony
+			
+			Deck: Deck 9,Deck 10
+							
+			Category: 3BSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, or some stateooms have sitting area with sofa and two Pullman beds, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.Please Note: Staterooms 9252 and 9652 have obstructed views. -> Deck: Deck 9,Deck 10
+09:56:09.111 INFO  Log - Successfully printed list of rooms
+09:56:13.038 INFO  Log - Driver quit successfully.
+09:59:13.320 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+09:59:25.754 INFO  Log - Driver quit successfully.
+10:00:43.123 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:00:53.581 INFO  Log - Driver quit successfully.
+10:04:11.606 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:04:24.033 INFO  Log - Driver quit successfully.
+10:04:40.814 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:04:52.265 INFO  Log - Driver quit successfully.
+10:05:12.611 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:05:36.490 INFO  Log - Driver quit successfully.
+10:06:10.698 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:06:30.509 INFO  Log - Owner's Suite - 2 Bedroom
+			
+			Deck: Deck 7,Deck 8,Deck 9
+							
+			Category: OTSize: 584 sq. ft.; Balcony: 191 sq. ft.Occupancy: Up to 8 guestsAmenities: Two bedrooms with two twin beds that convert to Royal King (one room with third and fourth Pullman beds), two bathrooms (one with shower, one with bathtub), living area with double sofa bed, private balcony, walk-in closet, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more. -> Deck: Deck 7,Deck 8,Deck 9
+10:06:30.509 INFO  Log - Owner's Suite - 1 Bedroom
+			
+			Deck: Deck 10
+							
+			Category: OSSize: 512 sq. ft.; Balcony: 57 sq. ft.Occupancy: Up to 4 guestsAmenities: Queen-size bed, private balcony, private bathroom with whirlpool tub, double sinks, separate shower and bidet, separate living area with double sofa bed, walk-in closet, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more. -> Deck: Deck 10
+10:06:30.509 INFO  Log - Grand Suite - 1 Bedroom
+			
+			Deck: Deck 10
+							
+			Category: GSSize: 385 sq. ft.; Balcony: 106 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, private bathroom with tub and double sink, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more. -> Deck: Deck 10
+10:06:30.509 INFO  Log - Junior Suite
+			
+			Deck: Deck 10
+							
+			Category: J3Size: 299 sq. ft.; Balcony: 41 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, private bathroom with tub and shower, sitting area with sofa bed, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.Please Note: Staterooms 1098 and 1598 have obstructed views.Wheelchair Accessible Staterooms: 1028 and 1528. (362 sq. ft.; Balcony 86 sq. ft.)Wheelchair Accessible Amenities: Open bed frames, wider entry door, turning spaces, sitting area with lowered vanity, closet rods and private bathroom with a wider door, roll-in shower, grab bars, fold-down shower bench, hand-held shower head, raised toilet, and a lowered sink.Please Note: Royal Caribbean requires guests booked in this category to acknowledge need for the accessible stateroom by completing a Guest Special Needs Form. -> Deck: Deck 10
+10:06:30.509 INFO  Log - Ocean View Suite - 2 Bedroom (No Balcony)
+			
+			Deck: Deck 10
+							
+			Category: VTSize: 592 sq. ft.Occupancy: Up to 8 guestsAmenities: Two bedrooms. Master with two twin beds that convert to Royal King and private bathroom with tub; second bedroom with four pullman beds and living area with double sofa bed, additional bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer. -> Deck: Deck 10
+10:06:30.509 INFO  Log - Suite Guarantee
+							
+			Please note that this is a 'guarantee' rate.By booking this category, you are guaranteed a suite for this sailing at this rate. However, this rate is not associated with a specific stateroom, deck, or bedding configuration.Staterooms may be located anywhere on this ship.You will be assigned a specific suite at check-in. -> Please note that this is a 'guarantee' rate.By booking this category, you are guaranteed a suite for this sailing at this rate. However, this rate is not associated with a specific stateroom, deck, or bedding configuration.Staterooms may be located anywhere on this ship.You will be assigned a specific suite at check-in.
+10:06:30.509 INFO  Log - Spacious Sunset Ocean View Balcony
+			
+			Deck: Deck 7,Deck 8,Deck 9,Deck 10
+							
+			Category: SGSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: 2 guests standardAmenities: Two twin beds that convert to Royal King, aft-facing private balcony, sitting area with sofa, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer. -> Deck: Deck 7,Deck 8,Deck 9,Deck 10
+10:06:30.511 INFO  Log - Spacious Ocean View Balcony
+			
+			Deck: Deck 9,Deck 10
+							
+			Category: 1BSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, or some stateooms have single sofa bed and one Pullman bed, or sitting area with sofa and two Pullman beds, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.Please Note: Stateroom 9050 has obstructed views. -> Deck: Deck 9,Deck 10
+10:06:30.511 INFO  Log - Spacious Ocean View Balcony
+			
+			Deck: Deck 9
+							
+			Category: 2BSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: 2 guests standardAmenities: Two twin beds that convert to Royal King, a private balcony, sitting area with sofa, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer. -> Deck: Deck 9
+10:06:30.512 INFO  Log - Spacious Ocean View Balcony
+			
+			Deck: Deck 9,Deck 10
+							
+			Category: 3BSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, or some stateooms have sitting area with sofa and two Pullman beds, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.Please Note: Staterooms 9252 and 9652 have obstructed views. -> Deck: Deck 9,Deck 10
+10:06:37.222 INFO  Log - SuccessFull Print of Stats Of Cruise
+10:06:40.175 INFO  Log - Driver quit successfully.
+10:07:07.173 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:07:12.248 INFO  Log - Validation of Cookies
+10:07:14.162 INFO  Log - Validation of curise Line
+10:07:14.616 INFO  Log - Choosing Cruise Line --> Passed
+10:07:16.420 INFO  Log - Driver quit successfully.
+10:09:39.927 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:09:47.606 INFO  Log - Driver quit successfully.
+10:10:01.465 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:10:15.727 INFO  Log - Selected Cruise is Present and Verified Sailing Date
+10:10:22.812 INFO  Log - Validated and Selected Correct Cruise
+10:10:25.593 INFO  Log - Driver quit successfully.
+10:16:23.532 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:16:32.458 INFO  Log - Popup closed successfully
+10:16:34.959 INFO  Log - Driver quit successfully.
+10:16:36.759 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:16:42.495 INFO  Log - Popup closed by precondition helper
+10:16:43.110 INFO  Log - Typed location: Nairobi
+10:16:43.191 INFO  Log - Captured location value: Nairobi
+10:16:45.343 INFO  Log - Driver quit successfully.
+10:16:47.143 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:16:50.266 INFO  Log - Popup not present or already closed
+10:16:51.749 INFO  Log - Driver quit successfully.
+10:18:43.080 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:18:47.869 INFO  Log - Popup closed successfully
+10:18:50.034 INFO  Log - Driver quit successfully.
+10:18:51.943 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:18:58.575 INFO  Log - Popup closed by precondition helper
+10:18:59.372 INFO  Log - Typed location: Nairobi
+10:18:59.399 INFO  Log - Captured location value: Nairobi
+10:19:01.628 INFO  Log - Driver quit successfully.
+10:19:03.432 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:19:09.642 INFO  Log - Popup closed by precondition helper
+10:19:10.301 INFO  Log - Location set by precondition helper: Nairobi
+10:19:10.738 INFO  Log - Selected check in and check out dates
+10:19:13.059 INFO  Log - Driver quit successfully.
+10:19:14.812 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:19:20.595 INFO  Log - Popup closed by precondition helper
+10:19:21.148 INFO  Log - Location set by precondition helper: Nairobi
+10:19:21.583 INFO  Log - Dates selected by precondition helper
+10:19:24.264 INFO  Log - Driver quit successfully.
+10:19:26.130 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:19:32.424 INFO  Log - Popup closed by precondition helper
+10:19:33.040 INFO  Log - Location set by precondition helper: Nairobi
+10:19:33.556 INFO  Log - Dates selected by precondition helper
+10:19:34.006 INFO  Log - Occupancy adjusted by precondition helper
+10:19:39.058 INFO  Log - Clicked Search on Home page.
+10:19:42.876 INFO  Log - Driver quit successfully.
+10:19:44.686 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:19:50.330 INFO  Log - Popup closed by precondition helper
+10:19:50.820 INFO  Log - Location set by precondition helper: Nairobi
+10:19:51.199 INFO  Log - Dates selected by precondition helper
+10:19:51.649 INFO  Log - Occupancy adjusted by precondition helper
+10:19:56.751 INFO  Log - Search performed by precondition helper
+10:19:57.602 INFO  Log - Hotel page ready
+10:19:57.630 INFO  Log - Hotel options button is visible.
+10:20:00.860 INFO  Log - Driver quit successfully.
+10:20:02.685 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:20:08.504 INFO  Log - Popup closed by precondition helper
+10:20:09.162 INFO  Log - Location set by precondition helper: Nairobi
+10:20:09.557 INFO  Log - Dates selected by precondition helper
+10:20:10.016 INFO  Log - Occupancy adjusted by precondition helper
+10:20:14.985 INFO  Log - Search performed by precondition helper
+10:20:15.805 INFO  Log - Hotel page ready
+10:20:19.273 INFO  Log - Driver quit successfully.
+10:20:21.155 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:20:25.314 INFO  Log - Popup closed by precondition helper
+10:20:26.996 INFO  Log - Location set by precondition helper: Nairobi
+10:20:27.484 INFO  Log - Dates selected by precondition helper
+10:20:27.924 INFO  Log - Occupancy adjusted by precondition helper
+10:20:28.022 INFO  Log - Search performed by precondition helper
+10:20:33.450 INFO  Log - Hotel page ready
+10:20:33.699 INFO  Log - Elevator accessibility filter applied.
+10:20:36.695 INFO  Log - Driver quit successfully.
+10:20:38.482 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:20:43.018 INFO  Log - Popup closed by precondition helper
+10:20:43.970 INFO  Log - Location set by precondition helper: Nairobi
+10:20:44.816 INFO  Log - Dates selected by precondition helper
+10:20:45.388 INFO  Log - Occupancy adjusted by precondition helper
+10:20:50.162 INFO  Log - Search performed by precondition helper
+10:20:50.913 INFO  Log - Hotel page ready
+10:20:50.952 INFO  Log - Total hotels found: 25, prices found: 25
+10:20:51.014 INFO  Log - Hotel 1:Nest & Rest Luxurious Homes
+10:20:51.014 INFO  Log - Price for 5 Days: ₹ 34,121
+10:20:51.021 INFO  Log - Price for 1 Day: ₹ 6824.2
+10:20:51.150 INFO  Log - Hotel 2:Lavish 2 bedroom apartment in Lavington
+10:20:51.150 INFO  Log - Price for 5 Days: ₹ 34,804
+10:20:51.150 INFO  Log - Price for 1 Day: ₹ 6960.8
+10:20:51.396 INFO  Log - Hotel 3:4 bdrm beachfront Nyali
+10:20:51.397 INFO  Log - Price for 5 Days: ₹ 73,907
+10:20:51.397 INFO  Log - Price for 1 Day: ₹ 14781.4
+10:20:54.297 INFO  Log - Driver quit successfully.
+10:20:56.100 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:21:02.133 INFO  Log - Popup closed by precondition helper
+10:21:02.824 INFO  Log - Location set by precondition helper: Nairobi
+10:21:03.282 INFO  Log - Dates selected by precondition helper
+10:21:03.721 INFO  Log - Occupancy adjusted by precondition helper
+10:21:08.901 INFO  Log - Search performed by precondition helper
+10:21:09.731 INFO  Log - Hotel page ready
+10:21:10.141 INFO  Log - Captured final hotel results screenshot.
+10:21:12.843 INFO  Log - Driver quit successfully.
+10:21:14.613 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:21:21.867 INFO  Log - Popup closed by precondition helper
+10:21:22.469 INFO  Log - Location set by precondition helper: Nairobi
+10:21:22.876 INFO  Log - Dates selected by precondition helper
+10:21:23.282 INFO  Log - Occupancy adjusted by precondition helper
+10:21:23.375 INFO  Log - Search performed by precondition helper
+10:21:29.045 INFO  Log - Hotel page ready
+10:21:29.340 INFO  Log - Clicked Grid view button
+10:21:32.937 INFO  Log - Driver quit successfully.
+10:21:34.680 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:21:44.673 INFO  Log - Home Page | Booking.com Cruises
+10:21:46.555 INFO  Log - Driver quit successfully.
+10:21:48.363 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:21:57.423 INFO  Log - Validation of Title-->Passed
+10:21:59.071 INFO  Log - Driver quit successfully.
+10:22:00.845 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:22:11.068 INFO  Log - Validation of Cookies
+10:22:12.998 INFO  Log - Validation of curise Line
+10:22:13.442 INFO  Log - Choosing Cruise Line --> Passed
+10:22:15.275 INFO  Log - Driver quit successfully.
+10:22:17.071 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:22:26.576 INFO  Log - Validation of Cookies
+10:22:28.764 INFO  Log - Validation of curise Line
+10:22:28.836 INFO  Log - Checked the Sailing Month date and Validated: 2026-08
+10:22:30.611 INFO  Log - Driver quit successfully.
+10:22:32.389 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:22:43.964 INFO  Log - Selected Cruise is Present and Verified Sailing Date
+10:22:50.869 INFO  Log - Validated and Selected Correct Cruise
+10:22:53.162 INFO  Log - Driver quit successfully.
+10:22:54.949 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:23:14.865 INFO  Log - Test for Suit Element Passed
+10:23:17.711 INFO  Log - Driver quit successfully.
+10:23:19.436 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:23:39.219 INFO  Log - Owner's Suite - 2 Bedroom
+			
+			Deck: Deck 7,Deck 8,Deck 9
+							
+			Category: OTSize: 584 sq. ft.; Balcony: 191 sq. ft.Occupancy: Up to 8 guestsAmenities: Two bedrooms with two twin beds that convert to Royal King (one room with third and fourth Pullman beds), two bathrooms (one with shower, one with bathtub), living area with double sofa bed, private balcony, walk-in closet, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more. -> Deck: Deck 7,Deck 8,Deck 9
+10:23:39.219 INFO  Log - Owner's Suite - 1 Bedroom
+			
+			Deck: Deck 10
+							
+			Category: OSSize: 512 sq. ft.; Balcony: 57 sq. ft.Occupancy: Up to 4 guestsAmenities: Queen-size bed, private balcony, private bathroom with whirlpool tub, double sinks, separate shower and bidet, separate living area with double sofa bed, walk-in closet, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more. -> Deck: Deck 10
+10:23:39.219 INFO  Log - Grand Suite - 1 Bedroom
+			
+			Deck: Deck 10
+							
+			Category: GSSize: 385 sq. ft.; Balcony: 106 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, private bathroom with tub and double sink, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more. -> Deck: Deck 10
+10:23:39.220 INFO  Log - Junior Suite
+			
+			Deck: Deck 10
+							
+			Category: J3Size: 299 sq. ft.; Balcony: 41 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, private bathroom with tub and shower, sitting area with sofa bed, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.Please Note: Staterooms 1098 and 1598 have obstructed views.Wheelchair Accessible Staterooms: 1028 and 1528. (362 sq. ft.; Balcony 86 sq. ft.)Wheelchair Accessible Amenities: Open bed frames, wider entry door, turning spaces, sitting area with lowered vanity, closet rods and private bathroom with a wider door, roll-in shower, grab bars, fold-down shower bench, hand-held shower head, raised toilet, and a lowered sink.Please Note: Royal Caribbean requires guests booked in this category to acknowledge need for the accessible stateroom by completing a Guest Special Needs Form. -> Deck: Deck 10
+10:23:39.220 INFO  Log - Ocean View Suite - 2 Bedroom (No Balcony)
+			
+			Deck: Deck 10
+							
+			Category: VTSize: 592 sq. ft.Occupancy: Up to 8 guestsAmenities: Two bedrooms. Master with two twin beds that convert to Royal King and private bathroom with tub; second bedroom with four pullman beds and living area with double sofa bed, additional bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer. -> Deck: Deck 10
+10:23:39.220 INFO  Log - Suite Guarantee
+							
+			Please note that this is a 'guarantee' rate.By booking this category, you are guaranteed a suite for this sailing at this rate. However, this rate is not associated with a specific stateroom, deck, or bedding configuration.Staterooms may be located anywhere on this ship.You will be assigned a specific suite at check-in. -> Please note that this is a 'guarantee' rate.By booking this category, you are guaranteed a suite for this sailing at this rate. However, this rate is not associated with a specific stateroom, deck, or bedding configuration.Staterooms may be located anywhere on this ship.You will be assigned a specific suite at check-in.
+10:23:39.220 INFO  Log - Spacious Sunset Ocean View Balcony
+			
+			Deck: Deck 7,Deck 8,Deck 9,Deck 10
+							
+			Category: SGSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: 2 guests standardAmenities: Two twin beds that convert to Royal King, aft-facing private balcony, sitting area with sofa, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer. -> Deck: Deck 7,Deck 8,Deck 9,Deck 10
+10:23:39.220 INFO  Log - Spacious Ocean View Balcony
+			
+			Deck: Deck 9,Deck 10
+							
+			Category: 1BSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, or some stateooms have single sofa bed and one Pullman bed, or sitting area with sofa and two Pullman beds, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.Please Note: Stateroom 9050 has obstructed views. -> Deck: Deck 9,Deck 10
+10:23:39.220 INFO  Log - Spacious Ocean View Balcony
+			
+			Deck: Deck 9
+							
+			Category: 2BSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: 2 guests standardAmenities: Two twin beds that convert to Royal King, a private balcony, sitting area with sofa, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer. -> Deck: Deck 9
+10:23:39.220 INFO  Log - Spacious Ocean View Balcony
+			
+			Deck: Deck 9,Deck 10
+							
+			Category: 3BSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, or some stateooms have sitting area with sofa and two Pullman beds, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.Please Note: Staterooms 9252 and 9652 have obstructed views. -> Deck: Deck 9,Deck 10
+10:23:45.677 INFO  Log - SuccessFull Print of Stats Of Cruise
+10:23:48.202 INFO  Log - Driver quit successfully.
+10:23:49.882 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:24:08.079 INFO  Log - Presence of Header is Verified
+10:24:08.838 INFO  Log - Presence of Elevators is valid: 4
+10:24:10.596 INFO  Log - Driver quit successfully.
+10:24:11.961 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:24:34.074 INFO  Log - <STATS>
+10:24:34.934 INFO  Log - Dining
+10:24:34.934 INFO  Log - My Family Time Dining
+10:24:34.934 INFO  Log - Tides Dining Room
+10:24:34.934 INFO  Log - Chef's Table
+10:24:34.934 INFO  Log - Giovanni's Table
+10:24:34.934 INFO  Log - Chops Grille
+10:24:34.934 INFO  Log - Izumi
+10:24:34.934 INFO  Log - Windjammer Cafe
+10:24:34.934 INFO  Log - Sorrento's Pizza
+10:24:34.934 INFO  Log - Cafe Latte-tudes
+10:24:34.934 INFO  Log - Crown Lounge
+10:24:34.934 INFO  Log - 
+			Ship Statistics
+			
+					
+					Name : Jewel of the Seas
+					
+					Registry : Bahamas
+					
+					Builder : Meyer Werft
+					
+					Country Built In : Germany
+					
+					Ship Completed Date : 5/8/2004
+					
+					Christened By : Kathy Mellor
+					
+					Call Letters : C6FW9
+					
+					Refurbished Date : 1/1/2016
+					
+					Capacity : 2112
+					
+					Number of Crew, Nationality : 859, International
+					
+					Gross Tonnage : 90090
+					
+					Stabilized : Yes
+					
+					Average Speed : 25 knots
+				
+			
+			
+					
+					Maximum Speed : 25 knots
+					
+					Length : 962 feet
+					
+					Beam : 105.6 feet
+					
+					Number of Passenger Decks : 12
+					
+					Number of Inside Rooms : 238
+					
+					Number of Outside Rooms : 817
+					
+					Number of Restaurants : 5
+					
+					Number of Pools : 3
+					
+					Number of Elevators : 4
+					
+					Voltage : 110/220
+					
+					Non-Smoking Dining : Yes
+					
+					Non-Smoking Ship : No
+				
+			
+		
+10:24:36.974 INFO  Log - Driver quit successfully.
+10:24:38.381 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:24:57.396 INFO  Log - TC-18: Validate price/currency token on cruise details page
+10:24:58.295 INFO  Log - TC-20 PASSED: Price/currency token detected.
+10:25:00.138 INFO  Log - Driver quit successfully.
+10:42:10.091 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:42:15.368 INFO  Log - Popup closed by precondition helper
+10:42:15.888 INFO  Log - Location set by precondition helper: Nairobi
+10:42:16.195 INFO  Log - Dates selected by precondition helper
+10:42:16.510 INFO  Log - Occupancy adjusted by precondition helper
+10:42:20.708 INFO  Log - Search performed by precondition helper
+10:42:21.218 INFO  Log - Hotel page ready
+10:42:21.473 INFO  Log - Clicked Grid view button
+10:42:24.274 INFO  Log - Driver quit successfully.
+10:42:46.902 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:42:51.580 INFO  Log - Popup closed by precondition helper
+10:42:52.083 INFO  Log - Location set by precondition helper: Nairobi
+10:42:52.405 INFO  Log - Dates selected by precondition helper
+10:42:52.748 INFO  Log - Occupancy adjusted by precondition helper
+10:42:57.102 INFO  Log - Search performed by precondition helper
+10:42:57.570 INFO  Log - Hotel page ready
+10:42:57.762 INFO  Log - Captured final hotel results screenshot.
+10:42:59.921 INFO  Log - Driver quit successfully.
+10:46:19.962 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:46:41.092 INFO  Log -  
+			Owner's Suite - 2 Bedroom
+			
+			Deck: Deck 7,Deck 8,Deck 9
+							
+			Category: OTSize: 584 sq. ft.; Balcony: 191 sq. ft.Occupancy: Up to 8 guestsAmenities: Two bedrooms with two twin beds that convert to Royal King (one room with third and fourth Pullman beds), two bathrooms (one with shower, one with bathtub), living area with double sofa bed, private balcony, walk-in closet, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more.
+		 -> Deck: Deck 7,Deck 8,Deck 9
+10:46:41.093 INFO  Log -  
+			Owner's Suite - 1 Bedroom
+			
+			Deck: Deck 10
+							
+			Category: OSSize: 512 sq. ft.; Balcony: 57 sq. ft.Occupancy: Up to 4 guestsAmenities: Queen-size bed, private balcony, private bathroom with whirlpool tub, double sinks, separate shower and bidet, separate living area with double sofa bed, walk-in closet, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more.
+		 -> Deck: Deck 10
+10:46:41.093 INFO  Log -  
+			Grand Suite - 1 Bedroom
+			
+			Deck: Deck 10
+							
+			Category: GSSize: 385 sq. ft.; Balcony: 106 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, private bathroom with tub and double sink, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more.
+		 -> Deck: Deck 10
+10:46:41.093 INFO  Log -  
+			Junior Suite
+			
+			Deck: Deck 10
+							
+			Category: J3Size: 299 sq. ft.; Balcony: 41 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, private bathroom with tub and shower, sitting area with sofa bed, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.Please Note: Staterooms 1098 and 1598 have obstructed views.Wheelchair Accessible Staterooms: 1028 and 1528. (362 sq. ft.; Balcony 86 sq. ft.)Wheelchair Accessible Amenities: Open bed frames, wider entry door, turning spaces, sitting area with lowered vanity, closet rods and private bathroom with a wider door, roll-in shower, grab bars, fold-down shower bench, hand-held shower head, raised toilet, and a lowered sink.Please Note: Royal Caribbean requires guests booked in this category to acknowledge need for the accessible stateroom by completing a Guest Special Needs Form.
+		 -> Deck: Deck 10
+10:46:41.093 INFO  Log -  
+			Ocean View Suite - 2 Bedroom (No Balcony)
+			
+			Deck: Deck 10
+							
+			Category: VTSize: 592 sq. ft.Occupancy: Up to 8 guestsAmenities: Two bedrooms. Master with two twin beds that convert to Royal King and private bathroom with tub; second bedroom with four pullman beds and living area with double sofa bed, additional bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.
+		 -> Deck: Deck 10
+10:46:41.093 INFO  Log -  
+			Suite Guarantee
+							
+			Please note that this is a 'guarantee' rate.By booking this category, you are guaranteed a suite for this sailing at this rate. However, this rate is not associated with a specific stateroom, deck, or bedding configuration.Staterooms may be located anywhere on this ship.You will be assigned a specific suite at check-in.
+		 -> Please note that this is a 'guarantee' rate.By booking this category, you are guaranteed a suite for this sailing at this rate. However, this rate is not associated with a specific stateroom, deck, or bedding configuration.Staterooms may be located anywhere on this ship.You will be assigned a specific suite at check-in.
+10:46:41.093 INFO  Log -  
+			Spacious Sunset Ocean View Balcony
+			
+			Deck: Deck 7,Deck 8,Deck 9,Deck 10
+							
+			Category: SGSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: 2 guests standardAmenities: Two twin beds that convert to Royal King, aft-facing private balcony, sitting area with sofa, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.
+		 -> Deck: Deck 7,Deck 8,Deck 9,Deck 10
+10:46:41.093 INFO  Log -  
+			Spacious Ocean View Balcony
+			
+			Deck: Deck 9,Deck 10
+							
+			Category: 1BSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, or some stateooms have single sofa bed and one Pullman bed, or sitting area with sofa and two Pullman beds, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.Please Note: Stateroom 9050 has obstructed views.
+		 -> Deck: Deck 9,Deck 10
+10:46:41.094 INFO  Log -  
+			Spacious Ocean View Balcony
+			
+			Deck: Deck 9
+							
+			Category: 2BSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: 2 guests standardAmenities: Two twin beds that convert to Royal King, a private balcony, sitting area with sofa, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.
+		 -> Deck: Deck 9
+10:46:41.094 INFO  Log -  
+			Spacious Ocean View Balcony
+			
+			Deck: Deck 9,Deck 10
+							
+			Category: 3BSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, or some stateooms have sitting area with sofa and two Pullman beds, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.Please Note: Staterooms 9252 and 9652 have obstructed views.
+		 -> Deck: Deck 9,Deck 10
+10:46:41.588 INFO  Log - SuccessFull Print of Stats Of Cruise
+10:46:43.394 INFO  Log - Driver quit successfully.
+10:48:10.510 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:48:18.440 INFO  Log - Popup closed successfully
+10:48:20.248 INFO  Log - Driver quit successfully.
+10:48:21.519 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:48:26.314 INFO  Log - Popup closed by precondition helper
+10:48:26.722 INFO  Log - Typed location: Nairobi
+10:48:26.746 INFO  Log - Captured location value: Nairobi
+10:48:28.501 INFO  Log - Driver quit successfully.
+10:48:29.881 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:48:34.808 INFO  Log - Popup closed by precondition helper
+10:48:35.318 INFO  Log - Location set by precondition helper: Nairobi
+10:48:35.640 INFO  Log - Selected check in and check out dates
+10:48:37.511 INFO  Log - Driver quit successfully.
+10:48:38.885 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:48:42.462 INFO  Log - Popup closed by precondition helper
+10:48:42.963 INFO  Log - Location set by precondition helper: Nairobi
+10:48:43.461 INFO  Log - Dates selected by precondition helper
+10:48:45.636 INFO  Log - Driver quit successfully.
+10:48:47.114 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:48:51.843 INFO  Log - Popup closed by precondition helper
+10:48:52.358 INFO  Log - Location set by precondition helper: Nairobi
+10:48:52.653 INFO  Log - Dates selected by precondition helper
+10:48:52.973 INFO  Log - Occupancy adjusted by precondition helper
+10:48:53.043 INFO  Log - Clicked Search on Home page.
+10:48:58.949 INFO  Log - Driver quit successfully.
+10:49:00.333 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:49:05.780 INFO  Log - Popup closed by precondition helper
+10:49:06.263 INFO  Log - Location set by precondition helper: Nairobi
+10:49:06.630 INFO  Log - Dates selected by precondition helper
+10:49:06.963 INFO  Log - Occupancy adjusted by precondition helper
+10:49:10.218 INFO  Log - Search performed by precondition helper
+10:49:10.752 INFO  Log - Hotel page ready
+10:49:10.776 INFO  Log - Hotel options button is visible.
+10:49:12.998 INFO  Log - Driver quit successfully.
+10:49:14.370 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:49:19.039 INFO  Log - Popup closed by precondition helper
+10:49:19.561 INFO  Log - Location set by precondition helper: Nairobi
+10:49:19.844 INFO  Log - Dates selected by precondition helper
+10:49:20.160 INFO  Log - Occupancy adjusted by precondition helper
+10:49:24.397 INFO  Log - Search performed by precondition helper
+10:49:24.888 INFO  Log - Hotel page ready
+10:49:27.493 INFO  Log - Driver quit successfully.
+10:49:28.798 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:49:33.557 INFO  Log - Popup closed by precondition helper
+10:49:34.065 INFO  Log - Location set by precondition helper: Nairobi
+10:49:34.351 INFO  Log - Dates selected by precondition helper
+10:49:34.652 INFO  Log - Occupancy adjusted by precondition helper
+10:49:37.886 INFO  Log - Search performed by precondition helper
+10:49:38.446 INFO  Log - Hotel page ready
+10:49:38.585 INFO  Log - Elevator accessibility filter applied.
+10:49:40.923 INFO  Log - Driver quit successfully.
+10:49:42.357 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:49:47.175 INFO  Log - Popup closed by precondition helper
+10:49:47.694 INFO  Log - Location set by precondition helper: Nairobi
+10:49:47.987 INFO  Log - Dates selected by precondition helper
+10:49:48.318 INFO  Log - Occupancy adjusted by precondition helper
+10:49:52.160 INFO  Log - Search performed by precondition helper
+10:49:52.706 INFO  Log - Hotel page ready
+10:49:52.742 INFO  Log - Total hotels found: 28, prices found: 28
+10:49:52.798 INFO  Log - Hotel 1:Nest & Rest Luxurious Homes
+10:49:52.798 INFO  Log - Price for 5 Days: ₹ 34,121
+10:49:52.800 INFO  Log - Price for 1 Day: ₹ 6824.2
+10:49:52.843 INFO  Log - Hotel 2:Pullman Nairobi Upper Hill
+10:49:52.843 INFO  Log - Price for 5 Days: ₹ 163,509
+10:49:52.843 INFO  Log - Price for 1 Day: ₹ 32701.8
+10:49:52.885 INFO  Log - Hotel 3:Lavish 2 bedroom apartment in Lavington
+10:49:52.887 INFO  Log - Price for 5 Days: ₹ 34,804
+10:49:52.887 INFO  Log - Price for 1 Day: ₹ 6960.8
+10:49:55.277 INFO  Log - Driver quit successfully.
+10:49:56.642 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:50:02.184 INFO  Log - Popup closed by precondition helper
+10:50:02.590 INFO  Log - Location set by precondition helper: Nairobi
+10:50:02.980 INFO  Log - Dates selected by precondition helper
+10:50:03.397 INFO  Log - Occupancy adjusted by precondition helper
+10:50:06.886 INFO  Log - Search performed by precondition helper
+10:50:07.421 INFO  Log - Hotel page ready
+10:50:07.591 INFO  Log - Captured final hotel results screenshot.
+10:50:10.070 INFO  Log - Driver quit successfully.
+10:50:11.362 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:50:16.385 INFO  Log - Popup closed by precondition helper
+10:50:16.869 INFO  Log - Location set by precondition helper: Nairobi
+10:50:17.173 INFO  Log - Dates selected by precondition helper
+10:50:17.517 INFO  Log - Occupancy adjusted by precondition helper
+10:50:21.477 INFO  Log - Search performed by precondition helper
+10:50:22.027 INFO  Log - Hotel page ready
+10:50:22.238 INFO  Log - Clicked Grid view button
+10:50:24.874 INFO  Log - Driver quit successfully.
+10:50:26.291 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:50:35.585 INFO  Log - Home Page | Booking.com Cruises
+10:50:37.096 INFO  Log - Driver quit successfully.
+10:50:38.367 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:50:43.191 INFO  Log - Validation of Title-->Passed
+10:50:44.451 INFO  Log - Driver quit successfully.
+10:50:45.715 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:50:50.247 INFO  Log - Validation of Cookies
+10:50:52.474 INFO  Log - Validation of curise Line
+10:50:52.784 INFO  Log - Choosing Cruise Line --> Passed
+10:50:54.349 INFO  Log - Driver quit successfully.
+10:50:55.719 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:51:00.177 INFO  Log - Validation of Cookies
+10:51:02.668 INFO  Log - Validation of curise Line
+10:51:02.709 INFO  Log - Checked the Sailing Month date and Validated: 2026-08
+10:51:04.051 INFO  Log - Driver quit successfully.
+10:51:05.336 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:51:16.150 INFO  Log - Selected Cruise is Present and Verified Sailing Date
+10:51:22.800 INFO  Log - Validated and Selected Correct Cruise
+10:51:24.709 INFO  Log - Driver quit successfully.
+10:51:26.212 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:51:41.209 INFO  Log - Test for Suit Element Passed
+10:51:43.389 INFO  Log - Driver quit successfully.
+10:51:44.914 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:52:00.217 INFO  Log -  
+			Owner's Suite - 2 Bedroom
+			
+			Deck: Deck 7,Deck 8,Deck 9
+							
+			Category: OTSize: 584 sq. ft.; Balcony: 191 sq. ft.Occupancy: Up to 8 guestsAmenities: Two bedrooms with two twin beds that convert to Royal King (one room with third and fourth Pullman beds), two bathrooms (one with shower, one with bathtub), living area with double sofa bed, private balcony, walk-in closet, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more.
+		 -> Deck: Deck 7,Deck 8,Deck 9
+10:52:00.218 INFO  Log -  
+			Owner's Suite - 1 Bedroom
+			
+			Deck: Deck 10
+							
+			Category: OSSize: 512 sq. ft.; Balcony: 57 sq. ft.Occupancy: Up to 4 guestsAmenities: Queen-size bed, private balcony, private bathroom with whirlpool tub, double sinks, separate shower and bidet, separate living area with double sofa bed, walk-in closet, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more.
+		 -> Deck: Deck 10
+10:52:00.218 INFO  Log -  
+			Grand Suite - 1 Bedroom
+			
+			Deck: Deck 10
+							
+			Category: GSSize: 385 sq. ft.; Balcony: 106 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, private bathroom with tub and double sink, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more.
+		 -> Deck: Deck 10
+10:52:00.218 INFO  Log -  
+			Junior Suite
+			
+			Deck: Deck 10
+							
+			Category: J3Size: 299 sq. ft.; Balcony: 41 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, private bathroom with tub and shower, sitting area with sofa bed, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.Please Note: Staterooms 1098 and 1598 have obstructed views.Wheelchair Accessible Staterooms: 1028 and 1528. (362 sq. ft.; Balcony 86 sq. ft.)Wheelchair Accessible Amenities: Open bed frames, wider entry door, turning spaces, sitting area with lowered vanity, closet rods and private bathroom with a wider door, roll-in shower, grab bars, fold-down shower bench, hand-held shower head, raised toilet, and a lowered sink.Please Note: Royal Caribbean requires guests booked in this category to acknowledge need for the accessible stateroom by completing a Guest Special Needs Form.
+		 -> Deck: Deck 10
+10:52:00.218 INFO  Log -  
+			Ocean View Suite - 2 Bedroom (No Balcony)
+			
+			Deck: Deck 10
+							
+			Category: VTSize: 592 sq. ft.Occupancy: Up to 8 guestsAmenities: Two bedrooms. Master with two twin beds that convert to Royal King and private bathroom with tub; second bedroom with four pullman beds and living area with double sofa bed, additional bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.
+		 -> Deck: Deck 10
+10:52:00.218 INFO  Log -  
+			Suite Guarantee
+							
+			Please note that this is a 'guarantee' rate.By booking this category, you are guaranteed a suite for this sailing at this rate. However, this rate is not associated with a specific stateroom, deck, or bedding configuration.Staterooms may be located anywhere on this ship.You will be assigned a specific suite at check-in.
+		 -> Please note that this is a 'guarantee' rate.By booking this category, you are guaranteed a suite for this sailing at this rate. However, this rate is not associated with a specific stateroom, deck, or bedding configuration.Staterooms may be located anywhere on this ship.You will be assigned a specific suite at check-in.
+10:52:00.218 INFO  Log -  
+			Spacious Sunset Ocean View Balcony
+			
+			Deck: Deck 7,Deck 8,Deck 9,Deck 10
+							
+			Category: SGSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: 2 guests standardAmenities: Two twin beds that convert to Royal King, aft-facing private balcony, sitting area with sofa, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.
+		 -> Deck: Deck 7,Deck 8,Deck 9,Deck 10
+10:52:00.218 INFO  Log -  
+			Spacious Ocean View Balcony
+			
+			Deck: Deck 9,Deck 10
+							
+			Category: 1BSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, or some stateooms have single sofa bed and one Pullman bed, or sitting area with sofa and two Pullman beds, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.Please Note: Stateroom 9050 has obstructed views.
+		 -> Deck: Deck 9,Deck 10
+10:52:00.218 INFO  Log -  
+			Spacious Ocean View Balcony
+			
+			Deck: Deck 9
+							
+			Category: 2BSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: 2 guests standardAmenities: Two twin beds that convert to Royal King, a private balcony, sitting area with sofa, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.
+		 -> Deck: Deck 9
+10:52:00.218 INFO  Log -  
+			Spacious Ocean View Balcony
+			
+			Deck: Deck 9,Deck 10
+							
+			Category: 3BSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, or some stateooms have sitting area with sofa and two Pullman beds, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.Please Note: Staterooms 9252 and 9652 have obstructed views.
+		 -> Deck: Deck 9,Deck 10
+10:52:00.643 INFO  Log - SuccessFull Print of Stats Of Cruise
+10:52:02.330 INFO  Log - Driver quit successfully.
+10:52:03.838 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:52:18.595 INFO  Log - Presence of Header is Verified
+10:52:19.414 INFO  Log - Presence of Elevators is valid: 4
+10:52:20.858 INFO  Log - Driver quit successfully.
+10:52:22.256 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:52:39.896 INFO  Log - <STATS>
+10:52:40.930 INFO  Log - Dining
+10:52:40.930 INFO  Log - My Family Time Dining
+10:52:40.930 INFO  Log - Tides Dining Room
+10:52:40.930 INFO  Log - Chef's Table
+10:52:40.930 INFO  Log - Giovanni's Table
+10:52:40.930 INFO  Log - Chops Grille
+10:52:40.930 INFO  Log - Izumi
+10:52:40.930 INFO  Log - Windjammer Cafe
+10:52:40.930 INFO  Log - Sorrento's Pizza
+10:52:40.930 INFO  Log - Cafe Latte-tudes
+10:52:40.930 INFO  Log - Crown Lounge
+10:52:40.930 INFO  Log - 
+			Ship Statistics
+			
+					
+					Name : Jewel of the Seas
+					
+					Registry : Bahamas
+					
+					Builder : Meyer Werft
+					
+					Country Built In : Germany
+					
+					Ship Completed Date : 5/8/2004
+					
+					Christened By : Kathy Mellor
+					
+					Call Letters : C6FW9
+					
+					Refurbished Date : 1/1/2016
+					
+					Capacity : 2112
+					
+					Number of Crew, Nationality : 859, International
+					
+					Gross Tonnage : 90090
+					
+					Stabilized : Yes
+					
+					Average Speed : 25 knots
+				
+			
+			
+					
+					Maximum Speed : 25 knots
+					
+					Length : 962 feet
+					
+					Beam : 105.6 feet
+					
+					Number of Passenger Decks : 12
+					
+					Number of Inside Rooms : 238
+					
+					Number of Outside Rooms : 817
+					
+					Number of Restaurants : 5
+					
+					Number of Pools : 3
+					
+					Number of Elevators : 4
+					
+					Voltage : 110/220
+					
+					Non-Smoking Dining : Yes
+					
+					Non-Smoking Ship : No
+				
+			
+		
+10:52:42.843 INFO  Log - Driver quit successfully.
+10:52:44.211 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:53:02.554 INFO  Log - TC-18: Validate price/currency token on cruise details page
+10:53:04.094 INFO  Log - TC-20 PASSED: Price/currency token detected.
+10:53:05.860 INFO  Log - Driver quit successfully.

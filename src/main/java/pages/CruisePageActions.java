@@ -6,46 +6,58 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-
-import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
 public class CruisePageActions {
     public By onB = By.xpath("//div[@id='expandCollapse_stateroom_Content']/h3[1]");
+
     @FindBy(xpath = "//div[contains(text(),  'Royal Caribbean')]")
     public WebElement chooseCruiseLine;
+
     @FindBy(xpath = "//h2[@id='brochureName1']") //h2[starts-with(text(),'3 Night Ensenada')]
     public WebElement cruiseButton;
+
     @FindBy(xpath = "//h3[@id='tabHeaderDining']")
     public WebElement headerDining;
+
     @FindBy(xpath = "//div[@id='expandCollapse_foodanddining_Content']/div/div[1]/div")
     public List<WebElement> exp;
+
     @FindBy(xpath = "//span[@property='item']/span")
     public WebElement validCurise;
+
     @FindBy(xpath = "//span[@id='defaultBreadcrumbs']")
     public WebElement checkName;
+
     @FindBy(xpath = "//div[@id='sailingDateList1']/ul/li[2]")
     public WebElement getCruiseSailingMonth;
+
     @FindBy(xpath = "(//p[@class='ui-block-a'])[22]")
     public WebElement numberOfElevators;
+
     @FindBy(xpath = "//button[@class='onetrust-close-btn-handler onetrust-close-btn-ui banner-close-button ot-close-icon']")
     public WebElement closeButton;
+
     @FindBy(xpath = "//button[@id='expandCollapse_stateroom']")
     public WebElement stateRoom;
+
     @FindBy(xpath = "//button[@id='expandCollapse_onboardExperience']")
     public WebElement onBoarding;
+
     @FindBy(xpath = "//div[@id='expandCollapse_stateroom_Content']/div/div[1]")
     public List<WebElement> suitItems;
+
     @FindBy(xpath = "//div[@id='expandCollapse_stateroom_Content']/div/div[1]/div[1]")
     public List<WebElement> deck;
+
     @FindBy(xpath = "//div[@class='ui-block-a mPadBottom']")
     public WebElement stats;
+
     @FindBy(xpath = "//a[@id='hp_searchContinue']")
     public WebElement image;
+
     public CruisePageActions(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
@@ -79,7 +91,7 @@ public class CruisePageActions {
         results.add(headerDining.getAttribute("innerText"));
 
         for (int i = 1; i <= 10; i++) {
-            String text = exp.get(i).getAttribute("innerText").trim();
+            String text = exp.get(i).getAttribute("innerText");
             results.add(text);
         }
 
@@ -90,8 +102,8 @@ public class CruisePageActions {
     public List<String> getSuitList() {
         List<String> suitList = new ArrayList<>();
         for (int i = 1; i <= 10; i++) {
-            String text = suitItems.get(i).getAttribute("innerText").trim()
-                    + " -> " + deck.get(i).getAttribute("innerText").trim();
+            String text = suitItems.get(i).getAttribute("innerText")
+                    + " -> " + deck.get(i).getAttribute("innerText");
             suitList.add(text);
         }
         return suitList;
