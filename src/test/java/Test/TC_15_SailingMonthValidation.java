@@ -1,7 +1,6 @@
 package Test;
 
 import baseclass.BaseClass;
-import CommonCode.Commoncode;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import Logs.Log;
@@ -9,40 +8,28 @@ import pages.CruisePageActions;
 
 import java.time.YearMonth;
 import java.time.format.DateTimeFormatter;
-import java.time.format.DateTimeParseException;
 import java.util.Locale;
 
 public class TC_15_SailingMonthValidation extends BaseClass {
+
     @Test
     public void tc_15_checkSailingMonth() {
-
         cruise = new CruisePageActions(driver);
         driver.get(url2);
         cruise.ClosePopUp();
         Log.info("Validation of Cookies");
+
         cruise.chooseCruise();
         Assert.assertEquals(cruise.validCurise.getText(), "Royal Caribbean Cruises");
-        Log.info("Validation of curise Line");
+        Log.info("Validation of Cruise Line");
+
         String rawText = cruise.getCruiseSailingMonth.getText();
-        String cleanedText = rawText == null ? "" : rawText.trim();
-        cleanedText = cleanedText.replaceAll("^[\\p{Punct}\\p{IsPunctuation}\\u2022\\s]+", "").trim();
-        cleanedText = cleanedText.replaceAll("\\s+", " ");
-        try {
-            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMMM uuuu", Locale.ENGLISH);
+        String cleanedText = rawText.replaceAll("[^a-zA-Z0-9 ]", "").trim().replaceAll(" +", " ");
 
-            YearMonth sailingYM = YearMonth.parse(cleanedText, formatter);
-            YearMonth currentYM = YearMonth.now();
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMMM yyyy", Locale.ENGLISH);
+        YearMonth sailingYM = YearMonth.parse(cleanedText, formatter);
 
-            if (!sailingYM.isBefore(currentYM)) {
-                Log.info("Checked the Sailing Month date and Validated: " + sailingYM);
-            } else {
-                Assert.fail("Sailing Month is Expired: " + sailingYM + " (current: " + currentYM + ")");
-            }
-        } catch (DateTimeParseException e) {
-            Assert.fail("Unable to parse sailing month/year from text: " + rawText
-                    + " | cleaned: " + cleanedText
-                    + " | " + e.getMessage());
-        }
+        Assert.assertFalse(sailingYM.isBefore(YearMonth.now()), "Sailing Month has expired: " + sailingYM);
+        Log.info("Checked the Sailing Month date and Validated: " + sailingYM);
     }
-
 }

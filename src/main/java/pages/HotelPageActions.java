@@ -36,6 +36,12 @@ public class HotelPageActions {
     @FindBy(xpath = "//label[text()='Grid']")
     public WebElement gridViewBtn;
 
+    @FindBy(xpath = "(//span[@class='c850687b9b'])[6]")
+    public WebElement hotelCheckBox;
+
+    @FindBy(xpath = "(//span[@class='ec1ff2f0cb'])[3]")
+    public WebElement selectNoOfBeds;
+
     public void sortByReview() {
         optionsBtn.click();
         topReviewedBtn.click();

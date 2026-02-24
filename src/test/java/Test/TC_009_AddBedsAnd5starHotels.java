@@ -3,14 +3,16 @@ package Test;
 import CommonCode.PreconditionHelper;
 import Logs.Log;
 import baseclass.BaseClass;
+import org.openqa.selenium.interactions.Actions;
 import pages.HotelPageActions;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
 import java.util.List;
 import static CommonCode.Commoncode.takeScreenShot;
 
-public class TC_009_HotelListValidation extends BaseClass {
+public class TC_009_AddBedsAnd5starHotels extends BaseClass {
     @Test()
     public void validateHotelListAndPrices() {
         PreconditionHelper pre = new PreconditionHelper(this);
@@ -22,23 +24,15 @@ public class TC_009_HotelListValidation extends BaseClass {
         List<WebElement> price = HotelPage.getHotelPrice();
         int hotelCount =  hotels.size();
         int priceCount =   price.size();
-        int available = Math.min(hotelCount, priceCount);
         Log.info("Total hotels found: " + hotelCount + ", prices found: " + priceCount);
-        int toPrint = Math.min(10, available);
-        for (int i = 0; i < toPrint; i++) {
-            float curNum = 0;
-            String priceText = price.get(i).getText();
-            for (char ch : priceText.toCharArray()) {
-                if (Character.isDigit(ch)) {
-                    int dig = Character.getNumericValue(ch);
-                    curNum = curNum * 10 + dig;
-                }
-            }
-            Log.info("Hotel " + (i + 1) + ":" + hotels.get(i).getText());
-            Log.info("Price for 5 Days: " + priceText);
-            Log.info("Price for 1 Day: ₹ " + (curNum / 5));
-            System.out.println();
-        }
+
+        HotelPage.hotelCheckBox.click();
+        Log.info("selected 5star hotels");
+        Actions a = new Actions(driver);
+        a.doubleClick(HotelPage.selectNoOfBeds).perform();
+
+        Log.info("Added 2 bedroom");
+
         takeScreenShot(driver, "TC09_Hotel_List_Present");
         Assert.assertTrue(hotelCount > 0 && priceCount > 0, "Hotel list and prices should not be empty.");
     }
