@@ -1,0 +1,38 @@
+package Test;
+
+import CommonCode.Commoncode;
+import Logs.Log;
+import baseclass.BaseClass;
+import org.openqa.selenium.JavascriptExecutor;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import static CommonCode.Commoncode.takeScreenShot;
+
+public class TC_21_ValidatePriceOrCurr_Token extends BaseClass {
+    public void tc_21_validatePriceOrCurrencyToken() throws InterruptedException {
+        Commoncode cm = new Commoncode();
+        cm.implicitWait(driver);
+        cruise.ClosePopUp();
+        cruise.chooseCruise();
+        cruise.triggerCruiseButton();
+        cruise.triggerOnBoardingButton();
+
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(0, 400);");
+        Log.info("TC-18: Validate price/currency token on cruise details page");
+        cm.waitForDocumentReady(driver, 5);
+        takeScreenShot(driver, "TC-18_OnboardingExperience");
+        String source = driver.getPageSource();
+        Assert.assertFalse(source.isEmpty(), "Page source is empty!");
+        boolean hasCurrency = source.contains("$");
+        js.executeScript("arguments[0].scrollIntoView()", cruise.stats);
+        cm.waitForDocumentReady(driver, 5);
+//        Thread.sleep(4000);
+        takeScreenShot(driver, "TC-19_Stats");
+        Assert.assertTrue(hasCurrency, "TC-20 FAILED: No currency/price related token found in page source!");
+        js.executeScript("window.scrollBy(0,200);");
+        takeScreenShot(driver, "TC-20_Price");
+        Log.info("TC-20 PASSED: Price/currency token detected.");
+    }
+}
