@@ -7,9 +7,9 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import static CommonCode.Commoncode.takeScreenShot;
 
-public class TC_003_DateSelection extends BaseClass {
+public class TC_03_DateSelection extends BaseClass {
     @Test()
-    public void selectCheckInCheckOutDates() {
+    public void tc_03_selectCheckInCheckOutDates() {
         PreconditionHelper pre = new PreconditionHelper(this);
         driver.get(url1);
         pre.ensureUpToStep(2);

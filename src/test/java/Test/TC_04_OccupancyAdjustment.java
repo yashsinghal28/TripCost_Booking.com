@@ -6,9 +6,9 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import static CommonCode.Commoncode.takeScreenShot;
 
-public class TC_004_OccupancyAdjustment extends BaseClass {
+public class TC_04_OccupancyAdjustment extends BaseClass {
     @Test()
-    public void adjustOccupancy() {
+    public void tc_04_adjustOccupancy() {
         PreconditionHelper pre = new PreconditionHelper(this);
         driver.get(url1);
         pre.ensureUpToStep(3);

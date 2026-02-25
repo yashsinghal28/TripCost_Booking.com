@@ -8,9 +8,9 @@ import org.testng.annotations.Test;
 import static CommonCode.Commoncode.takeScreenShot;
 import org.openqa.selenium.JavascriptExecutor;
 
-public class TC_011_GridViewScreenshot extends BaseClass {
+public class TC_011_GridView extends BaseClass {
     @Test()
-    public void clickGridAndScreenshot() {
+    public void tc_11_clickGridView() {
         PreconditionHelper pre = new PreconditionHelper(this);
         driver.get(url1);
         pre.ensureUpToStep(5);

@@ -1,6 +1,5 @@
 package Test;
 
-import CommonCode.Commoncode;
 import Logs.Log;
 import baseclass.BaseClass;
 import org.testng.Assert;
@@ -9,7 +8,7 @@ import pages.CruisePageActions;
 
 import static CommonCode.Commoncode.takeScreenShot;
 
-public class TC_16_CruisePageValidation extends BaseClass {
+public class TC_016_CruisePageValidation extends BaseClass {
 
     @Test
     public void tc_16_testCruisePage() {

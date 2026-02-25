@@ -1,6 +1,5 @@
 package Test;
 
-import CommonCode.Commoncode;
 import Logs.Log;
 import baseclass.BaseClass;
 import org.openqa.selenium.JavascriptExecutor;
@@ -16,9 +15,9 @@ import java.time.Duration;
 import static CommonCode.Commoncode.takeScreenShot;
 
 
-public class TC_17_SuiteValidation extends BaseClass {
+public class TC_017_SuiteValidation extends BaseClass {
     @Test
-    public void TC_17_validationOfSuits() {
+    public void tc_17_validationOfSuits() {
         cruise = new CruisePageActions(driver);
         driver.get(url2);
         cruise.ClosePopUp();

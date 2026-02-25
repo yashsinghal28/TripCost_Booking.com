@@ -7,9 +7,9 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import static CommonCode.Commoncode.takeScreenShot;
 
-public class TC_007_SortByReview extends BaseClass {
+public class TC_07_SortByReview extends BaseClass {
     @Test()
-    public void sortHotelsByTopReviewed() {
+    public void tc_07_sortHotelsByTopReviewed() {
         PreconditionHelper pre = new PreconditionHelper(this);
         driver.get(url1);
         pre.ensureUpToStep(6);
