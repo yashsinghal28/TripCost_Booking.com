@@ -9,7 +9,7 @@ import static CommonCode.Commoncode.takeScreenShot;
 
 public class TC_02_LocationInput extends BaseClass {
     @Test()
-    public void validateLocationInput() {
+    public void tc_02_validateLocationInput() {
         PreconditionHelper pre = new PreconditionHelper(this);
         driver.get(url1);
         pre.ensureUpToStep(1);

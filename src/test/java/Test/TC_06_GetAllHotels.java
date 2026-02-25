@@ -14,7 +14,7 @@ import static CommonCode.Commoncode.takeScreenShot;
 
 public class TC_06_GetAllHotels extends BaseClass {
     @Test()
-    public void validateFilterOptionsVisible() {
+    public void tc_06_getAllHotels() {
         PreconditionHelper pre = new PreconditionHelper(this);
         HotelPageActions HotelPage = new HotelPageActions(driver);
         driver.get(url1);

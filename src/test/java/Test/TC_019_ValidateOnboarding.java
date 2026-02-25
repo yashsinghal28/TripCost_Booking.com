@@ -8,7 +8,7 @@ import pages.CruisePageActions;
 public class TC_019_ValidateOnboarding  extends BaseClass {
 
     @Test
-    public void TC_19_validateOnboarding() {
+    public void tc_19_validateOnboarding() {
         cruise = new CruisePageActions(driver);
         driver.get(url2);
         cruise.ClosePopUp();

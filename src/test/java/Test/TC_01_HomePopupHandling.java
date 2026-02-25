@@ -11,7 +11,7 @@ public class TC_01_HomePopupHandling extends BaseClass {
     private HomePageActions home;
 
     @Test()
-    public void handleHomePopup() {
+    public void tc_01_handleHomePopup() {
 
         home = new HomePageActions(driver);
         driver.get(url1);

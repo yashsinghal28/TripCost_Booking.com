@@ -14,7 +14,7 @@ import static CommonCode.Commoncode.takeScreenShot;
 
 public class TC_010_FinalHotelList extends BaseClass {
     @Test()
-    public void captureAndValidateFinalResults() {
+    public void tc_10_captureAndValidateFinalResults() {
         PreconditionHelper pre = new PreconditionHelper(this);
         driver.get(url1);
         pre.ensureUpToStep(9);

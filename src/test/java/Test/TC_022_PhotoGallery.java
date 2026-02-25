@@ -9,7 +9,7 @@ import static CommonCode.Commoncode.takeScreenShot;
 
 public class TC_022_PhotoGallery extends BaseClass {
     @Test
-    public void tc_22PhotoGallary() throws InterruptedException {
+    public void tc_22_PhotoGallary() throws InterruptedException {
         cruise = new CruisePageActions(driver);
         driver.get(url2);
         cruise.ClosePopUp();

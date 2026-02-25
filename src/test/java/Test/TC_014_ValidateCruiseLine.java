@@ -20,7 +20,7 @@ public class TC_014_ValidateCruiseLine extends BaseClass{
         cruise.chooseCruise();
         Assert.assertEquals(cruise.validCurise.getText(), "Royal Caribbean Cruises");
         Log.info("Validation of curise Line");
-        Commoncode.takeScreenShot(driver, "TC-13 SuccessFull selected CruiseLine");
+        Commoncode.takeScreenShot(driver, "TC-14 SuccessFull selected CruiseLine");
         Log.info("Choosing Cruise Line --> Passed");
 
     }

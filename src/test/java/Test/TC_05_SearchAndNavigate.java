@@ -10,7 +10,7 @@ import static CommonCode.Commoncode.takeScreenShot;
 
 public class TC_05_SearchAndNavigate extends BaseClass {
     @Test()
-    public void searchAndNavigateToResults() {
+    public void tc_05_searchAndNavigateToResults() {
         PreconditionHelper pre = new PreconditionHelper(this);
         driver.get(url1);
         pre.ensureUpToStep(4);

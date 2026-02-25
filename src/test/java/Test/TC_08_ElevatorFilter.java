@@ -10,7 +10,7 @@ import static CommonCode.Commoncode.takeScreenShot;
 
 public class TC_08_ElevatorFilter extends BaseClass {
     @Test()
-    public void applyElevatorAccessibilityFilter() {
+    public void tc_08_applyElevatorAccessibilityFilter() {
         PreconditionHelper pre = new PreconditionHelper(this);
         driver.get(url1);
         pre.ensureUpToStep(7);

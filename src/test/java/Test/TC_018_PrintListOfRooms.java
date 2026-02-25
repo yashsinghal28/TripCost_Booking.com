@@ -18,7 +18,7 @@ import static baseclass.BaseClass.driver;
 
 public class TC_018_PrintListOfRooms extends BaseClass {
     @Test
-    public void TC_18_printListOfRooms() throws InterruptedException {
+    public void tc_18_printListOfRooms() throws InterruptedException {
         cruise = new CruisePageActions(driver);
         driver.get(url2);
         cm.waitForDocumentReady(driver,10);

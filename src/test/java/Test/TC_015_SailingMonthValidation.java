@@ -1,5 +1,6 @@
 package Test;
 
+import CommonCode.Commoncode;
 import baseclass.BaseClass;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -28,7 +29,7 @@ public class TC_015_SailingMonthValidation extends BaseClass {
 
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMMM yyyy", Locale.ENGLISH);
         YearMonth sailingYM = YearMonth.parse(cleanedText, formatter);
-
+        Commoncode.takeScreenShot(driver,"TC-015-MonthValidated");
         Assert.assertFalse(sailingYM.isBefore(YearMonth.now()), "Sailing Month has expired: " + sailingYM);
         Log.info("Checked the Sailing Month date and Validated: " + sailingYM);
     }
