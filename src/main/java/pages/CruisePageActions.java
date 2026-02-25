@@ -71,9 +71,6 @@ public class CruisePageActions {
     @FindBy(xpath = "(//p[@class='ui-block-a'])[9]")
     public  WebElement numberOfCapacity;
 
-//    @FindBy(id= "expandCollapse_media")
-//    public  WebElement photoGalleryLoc;
-
     @FindBy(xpath = "(//a[@id ='swipe_1'])[1]")
     public WebElement photoButton;
 //    (//a[@id ='swipe_1'])[1]
