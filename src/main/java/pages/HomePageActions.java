@@ -61,8 +61,7 @@ public class HomePageActions extends BaseClass {
     public void selectDateRange() {
         datePicker.click();
 
-        ZoneId zone = ZoneId.systemDefault();
-        LocalDate today = LocalDate.now(zone);
+        LocalDate today = LocalDate.now();
         LocalDate tomorrow = today.plusDays(1);
         LocalDate after5FromTomorrow = tomorrow.plusDays(5);
 

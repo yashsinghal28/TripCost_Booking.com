@@ -58,7 +58,7 @@ public class HotelPageActions {
 
     public void waitForPageReady(WebDriver driver) {
         try {
-            new WebDriverWait(driver, Duration.ofSeconds(15))
+            new WebDriverWait(driver, Duration.ofSeconds(10))
                     .until((ExpectedCondition<Boolean>) d ->
                             ((JavascriptExecutor) d)
                                     .executeScript("return document.readyState")

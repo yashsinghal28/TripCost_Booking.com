@@ -16,10 +16,10 @@ public class TC_011_GridView extends BaseClass {
         pre.ensureUpToStep(5);
 
         HotelPageActions hp = this.hotelActions;
-            hp.gridViewBtn.click();
-            Log.info("Clicked Grid view button");
-            JavascriptExecutor js = (JavascriptExecutor) driver;
-            js.executeScript("window.scrollBy(0, 800);");
+        hp.gridViewBtn.click();
+        Log.info("Clicked Grid view button");
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(0, 800);");
         takeScreenShot(driver, "TC11_Grid_Click");
     }
 }

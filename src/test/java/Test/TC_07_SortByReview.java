@@ -12,7 +12,7 @@ public class TC_07_SortByReview extends BaseClass {
     public void tc_07_sortHotelsByTopReviewed() {
         PreconditionHelper pre = new PreconditionHelper(this);
         driver.get(url1);
-        pre.ensureUpToStep(6);
+        pre.ensureUpToStep(5);
         HotelPageActions HotelPage = new HotelPageActions(driver);
         HotelPage.sortByReview();
         takeScreenShot(driver, "TC07_Hotel_Sort_TopReviewed");

@@ -13,7 +13,7 @@ public class TC_08_ElevatorFilter extends BaseClass {
     public void tc_08_applyElevatorAccessibilityFilter() {
         PreconditionHelper pre = new PreconditionHelper(this);
         driver.get(url1);
-        pre.ensureUpToStep(7);
+        pre.ensureUpToStep(5);
         HotelPageActions HotelPage = new HotelPageActions(driver);
         HotelPage.filterByElevator();
         Log.info("Elevator accessibility filter applied.");

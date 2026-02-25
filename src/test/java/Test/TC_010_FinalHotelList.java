@@ -17,7 +17,7 @@ public class TC_010_FinalHotelList extends BaseClass {
     public void tc_10_captureAndValidateFinalResults() {
         PreconditionHelper pre = new PreconditionHelper(this);
         driver.get(url1);
-        pre.ensureUpToStep(9);
+        pre.ensureUpToStep(5);
 
         HotelPageActions HotelPage = new HotelPageActions(driver);
         List<WebElement> hotels = HotelPage.getHoteList();
@@ -34,18 +34,13 @@ public class TC_010_FinalHotelList extends BaseClass {
 
         int toPrint = Math.min(10, available);
         for (int i = 0; i < toPrint; i++) {
-            float curNum = 0;
             String priceText = price.get(i).getText();
-            for (char ch : priceText.toCharArray()) {
-                if (Character.isDigit(ch)) {
-                    int dig = Character.getNumericValue(ch);
-                    curNum = curNum * 10 + dig;
-                }
-            }
-            Log.info("Hotel " + (i + 1) + ":" + hotels.get(i).getText());
+
+            float curNum = Float.parseFloat(priceText.replaceAll("[^0-9]", ""));
+
+            Log.info("Hotel " + (i + 1) + ": " + hotels.get(i).getText());
             Log.info("Price for 5 Days: " + priceText);
             Log.info("Price for 1 Day: ₹ " + (curNum / 5));
-            System.out.println();
         }
 
         takeScreenShot(driver, "TC10_Hotel_Results_Final");

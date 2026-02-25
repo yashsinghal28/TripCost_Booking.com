@@ -4777,3 +4777,104 @@ Please Note: Staterooms 9252 and 9652 have obstructed views. -> Deck: Deck 9,Dec
 15:26:09.837 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
 15:26:29.392 INFO  Log - Gallery viewed Successfully
 15:26:31.476 INFO  Log - Driver quit successfully.
+15:37:13.320 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+15:37:19.938 INFO  Log - Popup closed by precondition helper
+15:37:20.412 INFO  Log - Location set by precondition helper: Nairobi
+15:37:20.910 INFO  Log - Selected check in and check out dates
+15:37:23.029 INFO  Log - Driver quit successfully.
+15:41:01.522 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+15:41:07.980 INFO  Log - Popup closed by precondition helper
+15:41:08.411 INFO  Log - Location set by precondition helper: Nairobi
+15:41:08.896 INFO  Log - Dates selected by precondition helper
+15:41:09.306 INFO  Log - Occupancy adjusted by precondition helper
+15:41:24.298 INFO  Log - Search performed by precondition helper
+15:41:24.623 INFO  Log - Hotel page ready
+15:41:25.150 INFO  Log - Elevator accessibility filter applied.
+15:41:28.809 INFO  Log - Driver quit successfully.
+15:43:58.461 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+15:44:06.745 INFO  Log - Popup closed by precondition helper
+15:44:07.152 INFO  Log - Location set by precondition helper: Nairobi
+15:44:07.653 INFO  Log - Dates selected by precondition helper
+15:44:08.054 INFO  Log - Occupancy adjusted by precondition helper
+15:44:12.746 INFO  Log - Clicked Search on Home page.
+15:44:15.823 INFO  Log - Driver quit successfully.
+15:49:12.798 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+15:49:18.874 INFO  Log - Popup closed by precondition helper
+15:49:19.339 INFO  Log - Location set by precondition helper: Nairobi
+15:49:19.899 INFO  Log - Dates selected by precondition helper
+15:49:20.263 INFO  Log - Occupancy adjusted by precondition helper
+15:49:34.153 INFO  Log - Search performed by precondition helper
+15:49:34.326 INFO  Log - Hotel page ready
+15:49:34.361 INFO  Log - Total hotels found: 24, prices found: 24
+15:49:36.667 INFO  Log - Hotel 1: Nest & Rest Luxurious Homes
+15:49:36.667 INFO  Log - Price for 5 Days: ₹ 34,108
+15:49:36.667 INFO  Log - Price for 1 Day: ₹ 6821.6
+15:49:36.729 INFO  Log - Hotel 2: Cozy 2bed Apple Tree Apartment Nairobi
+15:49:36.729 INFO  Log - Price for 5 Days: ₹ 21,829
+15:49:36.729 INFO  Log - Price for 1 Day: ₹ 4365.8
+15:49:36.783 INFO  Log - Hotel 3: Aurora Heights 2BR One bathroom City View
+15:49:36.783 INFO  Log - Price for 5 Days: ₹ 25,922
+15:49:36.783 INFO  Log - Price for 1 Day: ₹ 5184.4
+15:49:36.830 INFO  Log - Hotel 4: Family Friendly Home- Two Bedroom TRM Drive
+15:49:36.830 INFO  Log - Price for 5 Days: ₹ 18,191
+15:49:36.830 INFO  Log - Price for 1 Day: ₹ 3638.2
+15:49:36.883 INFO  Log - Hotel 5: Urbanwoods Hotel Suites by ICON
+15:49:36.883 INFO  Log - Price for 5 Days: ₹ 136,431
+15:49:36.883 INFO  Log - Price for 1 Day: ₹ 27286.2
+15:49:36.938 INFO  Log - Hotel 6: Kilimani 15th floor wide Balcony - Views - Pool - Gym
+15:49:36.938 INFO  Log - Price for 5 Days: ₹ 36,427
+15:49:36.938 INFO  Log - Price for 1 Day: ₹ 7285.4
+15:49:36.987 INFO  Log - Hotel 7: Oak Classic Residency
+15:49:36.987 INFO  Log - Price for 5 Days: ₹ 26,286
+15:49:36.987 INFO  Log - Price for 1 Day: ₹ 5257.2
+15:49:37.034 INFO  Log - Hotel 8: Marina Bay One bedroom, Swimming Pool, gym, workspace ESKAY HOMES Westland's Nairobi
+15:49:37.034 INFO  Log - Price for 5 Days: ₹ 77,798
+15:49:37.034 INFO  Log - Price for 1 Day: ₹ 15559.6
+15:49:37.105 INFO  Log - Hotel 9: Jenny apartments
+15:49:37.105 INFO  Log - Price for 5 Days: ₹ 17,736
+15:49:37.105 INFO  Log - Price for 1 Day: ₹ 3547.2
+15:49:37.158 INFO  Log - Hotel 10: Two and Three Bedroom Urban Apartments with Pool, Fitness Centre & Sky Lounge in Westlands,Nairobi
+15:49:37.158 INFO  Log - Price for 5 Days: ₹ 38,269
+15:49:37.158 INFO  Log - Price for 1 Day: ₹ 7653.8
+15:49:37.330 INFO  Log - Captured final hotel results screenshot.
+15:49:40.478 INFO  Log - Driver quit successfully.
+15:49:51.103 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+15:49:58.358 INFO  Log - Popup closed by precondition helper
+15:49:58.880 INFO  Log - Location set by precondition helper: Nairobi
+15:49:59.278 INFO  Log - Dates selected by precondition helper
+15:49:59.696 INFO  Log - Occupancy adjusted by precondition helper
+15:50:13.985 INFO  Log - Search performed by precondition helper
+15:50:14.360 INFO  Log - Hotel page ready
+15:50:14.442 INFO  Log - Total hotels found: 23, prices found: 23
+15:50:16.651 INFO  Log - Hotel 1: Urbanwoods Hotel Suites by ICON
+15:50:16.651 INFO  Log - Price for 5 Days: ₹ 136,431
+15:50:16.653 INFO  Log - Price for 1 Day: ₹ 27286.2
+15:50:16.705 INFO  Log - Hotel 2: Marina Bay One bedroom, Swimming Pool, gym, workspace ESKAY HOMES Westland's Nairobi
+15:50:16.705 INFO  Log - Price for 5 Days: ₹ 115,257
+15:50:16.705 INFO  Log - Price for 1 Day: ₹ 23051.4
+15:50:16.755 INFO  Log - Hotel 3: Salonika Villas Boutique Serviced Apartments
+15:50:16.755 INFO  Log - Price for 5 Days: ₹ 77,765
+15:50:16.755 INFO  Log - Price for 1 Day: ₹ 15553.0
+15:50:16.810 INFO  Log - Hotel 4: Olivia homes
+15:50:16.810 INFO  Log - Price for 5 Days: ₹ 18,409
+15:50:16.810 INFO  Log - Price for 1 Day: ₹ 3681.8
+15:50:16.866 INFO  Log - Hotel 5: Kester International Apartment Hotel
+15:50:16.866 INFO  Log - Price for 5 Days: ₹ 54,572
+15:50:16.866 INFO  Log - Price for 1 Day: ₹ 10914.4
+15:50:16.919 INFO  Log - Hotel 6: Lavington Residences By Trianum
+15:50:16.919 INFO  Log - Price for 5 Days: ₹ 77,762
+15:50:16.919 INFO  Log - Price for 1 Day: ₹ 15552.4
+15:50:16.971 INFO  Log - Hotel 7: Pax Manor Muthaiga
+15:50:16.971 INFO  Log - Price for 5 Days: ₹ 388,828
+15:50:16.971 INFO  Log - Price for 1 Day: ₹ 77765.6
+15:50:17.021 INFO  Log - Hotel 8: Luxury modern Apartment
+15:50:17.021 INFO  Log - Price for 5 Days: ₹ 54,572
+15:50:17.021 INFO  Log - Price for 1 Day: ₹ 10914.4
+15:50:17.095 INFO  Log - Hotel 9: Riverside Square One, Two & Three Bedroom Apartment, Swimming pools, gym, workspace, Wonderiss Homes Westland Living
+15:50:17.095 INFO  Log - Price for 5 Days: ₹ 90,349
+15:50:17.095 INFO  Log - Price for 1 Day: ₹ 18069.8
+15:50:17.158 INFO  Log - Hotel 10: Trademark Suites at Enaki Town
+15:50:17.158 INFO  Log - Price for 5 Days: ₹ 194,346
+15:50:17.158 INFO  Log - Price for 1 Day: ₹ 38869.2
+15:50:17.356 INFO  Log - Captured final hotel results screenshot.
+15:50:20.724 INFO  Log - Driver quit successfully.

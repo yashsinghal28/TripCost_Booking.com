@@ -17,7 +17,7 @@ public class TC_09_AddBedsAnd5starHotels extends BaseClass {
     public void tc_09_addBedsAnd5starHotels() {
         PreconditionHelper pre = new PreconditionHelper(this);
         driver.get(url1);
-        pre.ensureUpToStep(8);
+        pre.ensureUpToStep(5);
 
         HotelPageActions HotelPage = new HotelPageActions(driver);
         List<WebElement> hotels = HotelPage.getHoteList();

@@ -69,15 +69,13 @@ public class PreconditionHelper {
 
     public void ensureSearchPerformed() {
 
-            if (!hotelActions.getHoteList().isEmpty()) {
-                return;
-            }
-
+        if (!hotelActions.getHoteList().isEmpty()) {
+            return;
+        }
 
         home.searchResults();
         Log.info("Search performed by precondition helper");
 
-        // Re-initialize to capture the fresh page state after search
         this.hotelActions = new HotelPageActions(driver);
         this.base.hotelActions = this.hotelActions;
 
