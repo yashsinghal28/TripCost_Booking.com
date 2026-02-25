@@ -58,6 +58,16 @@ public class CruisePageActions {
     @FindBy(xpath = "//a[@id='hp_searchContinue']")
     public WebElement image;
 
+    @FindBy(xpath =  "(//p[@class='ui-block-a'])[10]")
+    public WebElement numberOfCrew;
+
+    @FindBy(xpath = "(//p[@class='ui-block-a'])[9]")
+    public  WebElement numberOfCapacity;
+
+    @FindBy(xpath = "(//a[@id ='swipe_1'])[1]")
+    public WebElement photoButton;
+
+
     public CruisePageActions(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
@@ -80,6 +90,10 @@ public class CruisePageActions {
 
     public void triggerOnBoardingButton() {
         onBoarding.click();
+    }
+
+    public  void photoClickButton() {
+        photoButton.click();
     }
 
     public WebElement img() {
