@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import static CommonCode.Commoncode.takeScreenShot;
 
-public class TC_001_HomePopupHandling extends BaseClass {
+public class TC_01_HomePopupHandling extends BaseClass {
     private HomePageActions home;
 
     @Test()

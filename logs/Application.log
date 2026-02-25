@@ -3134,6 +3134,20 @@ Please Note: Staterooms 9252 and 9652 have obstructed views. -> Deck: Deck 9,Dec
 17:09:09.483 INFO  Log - Validation of Cruise Line
 17:09:09.516 INFO  Log - Checked the Sailing Month date and Validated: 2026-08
 17:09:10.749 INFO  Log - Driver quit successfully.
+11:01:59.113 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+11:02:08.885 INFO  Log - Popup closed by precondition helper
+11:02:09.271 INFO  Log - Typed location: Nairobi
+11:02:09.292 INFO  Log - Captured location value: Nairobi
+11:02:10.899 INFO  Log - Driver quit successfully.
+11:10:59.116 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+11:11:08.633 INFO  Log - Validation of Cookies
+11:11:10.805 INFO  Log - Validation of Cruise Line
+11:11:10.856 INFO  Log - Checked the Sailing Month date and Validated: 2026-08
+11:11:12.170 INFO  Log - Driver quit successfully.
 11:11:46.998 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
 11:12:07.546 INFO  Log - Gallery viewed Successfully
 11:12:09.286 INFO  Log - Driver quit successfully.
+11:54:12.465 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+11:54:34.905 INFO  Log - TC-18: Validate price/currency token on cruise details page
+11:54:36.182 INFO  Log - TC-20 PASSED: Price/currency token detected.
+11:54:38.695 INFO  Log - Driver quit successfully.

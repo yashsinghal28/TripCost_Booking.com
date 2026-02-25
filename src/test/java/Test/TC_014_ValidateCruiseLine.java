@@ -7,7 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.CruisePageActions;
 
-public class TC_014ValidateCruiseLine extends BaseClass{
+public class TC_014_ValidateCruiseLine extends BaseClass{
     @Test
     public void tc_14_validateCruiseLine() {
         cruise = new CruisePageActions(driver);

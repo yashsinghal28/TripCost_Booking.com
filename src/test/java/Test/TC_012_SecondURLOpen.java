@@ -7,9 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.CruisePageActions;
 
-import static baseclass.BaseClass.driver;
-
-public class TC_012SecondURLOpen extends BaseClass {
+public class TC_012_SecondURLOpen extends BaseClass {
     @Test
     public void tc_11_testSecondUrl() {
         cruise = new CruisePageActions(driver);

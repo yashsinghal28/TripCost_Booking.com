@@ -8,7 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import static CommonCode.Commoncode.takeScreenShot;
 
-public class TC_008_ElevatorFilter extends BaseClass {
+public class TC_08_ElevatorFilter extends BaseClass {
     @Test()
     public void applyElevatorAccessibilityFilter() {
         PreconditionHelper pre = new PreconditionHelper(this);

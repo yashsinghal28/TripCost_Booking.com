@@ -12,7 +12,7 @@ import java.util.List;
 
 import static CommonCode.Commoncode.takeScreenShot;
 
-public class TC_006_GetAllHotels extends BaseClass {
+public class TC_06_GetAllHotels extends BaseClass {
     @Test()
     public void validateFilterOptionsVisible() {
         PreconditionHelper pre = new PreconditionHelper(this);

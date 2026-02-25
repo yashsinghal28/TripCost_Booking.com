@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import java.util.List;
 import static CommonCode.Commoncode.takeScreenShot;
 
-public class TC_009_AddBedsAnd5starHotels extends BaseClass {
+public class TC_09_AddBedsAnd5starHotels extends BaseClass {
     @Test()
     public void validateHotelListAndPrices() {
         PreconditionHelper pre = new PreconditionHelper(this);

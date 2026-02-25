@@ -10,7 +10,7 @@ import java.time.YearMonth;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 
-public class TC_15_SailingMonthValidation extends BaseClass {
+public class TC_015_SailingMonthValidation extends BaseClass {
 
     @Test
     public void tc_15_checkSailingMonth() {

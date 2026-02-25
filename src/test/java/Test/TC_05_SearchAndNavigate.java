@@ -8,7 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import static CommonCode.Commoncode.takeScreenShot;
 
-public class TC_005_SearchAndNavigate extends BaseClass {
+public class TC_05_SearchAndNavigate extends BaseClass {
     @Test()
     public void searchAndNavigateToResults() {
         PreconditionHelper pre = new PreconditionHelper(this);

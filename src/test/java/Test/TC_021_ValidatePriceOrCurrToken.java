@@ -1,6 +1,5 @@
 package Test;
 
-import CommonCode.Commoncode;
 import Logs.Log;
 import baseclass.BaseClass;
 import org.openqa.selenium.JavascriptExecutor;
@@ -10,7 +9,7 @@ import pages.CruisePageActions;
 
 import static CommonCode.Commoncode.takeScreenShot;
 
-public class TC_21_ValidatePriceOrCurr_Token extends BaseClass {
+public class TC_021_ValidatePriceOrCurrToken extends BaseClass {
     @Test
     public void tc_21_validatePriceOrCurrencyToken() throws InterruptedException {
         cruise = new CruisePageActions(driver);

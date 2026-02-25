@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.CruisePageActions;
 
-public class TC_013ClosePopUpCruise extends BaseClass {
+public class TC_013_ClosePopUpCruise extends BaseClass {
     @Test
     public void tc_13_validateTitle() {
         cruise = new CruisePageActions(driver);
