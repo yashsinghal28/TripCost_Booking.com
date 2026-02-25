@@ -4878,3 +4878,511 @@ Please Note: Staterooms 9252 and 9652 have obstructed views. -> Deck: Deck 9,Dec
 15:50:17.158 INFO  Log - Price for 1 Day: ₹ 38869.2
 15:50:17.356 INFO  Log - Captured final hotel results screenshot.
 15:50:20.724 INFO  Log - Driver quit successfully.
+15:59:02.891 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+15:59:08.965 INFO  Log - Popup closed by precondition helper
+15:59:09.417 INFO  Log - Location set by precondition helper: Nairobi
+15:59:09.880 INFO  Log - Dates selected by precondition helper
+15:59:10.262 INFO  Log - Occupancy adjusted by precondition helper
+15:59:24.117 INFO  Log - Search performed by precondition helper
+15:59:24.356 INFO  Log - Hotel page ready
+15:59:24.394 INFO  Log - Total hotels found: 23, prices found: 23
+15:59:24.797 INFO  Log - selected 5star hotels
+15:59:25.094 INFO  Log - Added 2 bedroom
+15:59:28.580 INFO  Log - Driver quit successfully.
+16:14:08.214 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:14:14.558 INFO  Log - Popup closed by precondition helper
+16:14:15.085 INFO  Log - Location set by precondition helper: Nairobi
+16:14:15.406 INFO  Log - Dates selected by precondition helper
+16:14:15.764 INFO  Log - Occupancy adjusted by precondition helper
+16:14:17.511 INFO  Log - Driver quit successfully.
+16:14:24.803 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:14:36.885 INFO  Log - Popup closed by precondition helper
+16:14:37.366 INFO  Log - Location set by precondition helper: Nairobi
+16:14:38.054 INFO  Log - Dates selected by precondition helper
+16:14:38.441 INFO  Log - Occupancy adjusted by precondition helper
+16:14:40.720 INFO  Log - Driver quit successfully.
+16:17:33.076 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:17:39.351 INFO  Log - Popup closed by precondition helper
+16:17:39.888 INFO  Log - Location set by precondition helper: Nairobi
+16:17:40.243 INFO  Log - Dates selected by precondition helper
+16:17:40.588 INFO  Log - Occupancy adjusted by precondition helper
+16:17:52.937 INFO  Log - Driver quit successfully.
+16:18:17.130 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:18:23.083 INFO  Log - Popup closed by precondition helper
+16:18:23.690 INFO  Log - Location set by precondition helper: Nairobi
+16:18:24.086 INFO  Log - Dates selected by precondition helper
+16:18:24.475 INFO  Log - Occupancy adjusted by precondition helper
+16:18:39.231 INFO  Log - Search performed by precondition helper
+16:18:39.867 INFO  Log - Hotel page ready
+16:18:39.915 INFO  Log - Total hotels found: 24, prices found: 24
+16:18:42.481 INFO  Log - Hotel 1: Alya Hotel & Suites Ltd
+16:18:42.481 INFO  Log - Price for 5 Days: ₹ 32,743
+16:18:42.481 INFO  Log - Price for 1 Day: ₹ 6548.6
+16:18:42.547 INFO  Log - Hotel 2: 1BR Luxury suites near JKIA SGR with pool gym Cityview
+16:18:42.547 INFO  Log - Price for 5 Days: ₹ 50,025
+16:18:42.547 INFO  Log - Price for 1 Day: ₹ 10005.0
+16:18:42.601 INFO  Log - Hotel 3: Pax Manor Muthaiga
+16:18:42.601 INFO  Log - Price for 5 Days: ₹ 388,828
+16:18:42.601 INFO  Log - Price for 1 Day: ₹ 77765.6
+16:18:42.658 INFO  Log - Hotel 4: Urban Homes-Two Bedroom Near JKIA Airport
+16:18:42.658 INFO  Log - Price for 5 Days: ₹ 23,854
+16:18:42.658 INFO  Log - Price for 1 Day: ₹ 4770.8
+16:18:42.715 INFO  Log - Hotel 5: Africana Orchid - Swimming Pool, Gym, Parking, Children playground
+16:18:42.715 INFO  Log - Price for 5 Days: ₹ 58,160
+16:18:42.715 INFO  Log - Price for 1 Day: ₹ 11632.0
+16:18:42.769 INFO  Log - Hotel 6: The Hills View
+16:18:42.769 INFO  Log - Price for 5 Days: ₹ 50,744
+16:18:42.769 INFO  Log - Price for 1 Day: ₹ 10148.8
+16:18:42.821 INFO  Log - Hotel 7: Broadwalk Residency
+16:18:42.821 INFO  Log - Price for 5 Days: ₹ 89,061
+16:18:42.821 INFO  Log - Price for 1 Day: ₹ 17812.2
+16:18:42.902 INFO  Log - Hotel 8: Pan Pacific Serviced Suites Nairobi
+16:18:42.902 INFO  Log - Price for 5 Days: ₹ 145,410
+16:18:42.902 INFO  Log - Price for 1 Day: ₹ 29082.0
+16:18:42.992 INFO  Log - Hotel 9: Emara Ole-Sereni
+16:18:42.992 INFO  Log - Price for 5 Days: ₹ 340,036
+16:18:42.992 INFO  Log - Price for 1 Day: ₹ 68007.2
+16:18:43.046 INFO  Log - Hotel 10: GemSuites Riverside Serviced Apartments and Hotel, Nairobi
+16:18:43.046 INFO  Log - Price for 5 Days: ₹ 149,113
+16:18:43.046 INFO  Log - Price for 1 Day: ₹ 29822.6
+16:18:43.228 INFO  Log - Captured final hotel results screenshot.
+16:18:46.461 INFO  Log - Driver quit successfully.
+16:20:42.453 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:20:47.689 INFO  Log - Typed location: Nairobi
+16:20:47.716 INFO  Log - Captured location value: Nairobi
+16:20:49.781 INFO  Log - Driver quit successfully.
+16:22:30.341 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:22:37.315 INFO  Log - Typed location: Nairobi
+16:22:37.537 INFO  Log - Captured location value: Nairobi
+16:22:37.996 INFO  Log - Selected check in and check out dates
+16:22:40.061 INFO  Log - Driver quit successfully.
+16:23:12.156 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:23:22.419 INFO  Log - Typed location: Nairobi
+16:23:22.453 INFO  Log - Captured location value: Nairobi
+16:23:22.937 INFO  Log - Selected check in and check out dates
+16:23:25.530 INFO  Log - Driver quit successfully.
+16:23:59.682 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:24:05.523 INFO  Log - Typed location: Nairobi
+16:24:05.558 INFO  Log - Captured location value: Nairobi
+16:24:06.012 INFO  Log - Selected check in and check out dates
+16:24:10.289 INFO  Log - Clicked Search on Home page.
+16:24:13.282 INFO  Log - Driver quit successfully.
+16:25:11.598 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:25:20.022 INFO  Log - Typed location: Nairobi
+16:25:20.056 INFO  Log - Captured location value: Nairobi
+16:25:20.574 INFO  Log - Selected check in and check out dates
+16:25:25.772 INFO  Log - Clicked Search on Home page.
+16:25:30.302 INFO  Log - Driver quit successfully.
+16:28:38.722 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:28:39.958 INFO  Log - Driver quit successfully.
+16:28:55.704 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:28:58.433 INFO  Log - Driver quit successfully.
+16:29:25.493 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:29:32.238 INFO  Log - Typed location: Nairobi
+16:29:32.266 INFO  Log - Captured location value: Nairobi
+16:29:32.740 INFO  Log - Selected check in and check out dates
+16:29:37.828 INFO  Log - Clicked Search on Home page.
+16:29:40.344 INFO  Log - Driver quit successfully.
+16:30:31.727 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:30:38.255 INFO  Log - Typed location: Nairobi
+16:30:38.289 INFO  Log - Captured location value: Nairobi
+16:30:38.651 INFO  Log - Selected check in and check out dates
+16:30:43.789 INFO  Log - Clicked Search on Home page.
+16:30:46.241 INFO  Log - Driver quit successfully.
+16:32:38.071 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:32:46.045 INFO  Log - Typed location: Nairobi
+16:32:46.086 INFO  Log - Captured location value: Nairobi
+16:32:46.517 INFO  Log - Selected check in and check out dates
+16:32:53.575 INFO  Log - Driver quit successfully.
+16:33:53.049 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:34:01.077 INFO  Log - Typed location: Nairobi
+16:34:01.133 INFO  Log - Captured location value: Nairobi
+16:34:01.577 INFO  Log - Selected check in and check out dates
+16:34:06.647 INFO  Log - Clicked Search on Home page.
+16:34:06.877 INFO  Log - Hotel options button is visible.
+16:34:06.931 INFO  Log - Nest & Rest Luxurious Homes
+16:34:07.066 INFO  Log - Radisson Blu Hotel & Residence Nairobi Arboretum
+16:34:07.077 INFO  Log - 4 bdrm beachfront Nyali
+16:34:07.092 INFO  Log - Vignette Collection -Fairview Hotel Nairobi
+16:34:07.104 INFO  Log - The modern executive fully furnished three bedroom apartment with breathtaking city views which features a swimming pool,fully fitted gym ,child play area and proximity to major shopping centers and restaurants
+16:34:07.115 INFO  Log - classy apartments in kilimani with swimming pool fully equipped gym ,ample parking space with breathtaking city views
+16:34:07.125 INFO  Log - Sarandy Holiday Homes Utawala
+16:34:07.141 INFO  Log - Tirovel modern apartments
+16:34:07.184 INFO  Log - Amols BnB Kenya
+16:34:07.198 INFO  Log - Cozy stay kilimani
+16:34:07.206 INFO  Log - The Money Team Homes
+16:34:07.215 INFO  Log - The Nairobi home
+16:34:07.227 INFO  Log - 2 bedroom polaris residency yaya centre
+16:34:07.245 INFO  Log - Skyhorse appartment
+16:34:07.257 INFO  Log - Lavington Newest Luxe
+16:34:07.268 INFO  Log - Noir Luxury Loft
+16:34:07.271 INFO  Log - Curated Art Stay - Central Lavington
+16:34:07.287 INFO  Log - Natalia
+16:34:07.287 INFO  Log - MkakaTwo-Bed Apartments Kilimani
+16:34:07.302 INFO  Log - modern executive three bedroom apartment which features swimming pool, state of the art fully equipped gym and all modern unmatched luxurious facilities which offfers luxury lifestyle
+16:34:07.323 INFO  Log - Stelly furnished apartment
+16:34:07.337 INFO  Log - Barfatha living
+16:34:07.348 INFO  Log - modern and luxury two bedroom apartment with heated swimming pool fully equipped gym children playing ground and amazing scenic views
+16:34:07.350 INFO  Log - spacious luxury two bedroom apartment with heated swimming pool fully equipped gym children playing ground ample parking space and relaxing rooftop with amazing views
+16:34:07.371 INFO  Log - LARGE FAMILY & GROUPS HOMEs
+16:34:07.382 INFO  Log - FURNISHED ROSEVILLE APARTMENTs
+16:34:10.134 INFO  Log - Driver quit successfully.
+16:35:58.796 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:36:05.613 INFO  Log - Typed location: Nairobi
+16:36:05.646 INFO  Log - Captured location value: Nairobi
+16:36:06.012 INFO  Log - Selected check in and check out dates
+16:36:10.812 INFO  Log - Clicked Search on Home page.
+16:36:14.272 INFO  Log - Driver quit successfully.
+16:37:20.979 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:37:26.840 INFO  Log - Typed location: Nairobi
+16:37:26.864 INFO  Log - Captured location value: Nairobi
+16:37:27.314 INFO  Log - Selected check in and check out dates
+16:37:31.867 INFO  Log - Clicked Search on Home page.
+16:37:32.396 INFO  Log - Elevator accessibility filter applied.
+16:37:35.318 INFO  Log - Driver quit successfully.
+16:40:38.552 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:40:44.413 INFO  Log - Typed location: Nairobi
+16:40:44.441 INFO  Log - Captured location value: Nairobi
+16:40:44.780 INFO  Log - Selected check in and check out dates
+16:40:50.177 INFO  Log - Clicked Search on Home page.
+16:40:50.492 INFO  Log - Total hotels found: 24, prices found: 24
+16:40:53.149 INFO  Log - Hotel 1: Nest & Rest Luxurious Homes
+16:40:53.150 INFO  Log - Price for 5 Days: ₹ 34,108
+16:40:53.151 INFO  Log - Price for 1 Day: ₹ 6821.6
+16:40:53.207 INFO  Log - Hotel 2: Cozy 2bed Apple Tree Apartment Nairobi
+16:40:53.207 INFO  Log - Price for 5 Days: ₹ 21,829
+16:40:53.207 INFO  Log - Price for 1 Day: ₹ 4365.8
+16:40:53.260 INFO  Log - Hotel 3: Aurora Heights 2BR One bathroom City View
+16:40:53.260 INFO  Log - Price for 5 Days: ₹ 25,922
+16:40:53.262 INFO  Log - Price for 1 Day: ₹ 5184.4
+16:40:53.310 INFO  Log - Hotel 4: Family Friendly Home- Two Bedroom TRM Drive
+16:40:53.310 INFO  Log - Price for 5 Days: ₹ 18,191
+16:40:53.310 INFO  Log - Price for 1 Day: ₹ 3638.2
+16:40:53.363 INFO  Log - Hotel 5: Urbanwoods Hotel Suites by ICON
+16:40:53.363 INFO  Log - Price for 5 Days: ₹ 136,431
+16:40:53.363 INFO  Log - Price for 1 Day: ₹ 27286.2
+16:40:53.417 INFO  Log - Hotel 6: Kilimani 15th floor wide Balcony - Views - Pool - Gym
+16:40:53.419 INFO  Log - Price for 5 Days: ₹ 36,427
+16:40:53.419 INFO  Log - Price for 1 Day: ₹ 7285.4
+16:40:53.468 INFO  Log - Hotel 7: Oak Classic Residency
+16:40:53.468 INFO  Log - Price for 5 Days: ₹ 26,286
+16:40:53.468 INFO  Log - Price for 1 Day: ₹ 5257.2
+16:40:53.515 INFO  Log - Hotel 8: Marina Bay One bedroom, Swimming Pool, gym, workspace ESKAY HOMES Westland's Nairobi
+16:40:53.517 INFO  Log - Price for 5 Days: ₹ 77,798
+16:40:53.517 INFO  Log - Price for 1 Day: ₹ 15559.6
+16:40:53.585 INFO  Log - Hotel 9: Jenny apartments
+16:40:53.585 INFO  Log - Price for 5 Days: ₹ 17,736
+16:40:53.585 INFO  Log - Price for 1 Day: ₹ 3547.2
+16:40:53.635 INFO  Log - Hotel 10: Two and Three Bedroom Urban Apartments with Pool, Fitness Centre & Sky Lounge in Westlands,Nairobi
+16:40:53.635 INFO  Log - Price for 5 Days: ₹ 38,269
+16:40:53.635 INFO  Log - Price for 1 Day: ₹ 7653.8
+16:40:53.824 INFO  Log - Captured final hotel results screenshot.
+16:40:56.219 INFO  Log - Driver quit successfully.
+16:41:26.948 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:41:34.469 INFO  Log - Typed location: Nairobi
+16:41:34.648 INFO  Log - Captured location value: Nairobi
+16:41:35.033 INFO  Log - Selected check in and check out dates
+16:41:40.659 INFO  Log - Clicked Search on Home page.
+16:41:41.423 INFO  Log - Clicked Grid view button
+16:41:44.379 INFO  Log - Driver quit successfully.
+16:43:37.234 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:43:43.277 INFO  Log - Popup closed successfully
+16:43:45.375 INFO  Log - Driver quit successfully.
+16:43:46.933 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:43:53.254 INFO  Log - Typed location: Nairobi
+16:43:53.277 INFO  Log - Captured location value: Nairobi
+16:43:55.329 INFO  Log - Driver quit successfully.
+16:43:56.792 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:44:02.959 INFO  Log - Typed location: Nairobi
+16:44:02.983 INFO  Log - Captured location value: Nairobi
+16:44:03.318 INFO  Log - Selected check in and check out dates
+16:44:05.238 INFO  Log - Driver quit successfully.
+16:44:06.871 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:44:13.570 INFO  Log - Typed location: Nairobi
+16:44:13.600 INFO  Log - Captured location value: Nairobi
+16:44:14.057 INFO  Log - Selected check in and check out dates
+16:44:16.442 INFO  Log - Driver quit successfully.
+16:44:18.047 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:44:25.421 INFO  Log - Typed location: Nairobi
+16:44:25.443 INFO  Log - Captured location value: Nairobi
+16:44:25.839 INFO  Log - Selected check in and check out dates
+16:44:30.640 INFO  Log - Clicked Search on Home page.
+16:44:33.537 INFO  Log - Driver quit successfully.
+16:44:35.164 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:44:42.037 INFO  Log - Typed location: Nairobi
+16:44:42.071 INFO  Log - Captured location value: Nairobi
+16:44:42.457 INFO  Log - Selected check in and check out dates
+16:44:47.589 INFO  Log - Clicked Search on Home page.
+16:44:47.925 INFO  Log - Hotel options button is visible.
+16:44:47.954 INFO  Log - Nest & Rest Luxurious Homes
+16:44:47.966 INFO  Log - Radisson Blu Hotel & Residence Nairobi Arboretum
+16:44:47.980 INFO  Log - 4 bdrm beachfront Nyali
+16:44:47.984 INFO  Log - Vignette Collection -Fairview Hotel Nairobi
+16:44:47.997 INFO  Log - Beautiful two bedroom apartment with heated swimming pool fully equipped gym ample parking space and relaxing rooftop with breathtaking views
+16:44:48.013 INFO  Log - serenity heights two bedroom apartment with heated swimming pool fully equipped gym ample parking space child play area and amazing scenic views
+16:44:48.027 INFO  Log - siaya park apartment with heated swimming pool fully equipped gym ample parking space and a relaxing rooftop with breathtaking views
+16:44:48.038 INFO  Log - The modern executive fully furnished three bedroom apartment with breathtaking city views which features a swimming pool,fully fitted gym ,child play area and proximity to major shopping centers and restaurants
+16:44:48.049 INFO  Log - classy apartments in kilimani with swimming pool fully equipped gym ,ample parking space with breathtaking city views
+16:44:48.049 INFO  Log - Sarandy Holiday Homes Utawala
+16:44:48.066 INFO  Log - Tirovel modern apartments
+16:44:48.081 INFO  Log - Amols BnB Kenya
+16:44:48.092 INFO  Log - Cozy stay kilimani
+16:44:48.099 INFO  Log - The Money Team Homes
+16:44:48.110 INFO  Log - The Nairobi home
+16:44:48.125 INFO  Log - 2 bedroom polaris residency yaya centre
+16:44:48.136 INFO  Log - Skyhorse appartment
+16:44:48.197 INFO  Log - Lavington Newest Luxe
+16:44:48.206 INFO  Log - Noir Luxury Loft
+16:44:48.218 INFO  Log - Curated Art Stay - Central Lavington
+16:44:48.228 INFO  Log - Natalia
+16:44:48.236 INFO  Log - MkakaTwo-Bed Apartments Kilimani
+16:44:48.252 INFO  Log - modern executive three bedroom apartment which features swimming pool, state of the art fully equipped gym and all modern unmatched luxurious facilities which offfers luxury lifestyle
+16:44:51.220 INFO  Log - Driver quit successfully.
+16:44:52.753 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:44:59.096 INFO  Log - Typed location: Nairobi
+16:44:59.134 INFO  Log - Captured location value: Nairobi
+16:44:59.466 INFO  Log - Selected check in and check out dates
+16:45:04.418 INFO  Log - Clicked Search on Home page.
+16:45:07.808 INFO  Log - Driver quit successfully.
+16:45:09.404 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:45:15.757 INFO  Log - Typed location: Nairobi
+16:45:15.779 INFO  Log - Captured location value: Nairobi
+16:45:16.143 INFO  Log - Selected check in and check out dates
+16:45:20.866 INFO  Log - Clicked Search on Home page.
+16:45:21.438 INFO  Log - Elevator accessibility filter applied.
+16:45:24.118 INFO  Log - Driver quit successfully.
+16:45:25.740 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:45:30.856 INFO  Log - Typed location: Nairobi
+16:45:30.872 INFO  Log - Captured location value: Nairobi
+16:45:31.224 INFO  Log - Selected check in and check out dates
+16:45:35.887 INFO  Log - Clicked Search on Home page.
+16:45:36.208 INFO  Log - Total hotels found: 25, prices found: 25
+16:45:36.491 INFO  Log - selected 5star hotels
+16:45:36.727 INFO  Log - Added 2 bedroom
+16:45:39.332 INFO  Log - Driver quit successfully.
+16:45:40.942 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:45:46.891 INFO  Log - Typed location: Nairobi
+16:45:46.910 INFO  Log - Captured location value: Nairobi
+16:45:47.246 INFO  Log - Selected check in and check out dates
+16:45:51.977 INFO  Log - Clicked Search on Home page.
+16:45:52.271 INFO  Log - Total hotels found: 23, prices found: 23
+16:45:55.455 INFO  Log - Hotel 1: Alya Hotel & Suites Ltd
+16:45:55.464 INFO  Log - Price for 5 Days: ₹ 32,743
+16:45:55.466 INFO  Log - Price for 1 Day: ₹ 6548.6
+16:45:55.523 INFO  Log - Hotel 2: 1BR Luxury suites near JKIA SGR with pool gym Cityview
+16:45:55.523 INFO  Log - Price for 5 Days: ₹ 50,025
+16:45:55.523 INFO  Log - Price for 1 Day: ₹ 10005.0
+16:45:55.567 INFO  Log - Hotel 3: Pax Manor Muthaiga
+16:45:55.569 INFO  Log - Price for 5 Days: ₹ 388,828
+16:45:55.569 INFO  Log - Price for 1 Day: ₹ 77765.6
+16:45:55.615 INFO  Log - Hotel 4: Urban Homes-Two Bedroom Near JKIA Airport
+16:45:55.615 INFO  Log - Price for 5 Days: ₹ 23,854
+16:45:55.615 INFO  Log - Price for 1 Day: ₹ 4770.8
+16:45:55.669 INFO  Log - Hotel 5: Africana Orchid - Swimming Pool, Gym, Parking, Children playground
+16:45:55.669 INFO  Log - Price for 5 Days: ₹ 58,160
+16:45:55.669 INFO  Log - Price for 1 Day: ₹ 11632.0
+16:45:55.722 INFO  Log - Hotel 6: The Hills View
+16:45:55.722 INFO  Log - Price for 5 Days: ₹ 50,744
+16:45:55.722 INFO  Log - Price for 1 Day: ₹ 10148.8
+16:45:55.769 INFO  Log - Hotel 7: Broadwalk Residency
+16:45:55.769 INFO  Log - Price for 5 Days: ₹ 89,061
+16:45:55.769 INFO  Log - Price for 1 Day: ₹ 17812.2
+16:45:55.819 INFO  Log - Hotel 8: Pan Pacific Serviced Suites Nairobi
+16:45:55.819 INFO  Log - Price for 5 Days: ₹ 145,410
+16:45:55.819 INFO  Log - Price for 1 Day: ₹ 29082.0
+16:45:55.865 INFO  Log - Hotel 9: Emara Ole-Sereni
+16:45:55.865 INFO  Log - Price for 5 Days: ₹ 340,036
+16:45:55.865 INFO  Log - Price for 1 Day: ₹ 68007.2
+16:45:55.909 INFO  Log - Hotel 10: GemSuites Riverside Serviced Apartments and Hotel, Nairobi
+16:45:55.909 INFO  Log - Price for 5 Days: ₹ 149,113
+16:45:55.909 INFO  Log - Price for 1 Day: ₹ 29822.6
+16:45:56.088 INFO  Log - Captured final hotel results screenshot.
+16:45:58.527 INFO  Log - Driver quit successfully.
+16:46:00.165 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:46:05.698 INFO  Log - Typed location: Nairobi
+16:46:05.720 INFO  Log - Captured location value: Nairobi
+16:46:06.159 INFO  Log - Selected check in and check out dates
+16:46:11.195 INFO  Log - Clicked Search on Home page.
+16:46:11.665 INFO  Log - Clicked Grid view button
+16:46:14.581 INFO  Log - Driver quit successfully.
+16:46:16.143 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:46:30.282 INFO  Log - Home Page | Booking.com Cruises
+16:46:32.088 INFO  Log - Driver quit successfully.
+16:46:33.668 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:46:41.806 INFO  Log - Validation of Title-->Passed
+16:46:41.918 INFO  Log - Pop up closed Successfully
+16:46:43.798 INFO  Log - Driver quit successfully.
+16:46:45.253 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:46:50.357 INFO  Log - Validation of Cookies
+16:46:52.841 INFO  Log - Validation of curise Line
+16:46:53.163 INFO  Log - Choosing Cruise Line --> Passed
+16:46:54.929 INFO  Log - Driver quit successfully.
+16:46:56.409 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:47:00.758 INFO  Log - Validation of Cookies
+16:47:03.320 INFO  Log - Validation of Cruise Line
+16:47:03.654 INFO  Log - Checked the Sailing Month date and Validated: 2026-08
+16:47:05.407 INFO  Log - Driver quit successfully.
+16:47:07.024 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:47:14.163 INFO  Log - Selected Cruise is Present and Verified Sailing Date
+16:47:21.949 INFO  Log - Validated and Selected Correct Cruise
+16:47:24.091 INFO  Log - Driver quit successfully.
+16:47:25.673 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:47:41.585 INFO  Log - Test for Suit Element Passed
+16:47:44.128 INFO  Log - Driver quit successfully.
+16:47:45.734 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:48:06.149 INFO  Log -  
+			Owner's Suite - 2 Bedroom
+			
+			Deck: Deck 7,Deck 8,Deck 9
+							
+			Category: OTSize: 584 sq. ft.; Balcony: 191 sq. ft.Occupancy: Up to 8 guestsAmenities: Two bedrooms with two twin beds that convert to Royal King (one room with third and fourth Pullman beds), two bathrooms (one with shower, one with bathtub), living area with double sofa bed, private balcony, walk-in closet, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more.
+		 -> Deck: Deck 7,Deck 8,Deck 9
+16:48:06.149 INFO  Log -  
+			Owner's Suite - 1 Bedroom
+			
+			Deck: Deck 10
+							
+			Category: OSSize: 512 sq. ft.; Balcony: 57 sq. ft.Occupancy: Up to 4 guestsAmenities: Queen-size bed, private balcony, private bathroom with whirlpool tub, double sinks, separate shower and bidet, separate living area with double sofa bed, walk-in closet, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more.
+		 -> Deck: Deck 10
+16:48:06.149 INFO  Log -  
+			Grand Suite - 1 Bedroom
+			
+			Deck: Deck 10
+							
+			Category: GSSize: 385 sq. ft.; Balcony: 106 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, private bathroom with tub and double sink, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more.
+		 -> Deck: Deck 10
+16:48:06.149 INFO  Log -  
+			Junior Suite
+			
+			Deck: Deck 10
+							
+			Category: J3Size: 299 sq. ft.; Balcony: 41 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, private bathroom with tub and shower, sitting area with sofa bed, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.Please Note: Staterooms 1098 and 1598 have obstructed views.Wheelchair Accessible Staterooms: 1028 and 1528. (362 sq. ft.; Balcony 86 sq. ft.)Wheelchair Accessible Amenities: Open bed frames, wider entry door, turning spaces, sitting area with lowered vanity, closet rods and private bathroom with a wider door, roll-in shower, grab bars, fold-down shower bench, hand-held shower head, raised toilet, and a lowered sink.Please Note: Royal Caribbean requires guests booked in this category to acknowledge need for the accessible stateroom by completing a Guest Special Needs Form.
+		 -> Deck: Deck 10
+16:48:06.149 INFO  Log -  
+			Ocean View Suite - 2 Bedroom (No Balcony)
+			
+			Deck: Deck 10
+							
+			Category: VTSize: 592 sq. ft.Occupancy: Up to 8 guestsAmenities: Two bedrooms. Master with two twin beds that convert to Royal King and private bathroom with tub; second bedroom with four pullman beds and living area with double sofa bed, additional bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.
+		 -> Deck: Deck 10
+16:48:06.149 INFO  Log -  
+			Suite Guarantee
+							
+			Please note that this is a 'guarantee' rate.By booking this category, you are guaranteed a suite for this sailing at this rate. However, this rate is not associated with a specific stateroom, deck, or bedding configuration.Staterooms may be located anywhere on this ship.You will be assigned a specific suite at check-in.
+		 -> Please note that this is a 'guarantee' rate.By booking this category, you are guaranteed a suite for this sailing at this rate. However, this rate is not associated with a specific stateroom, deck, or bedding configuration.Staterooms may be located anywhere on this ship.You will be assigned a specific suite at check-in.
+16:48:06.149 INFO  Log -  
+			Spacious Sunset Ocean View Balcony
+			
+			Deck: Deck 7,Deck 8,Deck 9,Deck 10
+							
+			Category: SGSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: 2 guests standardAmenities: Two twin beds that convert to Royal King, aft-facing private balcony, sitting area with sofa, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.
+		 -> Deck: Deck 7,Deck 8,Deck 9,Deck 10
+16:48:06.149 INFO  Log -  
+			Spacious Ocean View Balcony
+			
+			Deck: Deck 9,Deck 10
+							
+			Category: 1BSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, or some stateooms have single sofa bed and one Pullman bed, or sitting area with sofa and two Pullman beds, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.Please Note: Stateroom 9050 has obstructed views.
+		 -> Deck: Deck 9,Deck 10
+16:48:06.149 INFO  Log -  
+			Spacious Ocean View Balcony
+			
+			Deck: Deck 9
+							
+			Category: 2BSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: 2 guests standardAmenities: Two twin beds that convert to Royal King, a private balcony, sitting area with sofa, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.
+		 -> Deck: Deck 9
+16:48:06.151 INFO  Log -  
+			Spacious Ocean View Balcony
+			
+			Deck: Deck 9,Deck 10
+							
+			Category: 3BSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, or some stateooms have sitting area with sofa and two Pullman beds, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.Please Note: Staterooms 9252 and 9652 have obstructed views.
+		 -> Deck: Deck 9,Deck 10
+16:48:06.812 INFO  Log - SuccessFull Print of Stats Of Cruise
+16:48:09.259 INFO  Log - Driver quit successfully.
+16:48:10.879 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:48:28.179 INFO  Log - Presence of Header is Verified
+16:48:30.073 INFO  Log - Number of Crew, Nationality : 859, International
+16:48:30.097 INFO  Log - Capacity : 2112
+16:48:30.097 INFO  Log - Presence of Elevators is valid: 4
+16:48:32.085 INFO  Log - Driver quit successfully.
+16:48:33.662 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:48:52.222 INFO  Log - <STATS>
+16:48:53.279 INFO  Log - Dining
+16:48:53.279 INFO  Log - My Family Time Dining
+16:48:53.279 INFO  Log - Tides Dining Room
+16:48:53.279 INFO  Log - Chef's Table
+16:48:53.279 INFO  Log - Giovanni's Table
+16:48:53.279 INFO  Log - Chops Grille
+16:48:53.279 INFO  Log - Izumi
+16:48:53.279 INFO  Log - Windjammer Cafe
+16:48:53.279 INFO  Log - Sorrento's Pizza
+16:48:53.279 INFO  Log - Cafe Latte-tudes
+16:48:53.279 INFO  Log - Crown Lounge
+16:48:53.279 INFO  Log - 
+			Ship Statistics
+			
+					
+					Name : Jewel of the Seas
+					
+					Registry : Bahamas
+					
+					Builder : Meyer Werft
+					
+					Country Built In : Germany
+					
+					Ship Completed Date : 5/8/2004
+					
+					Christened By : Kathy Mellor
+					
+					Call Letters : C6FW9
+					
+					Refurbished Date : 1/1/2016
+					
+					Capacity : 2112
+					
+					Number of Crew, Nationality : 859, International
+					
+					Gross Tonnage : 90090
+					
+					Stabilized : Yes
+					
+					Average Speed : 25 knots
+				
+			
+			
+					
+					Maximum Speed : 25 knots
+					
+					Length : 962 feet
+					
+					Beam : 105.6 feet
+					
+					Number of Passenger Decks : 12
+					
+					Number of Inside Rooms : 238
+					
+					Number of Outside Rooms : 817
+					
+					Number of Restaurants : 5
+					
+					Number of Pools : 3
+					
+					Number of Elevators : 4
+					
+					Voltage : 110/220
+					
+					Non-Smoking Dining : Yes
+					
+					Non-Smoking Ship : No
+				
+			
+		
+16:48:55.532 INFO  Log - Driver quit successfully.
+16:48:57.078 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:49:15.252 INFO  Log - TC-18: Validate price/currency token on cruise details page
+16:49:16.100 INFO  Log - TC-20 PASSED: Price/currency token detected.
+16:49:18.259 INFO  Log - Driver quit successfully.
+16:49:19.849 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+16:49:35.540 INFO  Log - Gallery viewed Successfully
+16:49:37.567 INFO  Log - Driver quit successfully.

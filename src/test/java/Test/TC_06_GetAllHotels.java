@@ -1,11 +1,11 @@
 package Test;
 
-import CommonCode.PreconditionHelper;
 import Logs.Log;
 import baseclass.BaseClass;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import pages.HomePageActions;
 import pages.HotelPageActions;
 
 import java.util.List;
@@ -15,13 +15,27 @@ import static CommonCode.Commoncode.takeScreenShot;
 public class TC_06_GetAllHotels extends BaseClass {
     @Test()
     public void tc_06_getAllHotels() {
-        PreconditionHelper pre = new PreconditionHelper(this);
-        HotelPageActions HotelPage = new HotelPageActions(driver);
+        home = new HomePageActions(driver);
         driver.get(url1);
-        pre.ensureUpToStep(5);
+        home.closePopUp();
+        String location = "Nairobi";
+        home.setLocation(location);
+        Log.info("Typed location: " + location);
+
+        String typed = home.locationInput.getAttribute("value");
+        Log.info("Captured location value: " + typed);
+        home.selectDateRange();
+        Log.info("Selected check in and check out dates");
+        home.setOccupancy();
+        home.searchResults();
+        Log.info("Clicked Search on Home page.");
+
+        hotelActions = new HotelPageActions(driver);
+        hotelActions.waitForPageReady(driver);
+
         Assert.assertTrue(hotelActions.optionsBtn.isDisplayed(), "Options/Filters button should be visible.");
         Log.info("Hotel options button is visible.");
-        List<WebElement> hotels = HotelPage.getHoteList();
+        List<WebElement> hotels = hotelActions.getHoteList();
         for(WebElement s : hotels){
             Log.info(s.getText());
         }

@@ -1,11 +1,11 @@
 package Test;
 
-import CommonCode.PreconditionHelper;
 import Logs.Log;
 import baseclass.BaseClass;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
+import pages.HomePageActions;
 import pages.HotelPageActions;
 
 import java.util.List;
@@ -15,22 +15,34 @@ import static CommonCode.Commoncode.takeScreenShot;
 public class TC_010_FinalHotelList extends BaseClass {
     @Test()
     public void tc_10_captureAndValidateFinalResults() {
-        PreconditionHelper pre = new PreconditionHelper(this);
+        home = new HomePageActions(driver);
         driver.get(url1);
-        pre.ensureUpToStep(5);
+        home.closePopUp();
+        String location = "Nairobi";
+        home.setLocation(location);
+        Log.info("Typed location: " + location);
 
-        HotelPageActions HotelPage = new HotelPageActions(driver);
-        List<WebElement> hotels = HotelPage.getHoteList();
-        List<WebElement> price = HotelPage.getHotelPrice();
+        String typed = home.locationInput.getAttribute("value");
+        Log.info("Captured location value: " + typed);
+        home.selectDateRange();
+        Log.info("Selected check in and check out dates");
+        home.setOccupancy();
+        home.searchResults();
+        Log.info("Clicked Search on Home page.");
+
+        hotelActions = new HotelPageActions(driver);
+        hotelActions.waitForPageReady(driver);
+        List<WebElement> hotels = hotelActions.getHoteList();
+        List<WebElement> price = hotelActions.getHotelPrice();
         int hotelCount =  hotels.size();
         int priceCount =   price.size();
         int available = Math.min(hotelCount, priceCount);
         Log.info("Total hotels found: " + hotelCount + ", prices found: " + priceCount);
 
 
-        HotelPage.hotelCheckBox.click();
+        hotelActions.hotelCheckBox.click();
         Actions a = new Actions(driver);
-        a.doubleClick(HotelPage.selectNoOfBeds).perform();
+        a.doubleClick(hotelActions.selectNoOfBeds).perform();
 
         int toPrint = Math.min(10, available);
         for (int i = 0; i < toPrint; i++) {
