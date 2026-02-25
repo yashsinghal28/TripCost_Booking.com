@@ -3134,3 +3134,6 @@ Please Note: Staterooms 9252 and 9652 have obstructed views. -> Deck: Deck 9,Dec
 17:09:09.483 INFO  Log - Validation of Cruise Line
 17:09:09.516 INFO  Log - Checked the Sailing Month date and Validated: 2026-08
 17:09:10.749 INFO  Log - Driver quit successfully.
+11:11:46.998 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+11:12:07.546 INFO  Log - Gallery viewed Successfully
+11:12:09.286 INFO  Log - Driver quit successfully.

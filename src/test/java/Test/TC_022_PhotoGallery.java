@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import pages.CruisePageActions;
 import static CommonCode.Commoncode.takeScreenShot;
 
-public class TC_22_PhotoGallery extends BaseClass {
+public class TC_022_PhotoGallery extends BaseClass {
     @Test
     public void tc_22PhotoGallary() throws InterruptedException {
         cruise = new CruisePageActions(driver);
