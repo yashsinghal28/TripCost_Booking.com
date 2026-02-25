@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MiniProject Suite" verbose="2">
+    <listeners>
+        <listener class-name="reports.ExtentReportManager"/>
+    </listeners>
+
+    <test name="Trip-Cost-Booking" preserve-order="true">
+        <classes>
+            <class name="Test.TC_01_HomePopupHandling"/>
+            <class name="Test.TC_02_LocationInput"/>
+            <class name="Test.TC_03_DateSelection"/>
+            <class name="Test.TC_04_OccupancyAdjustment"/>
+            <class name="Test.TC_05_SearchAndNavigate"/>
+            <class name="Test.TC_06_GetAllHotels"/>
+            <class name="Test.TC_07_SortByReview"/>
+            <class name="Test.TC_08_ElevatorFilter"/>
+            <class name="Test.TC_09_AddBedsAnd5starHotels"/>
+            <class name="Test.TC_010_FinalHotelList"/>
+            <class name="Test.TC_011_GridView"/>
+            <class name="Test.TC_012_SecondURLOpen"/>
+            <class name="Test.TC_013_ClosePopUpCruise"/>
+            <class name="Test.TC_014_ValidateCruiseLine"/>
+            <class name="Test.TC_015_SailingMonthValidation"/>
+            <class name="Test.TC_016_CruisePageValidation"/>
+            <class name="Test.TC_017_SuiteValidation"/>
+            <class name="Test.TC_018_PrintListOfRooms"/>
+            <class name="Test.TC_019_ValidateOnboarding"/>
+            <class name="Test.TC_020_PrintStateList"/>
+            <class name="Test.TC_021_ValidatePriceOrCurrToken"/>
+            <class name="Test.TC_022_PhotoGallery"/>
+        </classes>
+    </test>
+
+</suite>

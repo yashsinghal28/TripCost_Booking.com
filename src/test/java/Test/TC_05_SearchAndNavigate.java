@@ -1,0 +1,28 @@
+package Test;
+
+import CommonCode.PreconditionHelper;
+import Logs.Log;
+import baseclass.BaseClass;
+import pages.HotelPageActions;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import static CommonCode.Commoncode.takeScreenShot;
+
+public class TC_05_SearchAndNavigate extends BaseClass {
+    @Test()
+    public void tc_05_searchAndNavigateToResults() {
+        PreconditionHelper pre = new PreconditionHelper(this);
+        driver.get(url1);
+        pre.ensureUpToStep(4);
+
+        home.searchResults();
+        Log.info("Clicked Search on Home page.");
+
+        hotelActions = new HotelPageActions(driver);
+        hotelActions.waitForPageReady(driver);
+
+        takeScreenShot(driver, "TC05_Home_Search_ResultsLoaded");
+        Assert.assertTrue(driver.getTitle() != null && !driver.getTitle().isEmpty(),
+                "Results page should have a non-empty title.");
+    }
+}
