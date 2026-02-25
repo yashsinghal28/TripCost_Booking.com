@@ -22,8 +22,8 @@ public class TC_21_ValidatePriceOrCurr_Token extends BaseClass {
 
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0, 400);");
-        Log.info("TC-18: Validate price/currency token on cruise details page");
 
+        Log.info("TC-18: Validate price/currency token on cruise details page");
         cm.waitForDocumentReady(driver, 5);
         takeScreenShot(driver, "TC-18_OnboardingExperience");
 
@@ -33,7 +33,7 @@ public class TC_21_ValidatePriceOrCurr_Token extends BaseClass {
         boolean hasCurrency = source.contains("$");
         js.executeScript("arguments[0].scrollIntoView()", cruise.stats);
         cm.waitForDocumentReady(driver, 5);
-        takeScreenShot(driver, "TC-19_Stats");
+        takeScreenShot(driver, "TC-21_OnboardingDetails");
 
         Assert.assertTrue(hasCurrency, "TC-20 FAILED: No currency/price related token found in page source!");
         js.executeScript("window.scrollBy(0,200);");

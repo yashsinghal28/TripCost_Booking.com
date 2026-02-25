@@ -33,6 +33,7 @@ public class HotelPageActions {
 
     @FindBy(xpath = "//span[@data-testid = 'price-and-discounted-price']")
     public List<WebElement> priceList;
+
     @FindBy(xpath = "//label[text()='Grid']")
     public WebElement gridViewBtn;
 

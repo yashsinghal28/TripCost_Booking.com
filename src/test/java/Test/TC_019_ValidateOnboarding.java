@@ -1,6 +1,4 @@
 package Test;
-
-import CommonCode.Commoncode;
 import Logs.Log;
 import baseclass.BaseClass;
 import org.testng.Assert;
@@ -26,6 +24,11 @@ public class TC_019_ValidateOnboarding  extends BaseClass {
         Assert.assertTrue(cruise.headerDining.isEnabled(), "Dining header is not visible!");
         Log.info("Presence of Header is Verified");
         int elevatorCount = cruise.elevatorCount();
+
+        cruise.numberOfCrew.click();
+        Log.info(cruise.numberOfCrew.getText());
+        Log.info(cruise.numberOfCapacity.getText());
+
         Assert.assertTrue(elevatorCount > 0, "Elevator count is invalid or zero!");
         Log.info("Presence of Elevators is valid: " + elevatorCount);
     }

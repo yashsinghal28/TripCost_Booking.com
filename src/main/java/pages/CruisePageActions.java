@@ -2,13 +2,20 @@ package pages;
 
 import Logs.Log;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
+
+import static baseclass.BaseClass.driver;
 
 public class CruisePageActions {
     public By onB = By.xpath("//div[@id='expandCollapse_stateroom_Content']/h3[1]");
@@ -58,6 +65,19 @@ public class CruisePageActions {
     @FindBy(xpath = "//a[@id='hp_searchContinue']")
     public WebElement image;
 
+    @FindBy(xpath =  "(//p[@class='ui-block-a'])[10]")
+    public WebElement numberOfCrew;
+
+    @FindBy(xpath = "(//p[@class='ui-block-a'])[9]")
+    public  WebElement numberOfCapacity;
+
+//    @FindBy(id= "expandCollapse_media")
+//    public  WebElement photoGalleryLoc;
+
+    @FindBy(xpath = "(//a[@id ='swipe_1'])[1]")
+    public WebElement photoButton;
+//    (//a[@id ='swipe_1'])[1]
+
     public CruisePageActions(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
@@ -81,6 +101,10 @@ public class CruisePageActions {
     public void triggerOnBoardingButton() {
         onBoarding.click();
     }
+
+//    public void photoGalleryLocator() {
+//        photoGalleryLoc.click();
+//    }
 
     public WebElement img() {
         return image;
@@ -126,7 +150,17 @@ public class CruisePageActions {
             Log.info(cc);
         }
     }
+//    public  void photoClick() {
+//        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+//        WebElement imageElement = wait.until(ExpectedConditions.elementToBeClickable(By.id("sliderImage_1_7")));
+//        imageElement.click();
+//
+//    }
 
+    public  void photoClickButton() {
+        photoButton.click();
+    }
+//    public int numOfCruise
     public int elevatorCount() {
         String[] elevatorText = numberOfElevators.getAttribute("innerText").split(":");
         int elevatorCount = 0;

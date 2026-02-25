@@ -2211,3 +2211,263 @@ Please Note: Staterooms 9252 and 9652 have obstructed views. -> Deck: Deck 9,Dec
 10:53:02.554 INFO  Log - TC-18: Validate price/currency token on cruise details page
 10:53:04.094 INFO  Log - TC-20 PASSED: Price/currency token detected.
 10:53:05.860 INFO  Log - Driver quit successfully.
+17:37:41.188 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+17:38:00.245 INFO  Log - Presence of Header is Verified
+17:38:01.099 INFO  Log - Presence of Elevators is valid: 4
+17:38:03.263 INFO  Log - Driver quit successfully.
+17:39:02.300 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+17:39:25.672 INFO  Log - Presence of Header is Verified
+17:39:26.554 INFO  Log - Presence of Elevators is valid: 4
+17:39:28.580 INFO  Log - Driver quit successfully.
+17:39:53.675 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+17:40:14.018 INFO  Log - Presence of Header is Verified
+17:40:24.568 INFO  Log - Presence of Elevators is valid: 4
+17:40:28.800 INFO  Log - Driver quit successfully.
+17:40:56.914 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+17:41:11.721 INFO  Log - Presence of Header is Verified
+17:41:22.351 INFO  Log - Presence of Elevators is valid: 4
+17:41:26.385 INFO  Log - Driver quit successfully.
+17:41:54.533 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+17:42:09.403 INFO  Log - Presence of Header is Verified
+17:42:20.604 INFO  Log - Presence of Elevators is valid: 4
+17:42:23.452 INFO  Log - Driver quit successfully.
+17:42:46.515 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+17:43:00.875 INFO  Log - Presence of Header is Verified
+17:43:12.033 INFO  Log - Presence of Elevators is valid: 4
+17:43:14.857 INFO  Log - Driver quit successfully.
+17:43:34.003 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+17:44:06.946 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+17:44:27.681 INFO  Log - Presence of Header is Verified
+17:44:38.428 INFO  Log - Presence of Elevators is valid: 4
+17:44:41.200 INFO  Log - Driver quit successfully.
+17:45:23.115 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+17:45:41.897 INFO  Log - Presence of Header is Verified
+17:45:52.967 INFO  Log - Presence of Elevators is valid: 4
+17:45:55.872 INFO  Log - Driver quit successfully.
+17:46:40.984 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+17:46:55.887 INFO  Log - Presence of Header is Verified
+17:47:17.014 INFO  Log - Presence of Elevators is valid: 4
+17:47:19.721 INFO  Log - Driver quit successfully.
+17:48:49.749 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+17:49:08.940 INFO  Log - Presence of Header is Verified
+17:49:09.544 INFO  Log - 
+17:49:09.544 INFO  Log - Presence of Elevators is valid: 4
+17:49:11.595 INFO  Log - Driver quit successfully.
+17:50:39.435 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+17:50:59.354 INFO  Log - Presence of Header is Verified
+17:51:01.436 INFO  Log - Number of Crew, Nationality
+17:51:01.439 INFO  Log - Presence of Elevators is valid: 4
+17:51:05.395 INFO  Log - Driver quit successfully.
+17:51:57.876 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+17:52:16.718 INFO  Log - Presence of Header is Verified
+17:52:28.712 INFO  Log - Number of Crew, Nationality
+17:52:28.714 INFO  Log - Presence of Elevators is valid: 4
+17:52:31.433 INFO  Log - Driver quit successfully.
+18:02:13.926 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+18:02:33.169 INFO  Log - Presence of Header is Verified
+18:02:45.295 INFO  Log - Number of Crew, Nationality : 859, International
+18:02:45.295 INFO  Log - Presence of Elevators is valid: 4
+18:02:48.231 INFO  Log - Driver quit successfully.
+18:05:18.582 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+18:05:37.932 INFO  Log - Presence of Header is Verified
+18:05:49.941 INFO  Log - Number of Crew, Nationality : 859, International
+18:05:49.967 INFO  Log - Capacity : 2112
+18:05:49.967 INFO  Log - Presence of Elevators is valid: 4
+18:05:52.802 INFO  Log - Driver quit successfully.
+18:06:28.721 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+18:06:34.282 INFO  Log - Driver quit successfully.
+18:12:32.503 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+18:12:55.217 INFO  Log - Presence of Header is Verified
+18:13:07.266 INFO  Log - Number of Crew, Nationality : 859, International
+18:13:07.303 INFO  Log - Capacity : 2112
+18:13:07.303 INFO  Log - Presence of Elevators is valid: 4
+18:13:10.188 INFO  Log - Driver quit successfully.
+18:15:25.854 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+18:15:45.291 INFO  Log - Presence of Header is Verified
+18:15:47.475 INFO  Log - Number of Crew, Nationality : 859, International
+18:15:50.025 INFO  Log - Driver quit successfully.
+18:16:39.311 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+18:16:58.927 INFO  Log - Presence of Header is Verified
+18:17:00.643 INFO  Log - Number of Crew, Nationality : 859, International
+18:17:00.664 INFO  Log - Capacity : 2112
+18:17:00.664 INFO  Log - Presence of Elevators is valid: 4
+18:17:02.440 INFO  Log - Driver quit successfully.
+23:14:37.195 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+23:15:01.552 INFO  Log - Driver quit successfully.
+23:18:52.134 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+23:19:14.560 INFO  Log - Driver quit successfully.
+23:31:11.483 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+23:31:46.006 INFO  Log - Driver quit successfully.
+23:32:16.937 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+23:32:38.689 INFO  Log - Driver quit successfully.
+23:37:50.023 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+23:38:25.346 INFO  Log - Driver quit successfully.
+23:38:47.714 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+23:39:23.567 INFO  Log - Driver quit successfully.
+23:41:53.662 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+23:42:31.838 INFO  Log - Driver quit successfully.
+23:54:45.138 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+23:55:22.752 INFO  Log - Driver quit successfully.
+23:58:31.822 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+23:59:13.186 INFO  Log - Driver quit successfully.
+23:59:49.214 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+00:00:30.410 INFO  Log - Driver quit successfully.
+00:03:16.523 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+00:03:55.440 INFO  Log - Driver quit successfully.
+00:05:18.957 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+00:05:49.416 INFO  Log - Gallery viewed Successfully
+00:05:52.277 INFO  Log - Driver quit successfully.
+09:21:35.466 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+09:21:57.160 INFO  Log -  
+			Owner's Suite - 2 Bedroom
+			
+			Deck: Deck 7,Deck 8,Deck 9
+							
+			Category: OTSize: 584 sq. ft.; Balcony: 191 sq. ft.Occupancy: Up to 8 guestsAmenities: Two bedrooms with two twin beds that convert to Royal King (one room with third and fourth Pullman beds), two bathrooms (one with shower, one with bathtub), living area with double sofa bed, private balcony, walk-in closet, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more.
+		 -> Deck: Deck 7,Deck 8,Deck 9
+09:21:57.160 INFO  Log -  
+			Owner's Suite - 1 Bedroom
+			
+			Deck: Deck 10
+							
+			Category: OSSize: 512 sq. ft.; Balcony: 57 sq. ft.Occupancy: Up to 4 guestsAmenities: Queen-size bed, private balcony, private bathroom with whirlpool tub, double sinks, separate shower and bidet, separate living area with double sofa bed, walk-in closet, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more.
+		 -> Deck: Deck 10
+09:21:57.160 INFO  Log -  
+			Grand Suite - 1 Bedroom
+			
+			Deck: Deck 10
+							
+			Category: GSSize: 385 sq. ft.; Balcony: 106 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, private bathroom with tub and double sink, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more.
+		 -> Deck: Deck 10
+09:21:57.160 INFO  Log -  
+			Junior Suite
+			
+			Deck: Deck 10
+							
+			Category: J3Size: 299 sq. ft.; Balcony: 41 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, private bathroom with tub and shower, sitting area with sofa bed, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.Please Note: Staterooms 1098 and 1598 have obstructed views.Wheelchair Accessible Staterooms: 1028 and 1528. (362 sq. ft.; Balcony 86 sq. ft.)Wheelchair Accessible Amenities: Open bed frames, wider entry door, turning spaces, sitting area with lowered vanity, closet rods and private bathroom with a wider door, roll-in shower, grab bars, fold-down shower bench, hand-held shower head, raised toilet, and a lowered sink.Please Note: Royal Caribbean requires guests booked in this category to acknowledge need for the accessible stateroom by completing a Guest Special Needs Form.
+		 -> Deck: Deck 10
+09:21:57.160 INFO  Log -  
+			Ocean View Suite - 2 Bedroom (No Balcony)
+			
+			Deck: Deck 10
+							
+			Category: VTSize: 592 sq. ft.Occupancy: Up to 8 guestsAmenities: Two bedrooms. Master with two twin beds that convert to Royal King and private bathroom with tub; second bedroom with four pullman beds and living area with double sofa bed, additional bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.
+		 -> Deck: Deck 10
+09:21:57.160 INFO  Log -  
+			Suite Guarantee
+							
+			Please note that this is a 'guarantee' rate.By booking this category, you are guaranteed a suite for this sailing at this rate. However, this rate is not associated with a specific stateroom, deck, or bedding configuration.Staterooms may be located anywhere on this ship.You will be assigned a specific suite at check-in.
+		 -> Please note that this is a 'guarantee' rate.By booking this category, you are guaranteed a suite for this sailing at this rate. However, this rate is not associated with a specific stateroom, deck, or bedding configuration.Staterooms may be located anywhere on this ship.You will be assigned a specific suite at check-in.
+09:21:57.160 INFO  Log -  
+			Spacious Sunset Ocean View Balcony
+			
+			Deck: Deck 7,Deck 8,Deck 9,Deck 10
+							
+			Category: SGSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: 2 guests standardAmenities: Two twin beds that convert to Royal King, aft-facing private balcony, sitting area with sofa, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.
+		 -> Deck: Deck 7,Deck 8,Deck 9,Deck 10
+09:21:57.160 INFO  Log -  
+			Spacious Ocean View Balcony
+			
+			Deck: Deck 9,Deck 10
+							
+			Category: 1BSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, or some stateooms have single sofa bed and one Pullman bed, or sitting area with sofa and two Pullman beds, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.Please Note: Stateroom 9050 has obstructed views.
+		 -> Deck: Deck 9,Deck 10
+09:21:57.163 INFO  Log -  
+			Spacious Ocean View Balcony
+			
+			Deck: Deck 9
+							
+			Category: 2BSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: 2 guests standardAmenities: Two twin beds that convert to Royal King, a private balcony, sitting area with sofa, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.
+		 -> Deck: Deck 9
+09:21:57.163 INFO  Log -  
+			Spacious Ocean View Balcony
+			
+			Deck: Deck 9,Deck 10
+							
+			Category: 3BSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, or some stateooms have sitting area with sofa and two Pullman beds, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.Please Note: Staterooms 9252 and 9652 have obstructed views.
+		 -> Deck: Deck 9,Deck 10
+09:21:57.984 INFO  Log - SuccessFull Print of Stats Of Cruise
+09:22:00.417 INFO  Log - Driver quit successfully.
+10:45:14.861 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:45:41.573 INFO  Log - Gallery viewed Successfully
+10:45:44.052 INFO  Log - Driver quit successfully.
+10:47:25.957 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:47:46.313 INFO  Log - Gallery viewed Successfully
+10:47:48.616 INFO  Log - Driver quit successfully.
+10:48:25.273 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:48:44.259 INFO  Log - TC-18: Validate price/currency token on cruise details page
+10:48:55.307 INFO  Log - TC-20 PASSED: Price/currency token detected.
+10:49:00.098 INFO  Log - Driver quit successfully.
+10:52:09.025 INFO  Log - Launched URL1: https://www.booking.com/ Driver started successfully
+10:52:28.239 INFO  Log - <STATS>
+10:52:29.282 INFO  Log - Dining
+10:52:29.282 INFO  Log - My Family Time Dining
+10:52:29.284 INFO  Log - Tides Dining Room
+10:52:29.284 INFO  Log - Chef's Table
+10:52:29.284 INFO  Log - Giovanni's Table
+10:52:29.284 INFO  Log - Chops Grille
+10:52:29.284 INFO  Log - Izumi
+10:52:29.284 INFO  Log - Windjammer Cafe
+10:52:29.284 INFO  Log - Sorrento's Pizza
+10:52:29.284 INFO  Log - Cafe Latte-tudes
+10:52:29.284 INFO  Log - Crown Lounge
+10:52:29.284 INFO  Log - 
+			Ship Statistics
+			
+					
+					Name : Jewel of the Seas
+					
+					Registry : Bahamas
+					
+					Builder : Meyer Werft
+					
+					Country Built In : Germany
+					
+					Ship Completed Date : 5/8/2004
+					
+					Christened By : Kathy Mellor
+					
+					Call Letters : C6FW9
+					
+					Refurbished Date : 1/1/2016
+					
+					Capacity : 2112
+					
+					Number of Crew, Nationality : 859, International
+					
+					Gross Tonnage : 90090
+					
+					Stabilized : Yes
+					
+					Average Speed : 25 knots
+				
+			
+			
+					
+					Maximum Speed : 25 knots
+					
+					Length : 962 feet
+					
+					Beam : 105.6 feet
+					
+					Number of Passenger Decks : 12
+					
+					Number of Inside Rooms : 238
+					
+					Number of Outside Rooms : 817
+					
+					Number of Restaurants : 5
+					
+					Number of Pools : 3
+					
+					Number of Elevators : 4
+					
+					Voltage : 110/220
+					
+					Non-Smoking Dining : Yes
+					
+					Non-Smoking Ship : No
+				
+			
+		
+10:52:31.732 INFO  Log - Driver quit successfully.
