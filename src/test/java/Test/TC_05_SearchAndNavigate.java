@@ -6,15 +6,19 @@ import pages.HomePageActions;
 import pages.HotelPageActions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import utils.Utils;
+
+import java.io.IOException;
+
 import static CommonCode.Commoncode.takeScreenShot;
 
 public class TC_05_SearchAndNavigate extends BaseClass {
     @Test()
-    public void tc_05_searchAndNavigateToResults() {
+    public void tc_05_searchAndNavigateToResults() throws IOException {
         HomePageActions home = new HomePageActions(driver);
         driver.get(url1);
         home.closePopUp();
-        String location = "Nairobi";
+        String location = Utils.fetchPropertyValue("location").toString();
         home.setLocation(location);
         Log.info("Typed location: " + location);
 

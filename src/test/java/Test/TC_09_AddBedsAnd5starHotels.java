@@ -8,17 +8,19 @@ import pages.HotelPageActions;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import utils.Utils;
 
+import java.io.IOException;
 import java.util.List;
 import static CommonCode.Commoncode.takeScreenShot;
 
 public class TC_09_AddBedsAnd5starHotels extends BaseClass {
     @Test()
-    public void tc_09_addBedsAnd5starHotels() {
+    public void tc_09_addBedsAnd5starHotels() throws IOException {
         home = new HomePageActions(driver);
         driver.get(url1);
         home.closePopUp();
-        String location = "Nairobi";
+        String location = Utils.fetchPropertyValue("location").toString();
         home.setLocation(location);
         Log.info("Typed location: " + location);
 

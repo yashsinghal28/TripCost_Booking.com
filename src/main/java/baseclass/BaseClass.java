@@ -22,7 +22,7 @@ public class BaseClass {
     public WebDriverWait wait;
     public Commoncode cm=new Commoncode();
     public String url1;
-    protected String url2;
+    public String url2;
     public HomePageActions home;
     public HotelPageActions hotelActions;
 
@@ -42,7 +42,7 @@ public class BaseClass {
         cm.implicitWait(driver);
         wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         home = new HomePageActions(driver);
-        Log.info("Launched URL1: " + url1 +" Driver started successfully");
+        Log.info("Launched URL1 or URL2: " + url1 +"|" + url2 + " Driver started successfully");
     }
 
     @AfterMethod

@@ -7,18 +7,20 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.HomePageActions;
 import pages.HotelPageActions;
+import utils.Utils;
 
+import java.io.IOException;
 import java.util.List;
 
 import static CommonCode.Commoncode.takeScreenShot;
 
 public class TC_06_GetAllHotels extends BaseClass {
     @Test()
-    public void tc_06_getAllHotels() {
+    public void tc_06_getAllHotels() throws IOException {
         home = new HomePageActions(driver);
         driver.get(url1);
         home.closePopUp();
-        String location = "Nairobi";
+        String location = Utils.fetchPropertyValue("location").toString();
         home.setLocation(location);
         Log.info("Typed location: " + location);
 

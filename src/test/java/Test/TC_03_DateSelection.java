@@ -5,16 +5,19 @@ import baseclass.BaseClass;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.HomePageActions;
+import utils.Utils;
+
+import java.io.IOException;
 
 import static CommonCode.Commoncode.takeScreenShot;
 
 public class TC_03_DateSelection extends BaseClass {
     @Test()
-    public void tc_03_selectCheckInCheckOutDates() {
+    public void tc_03_selectCheckInCheckOutDates() throws IOException {
         HomePageActions home = new HomePageActions(driver);
         driver.get(url1);
         home.closePopUp();
-        String location = "Nairobi";
+        String location = Utils.fetchPropertyValue("location").toString();
         home.setLocation(location);
         Log.info("Typed location: " + location);
 

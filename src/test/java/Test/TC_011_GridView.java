@@ -7,14 +7,17 @@ import pages.HotelPageActions;
 import org.testng.annotations.Test;
 import static CommonCode.Commoncode.takeScreenShot;
 import org.openqa.selenium.JavascriptExecutor;
+import utils.Utils;
+
+import java.io.IOException;
 
 public class TC_011_GridView extends BaseClass {
     @Test()
-    public void tc_11_clickGridView() {
+    public void tc_11_clickGridView() throws IOException {
         home = new HomePageActions(driver);
         driver.get(url1);
         home.closePopUp();
-        String location = "Nairobi";
+        String location = Utils.fetchPropertyValue("location").toString();
         home.setLocation(location);
         Log.info("Typed location: " + location);
 
