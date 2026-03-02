@@ -267,3 +267,43 @@
 11:03:54.606 INFO  Log - Price for 1 Day: ₹ 8733.8
 11:03:54.805 INFO  Log - Captured final hotel results screenshot.
 11:03:57.067 INFO  Log - Driver quit successfully.
+11:08:42.010 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+11:08:48.197 INFO  Log - Typed location: Nairobi
+11:08:48.225 INFO  Log - Captured location value: Nairobi
+11:08:48.589 INFO  Log - Selected check in and check out dates
+11:08:52.385 INFO  Log - Clicked Search on Home page.
+11:08:52.903 INFO  Log - Total hotels found: 5, prices found: 4
+11:08:55.517 INFO  Log - Hotel 1: 2 Bedrooms Gym Restaurant Kids Zone Swim
+11:08:55.517 INFO  Log - Price for 5 Days: ₹ 24,564
+11:08:55.519 INFO  Log - Price for 1 Day: ₹ 4912.8
+11:08:55.575 INFO  Log - Hotel 2: Parachichi House, Kilimani
+11:08:55.575 INFO  Log - Price for 5 Days: ₹ 20,015
+11:08:55.575 INFO  Log - Price for 1 Day: ₹ 4003.0
+11:08:55.615 INFO  Log - Hotel 3: Cozy 2bed Apple Tree Apartment Nairobi
+11:08:55.615 INFO  Log - Price for 5 Days: ₹ 21,834
+11:08:55.615 INFO  Log - Price for 1 Day: ₹ 4366.8
+11:08:55.654 INFO  Log - Hotel 4: Cozy Studio Apartment Spa and Safaris
+11:08:55.654 INFO  Log - Price for 5 Days: ₹ 43,669
+11:08:55.654 INFO  Log - Price for 1 Day: ₹ 8733.8
+11:08:57.936 INFO  Log - Driver quit successfully.
+11:10:46.044 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+11:10:53.825 INFO  Log - Typed location: Nairobi
+11:10:53.847 INFO  Log - Captured location value: Nairobi
+11:10:54.129 INFO  Log - Selected check in and check out dates
+11:10:57.171 INFO  Log - Clicked Search on Home page.
+11:10:57.505 INFO  Log - Total hotels found: 5, prices found: 4
+11:11:00.272 INFO  Log - Hotel 1: Alya Hotel & Suites Ltd
+11:11:00.274 INFO  Log - Price for 5 Days: ₹ 32,751
+11:11:00.277 INFO  Log - Price for 1 Day: ₹ 6550.2
+11:11:00.326 INFO  Log - Hotel 2: 1BR Luxury suites near JKIA SGR with pool gym Cityview
+11:11:00.327 INFO  Log - Price for 5 Days: ₹ 50,037
+11:11:00.327 INFO  Log - Price for 1 Day: ₹ 10007.4
+11:11:00.366 INFO  Log - Hotel 3: Pax Manor Muthaiga
+11:11:00.366 INFO  Log - Price for 5 Days: ₹ 330,586
+11:11:00.366 INFO  Log - Price for 1 Day: ₹ 66117.2
+11:11:00.415 INFO  Log - Hotel 4: Pan Pacific Serviced Suites Nairobi
+11:11:00.415 INFO  Log - Price for 5 Days: ₹ 162,325
+11:11:00.416 INFO  Log - Price for 1 Day: ₹ 32465.0
+11:11:01.239 INFO  Log - Hotel list written to Excel: test-output/HotelList.xlsx
+11:11:01.425 INFO  Log - Captured final hotel results screenshot.
+11:11:03.535 INFO  Log - Driver quit successfully.
