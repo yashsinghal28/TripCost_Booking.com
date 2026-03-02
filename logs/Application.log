@@ -267,237 +267,288 @@
 12:08:22.437 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
 12:08:38.975 INFO  Log - Gallery viewed Successfully
 12:08:40.908 INFO  Log - Driver quit successfully.
-16:37:49.975 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:38:06.687 INFO  Log - Indian Currency Selected
-16:38:07.035 INFO  Log - Typed location: Nairobi
-16:38:07.066 INFO  Log - Captured location value: Nairobi
-16:38:10.081 INFO  Log - Driver quit successfully.
-16:41:11.467 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:41:22.436 INFO  Log - Popup closed successfully
-16:41:22.474 INFO  Log - Logo Image Displayed
-16:41:25.181 INFO  Log - Driver quit successfully.
-16:41:28.383 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:41:43.458 INFO  Log - Indian Currency Selected
-16:41:44.095 INFO  Log - Typed location: Nairobi
-16:41:44.129 INFO  Log - Captured location value: Nairobi
-16:41:47.190 INFO  Log - Driver quit successfully.
-16:41:50.057 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:41:58.605 INFO  Log - Typed location: Nairobi
-16:41:58.641 INFO  Log - Captured location value: Nairobi
-16:41:59.273 INFO  Log - Selected check in and check out dates
-16:42:02.349 INFO  Log - Driver quit successfully.
-16:42:05.059 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:42:23.466 INFO  Log - Driver quit successfully.
-16:42:25.982 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:42:47.841 INFO  Log - Driver quit successfully.
-16:42:50.222 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:43:09.150 INFO  Log - Driver quit successfully.
-16:43:11.599 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:43:33.446 INFO  Log - Driver quit successfully.
-16:43:36.182 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:43:45.088 INFO  Log - Typed location: Nairobi
-16:43:45.125 INFO  Log - Captured location value: Nairobi
-16:43:46.349 INFO  Log - Selected check in and check out dates
-16:43:53.325 INFO  Log - Clicked Search on Home page.
-16:43:54.506 INFO  Log - Elevator accessibility filter applied.
-16:43:58.215 INFO  Log - Driver quit successfully.
-16:44:00.312 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:46:10.401 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:46:20.033 INFO  Log - Popup closed successfully
-16:46:20.091 INFO  Log - Logo Image Displayed
-16:46:23.596 INFO  Log - Driver quit successfully.
-16:46:26.479 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:46:40.562 INFO  Log - Indian Currency Selected
-16:46:41.060 INFO  Log - Typed location: Nairobi
-16:46:41.110 INFO  Log - Captured location value: Nairobi
-16:46:43.904 INFO  Log - Driver quit successfully.
-16:46:46.672 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:46:54.298 INFO  Log - Typed location: Nairobi
-16:46:54.335 INFO  Log - Captured location value: Nairobi
-16:46:55.262 INFO  Log - Selected check in and check out dates
-16:46:58.021 INFO  Log - Driver quit successfully.
-16:47:00.466 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:47:09.058 INFO  Log - Typed location: Nairobi
-16:47:09.097 INFO  Log - Captured location value: Nairobi
-16:47:09.888 INFO  Log - Selected check in and check out dates
-16:47:13.271 INFO  Log - Driver quit successfully.
-16:47:15.849 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:47:25.755 INFO  Log - Typed location: Nairobi
-16:47:25.782 INFO  Log - Captured location value: Nairobi
-16:47:26.551 INFO  Log - Selected check in and check out dates
-16:47:42.509 INFO  Log - Clicked Search on Home page.
-16:47:46.928 INFO  Log - Driver quit successfully.
-16:47:49.123 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:48:01.856 INFO  Log - Typed location: Nairobi
-16:48:01.885 INFO  Log - Captured location value: Nairobi
-16:48:02.671 INFO  Log - Selected check in and check out dates
-16:48:08.020 INFO  Log - Clicked Search on Home page.
-16:48:09.853 INFO  Log - Hotel options button is visible.
-16:48:09.985 INFO  Log - 1 BR Stylish Haven with Skyline Views
-16:48:10.031 INFO  Log - Skynest Residences by CityBlue, Nairobi Westlands
-16:48:10.061 INFO  Log - Gem Forest Hotel Nairobi - MGallery Collection
-16:48:10.088 INFO  Log - classic palace apartment with heated swimming pool fully equipped gym private parking,child play area and a relaxing rooftop with amazing city views
-16:48:14.093 INFO  Log - Driver quit successfully.
-16:48:16.292 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:48:24.418 INFO  Log - Typed location: Nairobi
-16:48:24.450 INFO  Log - Captured location value: Nairobi
-16:48:24.982 INFO  Log - Selected check in and check out dates
-16:48:29.829 INFO  Log - Clicked Search on Home page.
-16:48:35.578 INFO  Log - Driver quit successfully.
-16:48:37.959 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:48:45.766 INFO  Log - Typed location: Nairobi
-16:48:45.796 INFO  Log - Captured location value: Nairobi
-16:48:46.390 INFO  Log - Selected check in and check out dates
-16:48:52.587 INFO  Log - Clicked Search on Home page.
-16:48:54.347 INFO  Log - Elevator accessibility filter applied.
-16:48:57.728 INFO  Log - Driver quit successfully.
-16:48:59.938 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:49:08.000 INFO  Log - Typed location: Nairobi
-16:49:08.029 INFO  Log - Captured location value: Nairobi
-16:49:08.883 INFO  Log - Selected check in and check out dates
-16:49:14.785 INFO  Log - Clicked Search on Home page.
-16:49:14.998 INFO  Log - Total hotels found: 3, prices found: 2
-16:49:15.284 INFO  Log - selected 5star hotels
-16:49:17.914 INFO  Log - Added 2 bedroom
-16:49:21.525 INFO  Log - Driver quit successfully.
-16:49:24.696 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:49:33.396 INFO  Log - Typed location: Nairobi
-16:49:33.422 INFO  Log - Captured location value: Nairobi
-16:49:34.192 INFO  Log - Selected check in and check out dates
-16:49:41.180 INFO  Log - Clicked Search on Home page.
-16:49:41.375 INFO  Log - Total hotels found: 3, prices found: 2
-16:49:46.891 INFO  Log - Hotel 1: Cozy Studio Apartment Spa and Safaris
-16:49:46.891 INFO  Log - Price for 5 Days: ₹ 43,669
-16:49:46.895 INFO  Log - Price for 1 Day: ₹ 8733.8
-16:49:46.974 INFO  Log - Hotel 2: Urbanwoods Hotel Suites by ICON
-16:49:46.975 INFO  Log - Price for 5 Days: ₹ 136,464
-16:49:46.975 INFO  Log - Price for 1 Day: ₹ 27292.8
-16:49:48.293 INFO  Log - Hotel list written to Excel: test-output/HotelList.xlsx
-16:49:48.526 INFO  Log - Captured final hotel results screenshot.
-16:49:51.510 INFO  Log - Driver quit successfully.
-16:49:54.118 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:50:04.026 INFO  Log - Typed location: Nairobi
-16:50:04.064 INFO  Log - Captured location value: Nairobi
-16:50:04.971 INFO  Log - Selected check in and check out dates
-16:50:09.949 INFO  Log - Clicked Search on Home page.
-16:50:11.678 INFO  Log - Clicked Grid view button
-16:50:12.317 INFO  Log - Grid View button is displayed on the page
-16:50:14.929 INFO  Log - Driver quit successfully.
-16:50:17.231 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:50:27.379 INFO  Log - Home Page | Booking.com Cruises
-16:50:29.477 INFO  Log - Driver quit successfully.
-16:50:31.540 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:50:36.597 INFO  Log - Validation of Title-->Passed
-16:50:36.718 INFO  Log - Pop up closed Successfully
-16:50:37.003 INFO  Log - Search working Successfully
-16:50:39.267 INFO  Log - Driver quit successfully.
-16:50:41.510 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:50:47.026 INFO  Log - Validation of Cookies
-16:50:49.133 INFO  Log - Validation of curise Line
-16:50:49.610 INFO  Log - Choosing Cruise Line --> Passed
-16:50:51.617 INFO  Log - Driver quit successfully.
-16:50:53.913 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:50:59.019 INFO  Log - Validation of Cookies
-16:51:01.307 INFO  Log - Validation of Cruise Line
-16:51:01.923 INFO  Log - Checked the Sailing Month date and Validated: 2026-08
-16:51:04.111 INFO  Log - Driver quit successfully.
-16:51:06.220 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:51:15.519 INFO  Log - Selected Cruise is Present and Verified Sailing Date
-16:51:23.055 INFO  Log - Validated and Selected Correct Cruise
-16:51:25.453 INFO  Log - Driver quit successfully.
-16:51:27.663 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:51:46.438 INFO  Log - Driver quit successfully.
-16:51:48.482 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:52:03.705 INFO  Log -  
+16:34:00.124 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:34:05.870 INFO  Log - Popup closed successfully
+16:34:05.976 INFO  Log - Logo Image Displayed
+16:34:08.416 INFO  Log - Driver quit successfully.
+16:34:10.345 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:34:14.909 INFO  Log - Driver quit successfully.
+16:36:21.607 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:36:41.334 INFO  Log -  
 			Owner's Suite - 2 Bedroom
 			
 			Deck: Deck 7,Deck 8,Deck 9
 							
 			Category: OTSize: 584 sq. ft.; Balcony: 191 sq. ft.Occupancy: Up to 8 guestsAmenities: Two bedrooms with two twin beds that convert to Royal King (one room with third and fourth Pullman beds), two bathrooms (one with shower, one with bathtub), living area with double sofa bed, private balcony, walk-in closet, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more.
 		 -> Deck: Deck 7,Deck 8,Deck 9
-16:52:03.707 INFO  Log -  
+16:36:41.334 INFO  Log -  
 			Owner's Suite - 1 Bedroom
 			
 			Deck: Deck 10
 							
 			Category: OSSize: 512 sq. ft.; Balcony: 57 sq. ft.Occupancy: Up to 4 guestsAmenities: Queen-size bed, private balcony, private bathroom with whirlpool tub, double sinks, separate shower and bidet, separate living area with double sofa bed, walk-in closet, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more.
 		 -> Deck: Deck 10
-16:52:03.707 INFO  Log -  
+16:36:41.334 INFO  Log -  
 			Grand Suite - 1 Bedroom
 			
 			Deck: Deck 10
 							
 			Category: GSSize: 385 sq. ft.; Balcony: 106 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, private bathroom with tub and double sink, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more.
 		 -> Deck: Deck 10
-16:52:03.708 INFO  Log -  
+16:36:41.334 INFO  Log -  
 			Junior Suite
 			
 			Deck: Deck 10
 							
 			Category: J3Size: 299 sq. ft.; Balcony: 41 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, private bathroom with tub and shower, sitting area with sofa bed, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.Please Note: Staterooms 1098 and 1598 have obstructed views.Wheelchair Accessible Staterooms: 1028 and 1528. (362 sq. ft.; Balcony 86 sq. ft.)Wheelchair Accessible Amenities: Open bed frames, wider entry door, turning spaces, sitting area with lowered vanity, closet rods and private bathroom with a wider door, roll-in shower, grab bars, fold-down shower bench, hand-held shower head, raised toilet, and a lowered sink.Please Note: Royal Caribbean requires guests booked in this category to acknowledge need for the accessible stateroom by completing a Guest Special Needs Form.
 		 -> Deck: Deck 10
-16:52:03.708 INFO  Log -  
+16:36:41.334 INFO  Log -  
 			Ocean View Suite - 2 Bedroom (No Balcony)
 			
 			Deck: Deck 10
 							
 			Category: VTSize: 592 sq. ft.Occupancy: Up to 8 guestsAmenities: Two bedrooms. Master with two twin beds that convert to Royal King and private bathroom with tub; second bedroom with four pullman beds and living area with double sofa bed, additional bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.
 		 -> Deck: Deck 10
-16:52:03.708 INFO  Log -  
+16:36:41.335 INFO  Log -  
 			Suite Guarantee
 							
 			Please note that this is a 'guarantee' rate.By booking this category, you are guaranteed a suite for this sailing at this rate. However, this rate is not associated with a specific stateroom, deck, or bedding configuration.Staterooms may be located anywhere on this ship.You will be assigned a specific suite at check-in.
 		 -> Please note that this is a 'guarantee' rate.By booking this category, you are guaranteed a suite for this sailing at this rate. However, this rate is not associated with a specific stateroom, deck, or bedding configuration.Staterooms may be located anywhere on this ship.You will be assigned a specific suite at check-in.
-16:52:03.708 INFO  Log -  
+16:36:41.335 INFO  Log -  
 			Spacious Sunset Ocean View Balcony
 			
 			Deck: Deck 7,Deck 8,Deck 9,Deck 10
 							
 			Category: SGSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: 2 guests standardAmenities: Two twin beds that convert to Royal King, aft-facing private balcony, sitting area with sofa, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.
 		 -> Deck: Deck 7,Deck 8,Deck 9,Deck 10
-16:52:03.708 INFO  Log -  
+16:36:41.335 INFO  Log -  
 			Spacious Ocean View Balcony
 			
 			Deck: Deck 9,Deck 10
 							
 			Category: 1BSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, or some stateooms have single sofa bed and one Pullman bed, or sitting area with sofa and two Pullman beds, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.Please Note: Stateroom 9050 has obstructed views.
 		 -> Deck: Deck 9,Deck 10
-16:52:03.709 INFO  Log -  
+16:36:41.335 INFO  Log -  
 			Spacious Ocean View Balcony
 			
 			Deck: Deck 9
 							
 			Category: 2BSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: 2 guests standardAmenities: Two twin beds that convert to Royal King, a private balcony, sitting area with sofa, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.
 		 -> Deck: Deck 9
-16:52:03.709 INFO  Log -  
+16:36:41.335 INFO  Log -  
 			Spacious Ocean View Balcony
 			
 			Deck: Deck 9,Deck 10
 							
 			Category: 3BSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, or some stateooms have sitting area with sofa and two Pullman beds, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.Please Note: Staterooms 9252 and 9652 have obstructed views.
 		 -> Deck: Deck 9,Deck 10
-16:52:04.517 INFO  Log - SuccessFull Print of Stats Of Cruise
-16:52:07.114 INFO  Log - Driver quit successfully.
-16:52:09.217 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:52:23.669 INFO  Log - Presence of Header is Verified
-16:52:25.498 INFO  Log - Number of Crew, Nationality : 859, International
-16:52:25.521 INFO  Log - Capacity : 2112
-16:52:25.522 INFO  Log - Presence of Elevators is valid: 4
-16:52:27.825 INFO  Log - Driver quit successfully.
-16:52:30.054 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:52:45.448 INFO  Log - <STATS>
-16:52:46.564 INFO  Log - Dining
-16:52:46.564 INFO  Log - My Family Time Dining
-16:52:46.564 INFO  Log - Tides Dining Room
-16:52:46.564 INFO  Log - Chef's Table
-16:52:46.564 INFO  Log - Giovanni's Table
-16:52:46.564 INFO  Log - Chops Grille
-16:52:46.564 INFO  Log - Izumi
-16:52:46.564 INFO  Log - Windjammer Cafe
-16:52:46.564 INFO  Log - Sorrento's Pizza
-16:52:46.564 INFO  Log - Cafe Latte-tudes
-16:52:46.564 INFO  Log - Crown Lounge
-16:52:46.565 INFO  Log - 
+16:36:42.028 INFO  Log - SuccessFull Print of Stats Of Cruise
+16:36:44.736 INFO  Log - Driver quit successfully.
+16:36:58.726 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:37:14.834 INFO  Log - Presence of Header is Verified
+16:37:16.394 INFO  Log - Number of Crew, Nationality : 859, International
+16:37:16.422 INFO  Log - Capacity : 2112
+16:37:16.422 INFO  Log - Presence of Elevators is valid: 4
+16:37:18.612 INFO  Log - Driver quit successfully.
+16:37:34.156 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:37:50.998 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:37:58.364 INFO  Log - Popup closed successfully
+16:37:58.403 INFO  Log - Logo Image Displayed
+16:38:00.763 INFO  Log - Driver quit successfully.
+16:38:02.613 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:38:24.878 INFO  Log - Indian Currency Selected
+16:38:25.157 INFO  Log - Typed location: Nairobi
+16:38:25.181 INFO  Log - Captured location value: Nairobi
+16:38:27.766 INFO  Log - Driver quit successfully.
+16:38:29.621 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:38:35.990 INFO  Log - Typed location: Nairobi
+16:38:36.014 INFO  Log - Captured location value: Nairobi
+16:38:36.592 INFO  Log - Selected check in and check out dates
+16:38:39.184 INFO  Log - Driver quit successfully.
+16:38:41.035 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:38:47.157 INFO  Log - Typed location: Nairobi
+16:38:47.288 INFO  Log - Captured location value: Nairobi
+16:38:47.748 INFO  Log - Selected check in and check out dates
+16:38:50.651 INFO  Log - Driver quit successfully.
+16:38:52.450 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:38:58.354 INFO  Log - Typed location: Nairobi
+16:38:58.394 INFO  Log - Captured location value: Nairobi
+16:38:58.795 INFO  Log - Selected check in and check out dates
+16:39:03.152 INFO  Log - Clicked Search on Home page.
+16:39:06.449 INFO  Log - Driver quit successfully.
+16:39:08.292 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:39:15.617 INFO  Log - Typed location: Nairobi
+16:39:15.670 INFO  Log - Captured location value: Nairobi
+16:39:16.309 INFO  Log - Selected check in and check out dates
+16:39:20.728 INFO  Log - Clicked Search on Home page.
+16:39:21.382 INFO  Log - Hotel options button is visible.
+16:39:21.467 INFO  Log - 1 BR Stylish Haven with Skyline Views
+16:39:21.521 INFO  Log - Radisson Blu Hotel & Residence Nairobi Arboretum
+16:39:21.539 INFO  Log - Skynest Residences by CityBlue, Nairobi Westlands
+16:39:24.528 INFO  Log - Driver quit successfully.
+16:39:26.507 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:39:32.611 INFO  Log - Typed location: Nairobi
+16:39:32.632 INFO  Log - Captured location value: Nairobi
+16:39:33.011 INFO  Log - Selected check in and check out dates
+16:39:36.975 INFO  Log - Clicked Search on Home page.
+16:39:41.647 INFO  Log - Driver quit successfully.
+16:39:43.437 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:39:48.497 INFO  Log - Typed location: Nairobi
+16:39:48.520 INFO  Log - Captured location value: Nairobi
+16:39:48.985 INFO  Log - Selected check in and check out dates
+16:39:52.633 INFO  Log - Clicked Search on Home page.
+16:39:54.363 INFO  Log - Elevator accessibility filter applied.
+16:39:57.342 INFO  Log - Driver quit successfully.
+16:39:59.225 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:40:05.436 INFO  Log - Typed location: Nairobi
+16:40:05.457 INFO  Log - Captured location value: Nairobi
+16:40:05.890 INFO  Log - Selected check in and check out dates
+16:40:10.591 INFO  Log - Clicked Search on Home page.
+16:40:11.410 INFO  Log - Total hotels found: 4, prices found: 3
+16:40:12.103 INFO  Log - selected 5star hotels
+16:40:12.603 INFO  Log - Added 2 bedroom
+16:40:15.580 INFO  Log - Driver quit successfully.
+16:40:17.708 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:40:24.132 INFO  Log - Typed location: Nairobi
+16:40:24.157 INFO  Log - Captured location value: Nairobi
+16:40:24.537 INFO  Log - Selected check in and check out dates
+16:40:28.474 INFO  Log - Clicked Search on Home page.
+16:40:29.189 INFO  Log - Total hotels found: 4, prices found: 3
+16:40:31.580 INFO  Log - Hotel 1: Cozy Studio Apartment Spa and Safaris
+16:40:31.581 INFO  Log - Price for 5 Days: ₹ 43,669
+16:40:31.607 INFO  Log - Price for 1 Day: ₹ 8733.8
+16:40:31.663 INFO  Log - Hotel 2: Urbanwoods Hotel Suites by ICON
+16:40:31.663 INFO  Log - Price for 5 Days: ₹ 136,464
+16:40:31.663 INFO  Log - Price for 1 Day: ₹ 27292.8
+16:40:31.714 INFO  Log - Hotel 3: Marina Bay One & Two bedroom, Swimming Pool, gym, workspace ESKAY HOMES Westland's Nairobi
+16:40:31.714 INFO  Log - Price for 5 Days: ₹ 57,154
+16:40:31.714 INFO  Log - Price for 1 Day: ₹ 11430.8
+16:40:32.993 INFO  Log - Hotel list written to Excel: test-output/HotelList.xlsx
+16:40:33.190 INFO  Log - Captured final hotel results screenshot.
+16:40:35.852 INFO  Log - Driver quit successfully.
+16:40:37.744 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:40:43.956 INFO  Log - Typed location: Nairobi
+16:40:43.976 INFO  Log - Captured location value: Nairobi
+16:40:44.451 INFO  Log - Selected check in and check out dates
+16:40:48.820 INFO  Log - Clicked Search on Home page.
+16:40:50.442 INFO  Log - Clicked Grid view button
+16:40:50.961 INFO  Log - Grid View button is displayed on the page
+16:40:54.649 INFO  Log - Driver quit successfully.
+16:40:56.650 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:41:03.806 INFO  Log - Home Page | Booking.com Cruises
+16:41:05.614 INFO  Log - Driver quit successfully.
+16:41:07.454 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:41:12.455 INFO  Log - Validation of Title-->Passed
+16:41:12.591 INFO  Log - Pop up closed Successfully
+16:41:12.836 INFO  Log - Search working Successfully
+16:41:14.903 INFO  Log - Driver quit successfully.
+16:41:17.119 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:41:22.645 INFO  Log - Validation of Cookies
+16:41:24.520 INFO  Log - Validation of curise Line
+16:41:24.862 INFO  Log - Choosing Cruise Line --> Passed
+16:41:26.840 INFO  Log - Driver quit successfully.
+16:41:28.673 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:41:33.084 INFO  Log - Validation of Cookies
+16:41:35.030 INFO  Log - Validation of Cruise Line
+16:41:35.478 INFO  Log - Checked the Sailing Month date and Validated: 2026-08
+16:41:37.554 INFO  Log - Driver quit successfully.
+16:41:39.454 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:41:46.204 INFO  Log - Selected Cruise is Present and Verified Sailing Date
+16:41:52.914 INFO  Log - Validated and Selected Correct Cruise
+16:41:55.333 INFO  Log - Driver quit successfully.
+16:41:57.190 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:42:12.520 INFO  Log - Driver quit successfully.
+16:42:14.287 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:42:29.398 INFO  Log -  
+			Owner's Suite - 2 Bedroom
+			
+			Deck: Deck 7,Deck 8,Deck 9
+							
+			Category: OTSize: 584 sq. ft.; Balcony: 191 sq. ft.Occupancy: Up to 8 guestsAmenities: Two bedrooms with two twin beds that convert to Royal King (one room with third and fourth Pullman beds), two bathrooms (one with shower, one with bathtub), living area with double sofa bed, private balcony, walk-in closet, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more.
+		 -> Deck: Deck 7,Deck 8,Deck 9
+16:42:29.398 INFO  Log -  
+			Owner's Suite - 1 Bedroom
+			
+			Deck: Deck 10
+							
+			Category: OSSize: 512 sq. ft.; Balcony: 57 sq. ft.Occupancy: Up to 4 guestsAmenities: Queen-size bed, private balcony, private bathroom with whirlpool tub, double sinks, separate shower and bidet, separate living area with double sofa bed, walk-in closet, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more.
+		 -> Deck: Deck 10
+16:42:29.398 INFO  Log -  
+			Grand Suite - 1 Bedroom
+			
+			Deck: Deck 10
+							
+			Category: GSSize: 385 sq. ft.; Balcony: 106 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, private bathroom with tub and double sink, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, hairdryer, and concierge service. Additional suite amenities include dedicated check-in lines at embarkation and priority departure with exclusive suite departure lounge, reserved VIP seating in the main theater for entertainment shows and priority bookings for appointments in the salon and spa, as well as for tendering and shore excursion tickets, access to Barefoot Beach in Labadee, complimentary 24-hour room service, access to the Concierge Club with concierge assistance, welcome bottle of Chandon, still water, and sparkling water, welcome fruit plate, luxury bathrobes for use onboard, exclusive bath amenities, pillow menu, and more.
+		 -> Deck: Deck 10
+16:42:29.399 INFO  Log -  
+			Junior Suite
+			
+			Deck: Deck 10
+							
+			Category: J3Size: 299 sq. ft.; Balcony: 41 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, private bathroom with tub and shower, sitting area with sofa bed, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.Please Note: Staterooms 1098 and 1598 have obstructed views.Wheelchair Accessible Staterooms: 1028 and 1528. (362 sq. ft.; Balcony 86 sq. ft.)Wheelchair Accessible Amenities: Open bed frames, wider entry door, turning spaces, sitting area with lowered vanity, closet rods and private bathroom with a wider door, roll-in shower, grab bars, fold-down shower bench, hand-held shower head, raised toilet, and a lowered sink.Please Note: Royal Caribbean requires guests booked in this category to acknowledge need for the accessible stateroom by completing a Guest Special Needs Form.
+		 -> Deck: Deck 10
+16:42:29.399 INFO  Log -  
+			Ocean View Suite - 2 Bedroom (No Balcony)
+			
+			Deck: Deck 10
+							
+			Category: VTSize: 592 sq. ft.Occupancy: Up to 8 guestsAmenities: Two bedrooms. Master with two twin beds that convert to Royal King and private bathroom with tub; second bedroom with four pullman beds and living area with double sofa bed, additional bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.
+		 -> Deck: Deck 10
+16:42:29.399 INFO  Log -  
+			Suite Guarantee
+							
+			Please note that this is a 'guarantee' rate.By booking this category, you are guaranteed a suite for this sailing at this rate. However, this rate is not associated with a specific stateroom, deck, or bedding configuration.Staterooms may be located anywhere on this ship.You will be assigned a specific suite at check-in.
+		 -> Please note that this is a 'guarantee' rate.By booking this category, you are guaranteed a suite for this sailing at this rate. However, this rate is not associated with a specific stateroom, deck, or bedding configuration.Staterooms may be located anywhere on this ship.You will be assigned a specific suite at check-in.
+16:42:29.399 INFO  Log -  
+			Spacious Sunset Ocean View Balcony
+			
+			Deck: Deck 7,Deck 8,Deck 9,Deck 10
+							
+			Category: SGSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: 2 guests standardAmenities: Two twin beds that convert to Royal King, aft-facing private balcony, sitting area with sofa, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.
+		 -> Deck: Deck 7,Deck 8,Deck 9,Deck 10
+16:42:29.399 INFO  Log -  
+			Spacious Ocean View Balcony
+			
+			Deck: Deck 9,Deck 10
+							
+			Category: 1BSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, or some stateooms have single sofa bed and one Pullman bed, or sitting area with sofa and two Pullman beds, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.Please Note: Stateroom 9050 has obstructed views.
+		 -> Deck: Deck 9,Deck 10
+16:42:29.399 INFO  Log -  
+			Spacious Ocean View Balcony
+			
+			Deck: Deck 9
+							
+			Category: 2BSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: 2 guests standardAmenities: Two twin beds that convert to Royal King, a private balcony, sitting area with sofa, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.
+		 -> Deck: Deck 9
+16:42:29.399 INFO  Log -  
+			Spacious Ocean View Balcony
+			
+			Deck: Deck 9,Deck 10
+							
+			Category: 3BSize: 204 sq. ft.; Balcony: 41 sq. ft.Occupancy: Up to 4 guestsAmenities: Two twin beds that convert to Royal King, private balcony, sitting area with double sofa bed, or some stateooms have sitting area with sofa and two Pullman beds, private bathroom with shower, vanity area, mini-bar, flat-screen TV, mini-safe, radio, telephone, and a hairdryer.Please Note: Staterooms 9252 and 9652 have obstructed views.
+		 -> Deck: Deck 9,Deck 10
+16:42:30.092 INFO  Log - SuccessFull Print of Stats Of Cruise
+16:42:32.122 INFO  Log - Driver quit successfully.
+16:42:34.005 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:42:51.489 INFO  Log - Presence of Header is Verified
+16:42:53.295 INFO  Log - Number of Crew, Nationality : 859, International
+16:42:53.318 INFO  Log - Capacity : 2112
+16:42:53.319 INFO  Log - Presence of Elevators is valid: 4
+16:42:55.484 INFO  Log - Driver quit successfully.
+16:42:57.351 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:43:13.678 INFO  Log - <STATS Of Ship >
+16:43:14.646 INFO  Log - Dining
+16:43:14.646 INFO  Log - My Family Time Dining
+16:43:14.647 INFO  Log - Tides Dining Room
+16:43:14.647 INFO  Log - Chef's Table
+16:43:14.647 INFO  Log - Giovanni's Table
+16:43:14.647 INFO  Log - Chops Grille
+16:43:14.647 INFO  Log - Izumi
+16:43:14.647 INFO  Log - Windjammer Cafe
+16:43:14.647 INFO  Log - Sorrento's Pizza
+16:43:14.647 INFO  Log - Cafe Latte-tudes
+16:43:14.647 INFO  Log - Crown Lounge
+16:43:14.647 INFO  Log - 
 			Ship Statistics
 			
 					
@@ -556,11 +607,14 @@
 				
 			
 		
-16:52:48.995 INFO  Log - Driver quit successfully.
-16:52:51.034 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:53:08.052 INFO  Log - TC-18: Validate price/currency token on cruise details page
-16:53:09.173 INFO  Log - TC-20 PASSED: Price/currency token detected.
-16:53:11.549 INFO  Log - Driver quit successfully.
-16:53:13.796 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
-16:53:34.505 INFO  Log - Gallery viewed Successfully
-16:53:38.845 INFO  Log - Driver quit successfully.
+16:43:18.930 INFO  Log - Driver quit successfully.
+16:43:20.699 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:43:36.503 INFO  Log - TC-18: Validate price/currency token on cruise details page
+16:43:37.360 INFO  Log - TC-20 PASSED: Price/currency token detected.
+16:43:39.449 INFO  Log - Driver quit successfully.
+16:43:41.234 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:44:07.672 INFO  Log - Gallery viewed Successfully
+16:44:09.883 INFO  Log - Driver quit successfully.
+16:51:48.483 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:52:08.364 INFO  Log - Test for Suit Element Passed
+16:52:11.290 INFO  Log - Driver quit successfully.

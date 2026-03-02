@@ -1,5 +1,6 @@
 package Test;
 
+import CommonCode.Commoncode;
 import Logs.Log;
 import baseclass.BaseClass;
 import org.openqa.selenium.By;
@@ -25,15 +26,14 @@ public class TC_017_SuiteValidation extends BaseClass {
         cruise.chooseCruise();
         cruise.triggerCruiseButton();
         cruise.clickStateRoom();
-        JavascriptExecutor js = (JavascriptExecutor) driver;
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated((By) cruise.suiteText));
-        js.executeScript("arguments[0].scrollIntoView(true);", element);
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(cruise.suiteText));
+        Commoncode.scrollBy(driver,0,200);
         String stateRoomText = element.getText();
         Assert.assertEquals(stateRoomText, "Suite");
 
         Log.info("Test for Suit Element Passed");
-        js.executeScript("window.scrollBy(0, -500);");
+        Commoncode.scrollBy(driver,0,-500);
 
         takeScreenShot(driver, "TC-17 suit validation screenshot-2 captured ");
 
