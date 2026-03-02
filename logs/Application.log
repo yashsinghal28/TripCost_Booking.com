@@ -53,3 +53,90 @@
 12:41:34.765 INFO  Log - Clicked Search on Home page.
 12:41:35.395 INFO  Log - Clicked Grid view button
 12:41:38.453 INFO  Log - Driver quit successfully.
+14:53:19.731 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+14:53:42.574 INFO  Log - Typed location: Nairobi
+14:53:42.604 INFO  Log - Captured location value: Nairobi
+14:53:43.046 INFO  Log - Selected check in and check out dates
+14:53:51.783 INFO  Log - Clicked Search on Home page.
+14:53:52.506 INFO  Log - Total hotels found: 24, prices found: 24
+14:53:55.550 INFO  Log - Hotel 1: Urbanwoods Hotel Suites by ICON
+14:53:55.550 INFO  Log - Price for 5 Days: ₹ 136,433
+14:53:55.550 INFO  Log - Price for 1 Day: ₹ 27286.6
+14:53:55.606 INFO  Log - Hotel 2: Marina Bay One bedroom, Swimming Pool, gym, workspace ESKAY HOMES Westland's Nairobi
+14:53:55.606 INFO  Log - Price for 5 Days: ₹ 103,732
+14:53:55.606 INFO  Log - Price for 1 Day: ₹ 20746.4
+14:53:55.665 INFO  Log - Hotel 3: Salonika Villas Boutique Serviced Apartments
+14:53:55.665 INFO  Log - Price for 5 Days: ₹ 77,767
+14:53:55.665 INFO  Log - Price for 1 Day: ₹ 15553.4
+14:53:55.715 INFO  Log - Hotel 4: Olivia homes
+14:53:55.715 INFO  Log - Price for 5 Days: ₹ 18,409
+14:53:55.715 INFO  Log - Price for 1 Day: ₹ 3681.8
+14:53:55.767 INFO  Log - Hotel 5: Kester International Apartment Hotel
+14:53:55.767 INFO  Log - Price for 5 Days: ₹ 54,573
+14:53:55.767 INFO  Log - Price for 1 Day: ₹ 10914.6
+14:53:55.839 INFO  Log - Hotel 6: Riverside One Westlands, Two & Three Bedroom Apartment, Swimming pool, gym, Workspace ,Wonderiss Homes Living
+14:53:55.840 INFO  Log - Price for 5 Days: ₹ 66,084
+14:53:55.840 INFO  Log - Price for 1 Day: ₹ 13216.8
+14:53:55.910 INFO  Log - Hotel 7: Lavington Residences By Trianum
+14:53:55.912 INFO  Log - Price for 5 Days: ₹ 71,080
+14:53:55.912 INFO  Log - Price for 1 Day: ₹ 14216.0
+14:53:55.972 INFO  Log - Hotel 8: Pax Manor Muthaiga
+14:53:55.972 INFO  Log - Price for 5 Days: ₹ 388,834
+14:53:55.972 INFO  Log - Price for 1 Day: ₹ 77766.8
+14:53:56.063 INFO  Log - Hotel 9: Luxury modern Apartment
+14:53:56.063 INFO  Log - Price for 5 Days: ₹ 54,573
+14:53:56.063 INFO  Log - Price for 1 Day: ₹ 10914.6
+14:53:56.117 INFO  Log - Hotel 10: Riverside Square One, Two & Three Bedroom Apartment, Swimming pools, gym, workspace, Wonderiss Homes Westland Living
+14:53:56.117 INFO  Log - Price for 5 Days: ₹ 72,263
+14:53:56.117 INFO  Log - Price for 1 Day: ₹ 14452.6
+14:53:56.400 INFO  Log - Captured final hotel results screenshot.
+14:53:59.580 INFO  Log - Driver quit successfully.
+15:10:26.086 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+15:10:36.770 INFO  Log - Typed location: Nairobi
+15:10:36.799 INFO  Log - Captured location value: Nairobi
+15:10:37.170 INFO  Log - Selected check in and check out dates
+15:10:42.689 INFO  Log - Clicked Search on Home page.
+15:10:46.852 INFO  Log - Driver quit successfully.
+15:13:03.055 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+15:13:11.040 INFO  Log - Typed location: Nairobi
+15:13:11.177 INFO  Log - Captured location value: Nairobi
+15:13:11.550 INFO  Log - Selected check in and check out dates
+15:13:16.301 INFO  Log - Clicked Search on Home page.
+15:13:16.885 INFO  Log - Clicked Grid view button
+15:13:19.509 INFO  Log - Driver quit successfully.
+15:16:18.544 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+15:16:24.093 INFO  Log - Typed location: Nairobi
+15:16:24.182 INFO  Log - Captured location value: Nairobi
+15:16:24.570 INFO  Log - Selected check in and check out dates
+15:16:28.895 INFO  Log - Clicked Search on Home page.
+15:16:30.104 INFO  Log - Clicked Grid view button
+15:16:33.444 INFO  Log - Driver quit successfully.
+16:33:03.581 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:33:13.888 INFO  Log - Typed location: Nairobi
+16:33:13.911 INFO  Log - Captured location value: Nairobi
+16:33:14.270 INFO  Log - Selected check in and check out dates
+16:33:19.200 INFO  Log - Clicked Search on Home page.
+16:33:25.236 INFO  Log - Driver quit successfully.
+16:34:25.358 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:34:31.642 INFO  Log - Typed location: Nairobi
+16:34:31.663 INFO  Log - Captured location value: Nairobi
+16:34:31.975 INFO  Log - Selected check in and check out dates
+16:34:36.335 INFO  Log - Clicked Search on Home page.
+16:34:36.767 INFO  Log - Total hotels found: 27, prices found: 27
+16:34:36.925 INFO  Log - selected 5star hotels
+16:34:37.219 INFO  Log - Added 2 bedroom
+16:34:39.543 INFO  Log - Driver quit successfully.
+16:35:17.815 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:35:23.345 INFO  Log - Typed location: Nairobi
+16:35:23.371 INFO  Log - Captured location value: Nairobi
+16:35:23.797 INFO  Log - Selected check in and check out dates
+16:35:28.635 INFO  Log - Clicked Search on Home page.
+16:35:29.507 INFO  Log - Total hotels found: 27, prices found: 27
+16:35:29.798 INFO  Log - selected 5star hotels
+16:35:30.416 INFO  Log - Added 2 bedroom
+16:37:30.426 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:37:38.974 INFO  Log - Typed location: Nairobi
+16:37:39.001 INFO  Log - Captured location value: Nairobi
+16:37:39.449 INFO  Log - Selected check in and check out dates
+16:37:45.928 INFO  Log - Clicked Search on Home page.
+16:37:47.345 INFO  Log - Clicked Grid view button
