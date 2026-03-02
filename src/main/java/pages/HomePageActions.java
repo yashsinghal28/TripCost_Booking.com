@@ -20,13 +20,10 @@ public class HomePageActions extends BaseClass {
     }
     @FindBy(xpath = "//form[@aria-label='Search properties']//button[@data-testid='occupancy-config']")
     public WebElement adultCnt;
-
     @FindBy(xpath = "//button[@aria-label = 'Dismiss sign-in info.']")
     public WebElement popupCloseBtn;
-
     @FindBy(xpath = "//form[@aria-label='Search properties']//input[@name='ss']")
     public WebElement locationInput;
-
     @FindBy(xpath = "//form[@aria-label='Search properties']//button[@data-testid='searchbox-dates-container']")
     public WebElement datePicker;
     @FindBy(xpath = "//form[@aria-label='Search properties']//button[@data-testid='occupancy-config']")
@@ -55,18 +52,14 @@ public class HomePageActions extends BaseClass {
     }
     public void selectDateRange() {
         datePicker.click();
-
         LocalDate today = LocalDate.now();
         LocalDate tomorrow = today.plusDays(1);
         LocalDate after5FromTomorrow = tomorrow.plusDays(5);
-
         DateTimeFormatter fmt = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         String tomorrowStr = tomorrow.format(fmt);
         String after5Str = after5FromTomorrow.format(fmt);
-
         String tomorrowXPath = String.format("//td[@role='gridcell']//span[@role='button' and @data-date='%s']", tomorrowStr);
         String after5XPath = String.format("//td[@role='gridcell']//span[@role='button' and @data-date='%s']", after5Str);
-
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath(tomorrowXPath))).click();
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath(after5XPath))).click();
