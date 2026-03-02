@@ -3,7 +3,6 @@ package Test;
 import CommonCode.Commoncode;
 import Logs.Log;
 import baseclass.BaseClass;
-import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
 import pages.CruisePageActions;
 import static CommonCode.Commoncode.takeScreenShot;
@@ -15,9 +14,9 @@ public class TC_022_PhotoGallery extends BaseClass {
         driver.get(url2);
         cruise.ClosePopUp();
         cruise.chooseCruise();
-        cruise.triggerCruiseButton();
+        cruise.triggerCruiseBtn();
         Commoncode.scrollBy(driver,0,200);
-        cruise.photoClickButton();
+        cruise.photoClickBtn();
 
         takeScreenShot(driver, "TC-22 EnlargePhotoScreenshot");
 

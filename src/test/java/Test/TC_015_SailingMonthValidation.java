@@ -19,10 +19,10 @@ public class TC_015_SailingMonthValidation extends BaseClass {
         cruise.ClosePopUp();
         Log.info("Validation of Cookies");
         cruise.chooseCruise();
-        Assert.assertEquals(cruise.CheckValidCurise.getText(), "Royal Caribbean Cruises");
+        Assert.assertEquals(cruise.checkValidCruise.getText(), "Royal Caribbean Cruises");
         Log.info("Validation of Cruise Line");
 
-        String rawText = cruise.getCruiseSailingMonthText.getText();
+        String rawText = cruise.getCruiseSailingMonthTxt.getText();
         String cleanedText = rawText.replaceAll("[^a-zA-Z0-9 ]", "").trim().replaceAll(" +", " ");
 
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMMM yyyy", Locale.ENGLISH);

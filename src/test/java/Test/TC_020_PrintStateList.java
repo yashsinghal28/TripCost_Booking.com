@@ -2,7 +2,6 @@ package Test;
 
 import CommonCode.Commoncode;
 import baseclass.BaseClass;
-import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
 import pages.CruisePageActions;
 
@@ -16,8 +15,8 @@ public class TC_020_PrintStateList extends BaseClass {
         driver.get(url2);
         cruise.ClosePopUp();
         cruise.chooseCruise();
-        cruise.triggerCruiseButton();
-        cruise.triggerOnBoardingButton();
+        cruise.triggerCruiseBtn();
+        cruise.triggerOnBoardingBtn();
         cruise.printStatsList();
 
         Commoncode.scrollBy(driver,0,410);

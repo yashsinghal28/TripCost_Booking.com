@@ -14,14 +14,14 @@ public class TC_019_ValidateOnboarding  extends BaseClass {
         cruise.ClosePopUp();
         String source = driver.getPageSource();
         cruise.chooseCruise();
-        cruise.triggerCruiseButton();
-        cruise.triggerOnBoardingButton();
+        cruise.triggerCruiseBtn();
+        cruise.triggerOnBoardingBtn();
 
         Assert.assertNotNull(source, "Page source is null!");
         cm.waitForDocumentReady(driver, 5);
 
         Assert.assertFalse(driver.getPageSource().isEmpty(), "Page Source is unexpectedly empty!");
-        Assert.assertTrue(cruise.headerDiningText.isEnabled(), "Dining header is not visible!");
+        Assert.assertTrue(cruise.headerDiningTxt.isEnabled(), "Dining header is not visible!");
         Log.info("Presence of Header is Verified");
         int elevatorCount = cruise.elevatorCount();
 

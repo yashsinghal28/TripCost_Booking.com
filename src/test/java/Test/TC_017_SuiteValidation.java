@@ -3,19 +3,15 @@ package Test;
 import CommonCode.Commoncode;
 import Logs.Log;
 import baseclass.BaseClass;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.CruisePageActions;
-
 import java.time.Duration;
 
 import static CommonCode.Commoncode.takeScreenShot;
-
 
 public class TC_017_SuiteValidation extends BaseClass {
     @Test
@@ -24,10 +20,10 @@ public class TC_017_SuiteValidation extends BaseClass {
         driver.get(url2);
         cruise.ClosePopUp();
         cruise.chooseCruise();
-        cruise.triggerCruiseButton();
+        cruise.triggerCruiseBtn();
         cruise.clickStateRoom();
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(cruise.suiteText));
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(cruise.suiteTxt));
         Commoncode.scrollBy(driver,0,200);
         String stateRoomText = element.getText();
         Assert.assertEquals(stateRoomText, "Suite");

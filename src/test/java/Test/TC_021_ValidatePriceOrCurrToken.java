@@ -16,8 +16,8 @@ public class TC_021_ValidatePriceOrCurrToken extends BaseClass {
         driver.get(url2);
         cruise.ClosePopUp();
         cruise.chooseCruise();
-        cruise.triggerCruiseButton();
-        cruise.triggerOnBoardingButton();
+        cruise.triggerCruiseBtn();
+        cruise.triggerOnBoardingBtn();
 
         Commoncode.scrollBy(driver,0,400);
         Log.info("TC-18: Validate price/currency token on cruise details page");

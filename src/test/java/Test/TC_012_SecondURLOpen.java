@@ -13,7 +13,7 @@ public class TC_012_SecondURLOpen extends BaseClass {
         cruise = new CruisePageActions(driver);
         driver.navigate().to(url2);
         Commoncode.takeScreenShot(driver, "TC-12 Opened The Page");
-        boolean logoDisplayed = cruise.img().isDisplayed();
+        boolean logoDisplayed = cruise.ClickImg().isDisplayed();
         Log.info(driver.getTitle());
         Assert.assertTrue(logoDisplayed);
     }

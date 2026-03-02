@@ -12,7 +12,7 @@ import java.util.List;
 
 public class CruisePageActions {
     @FindBy(xpath = "//button[@class='onetrust-close-btn-handler onetrust-close-btn-ui banner-close-button ot-close-icon']")
-    public WebElement closeButton;
+    public WebElement closeBtn;
 
     @FindBy(xpath = "//input[@id='autoComplete']")
     public WebElement searchValidation;
@@ -21,22 +21,22 @@ public class CruisePageActions {
     public WebElement chooseCruiseLine;
 
     @FindBy(xpath = "//span[@property='item']/span")
-    public WebElement CheckValidCurise;
+    public WebElement checkValidCruise;
 
     @FindBy(xpath = "//h2[@id='brochureName1']")
-    public WebElement cruiseLinkButton;
+    public WebElement cruiseBtn;
 
     @FindBy(xpath = "//span[@id='defaultBreadcrumbs']")
-    public WebElement checkNameText;
+    public WebElement checkNameTxt;
 
     @FindBy(xpath = "//h3[@id='tabHeaderDining']")
-    public WebElement headerDiningText;
+    public WebElement headerDiningTxt;
 
     @FindBy(xpath = "//div[@id='sailingDateList1']/ul/li[2]")
-    public WebElement getCruiseSailingMonthText;
+    public WebElement getCruiseSailingMonthTxt;
 
     @FindBy(xpath = "//div[@id='expandCollapse_foodanddining_Content']/div/div[1]/div")
-    public List<WebElement> exp;
+    public List<WebElement> experience;
 
     @FindBy(xpath = "(//p[@class='ui-block-a'])[22]")
     public WebElement numberOfElevatorsTxt;
@@ -48,9 +48,9 @@ public class CruisePageActions {
     public WebElement onBoardingBtn;
 
     @FindBy(xpath = "//div[@id='expandCollapse_stateroom_Content']/div/div[1]")
-    public List<WebElement> suitItems;
+    public List<WebElement> suitItemsTxt;
 
-    public By suiteText=By.xpath("//div[@id='expandCollapse_stateroom_Content']/h3[1]");
+    public By suiteTxt =By.xpath("//div[@id='expandCollapse_stateroom_Content']/h3[1]");
 
     @FindBy(xpath = "//div[@id='expandCollapse_stateroom_Content']/div/div[1]/div[1]")
     public List<WebElement> shipDeckInfo;
@@ -68,14 +68,13 @@ public class CruisePageActions {
     public  WebElement numberOfCapacity;
 
     @FindBy(xpath = "(//a[@id ='swipe_1'])[1]")
-    public WebElement photoButton;
+    public WebElement photoBtn;
 
     public CruisePageActions(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
-
     public void ClosePopUp() {
-        closeButton.click();
+        closeBtn.click();
     }
     public void enterDestination(String searchDestination) {
         searchValidation.clear();
@@ -84,52 +83,43 @@ public class CruisePageActions {
     public void chooseCruise() {
         chooseCruiseLine.click();
     }
-
-    public void triggerCruiseButton() {
-        cruiseLinkButton.click();
+    public void triggerCruiseBtn() {
+        cruiseBtn.click();
     }
-
     public void clickStateRoom() {
         stateRoomBtn.click();
     }
-
-    public void triggerOnBoardingButton() {
+    public void triggerOnBoardingBtn() {
         onBoardingBtn.click();
     }
-    public  void photoClickButton() {
-        photoButton.click();
+    public  void photoClickBtn() {
+        photoBtn.click();
     }
-
-    public WebElement img() {
+    public WebElement ClickImg() {
         return imageClick;
     }
-
     public List<String> getResult() {
         List<String> results = new ArrayList<>();
-        results.add(headerDiningText.getAttribute("innerText"));
-
+        results.add(headerDiningTxt.getAttribute("innerText"));
         for (int i = 1; i <= 10; i++) {
-            String text = exp.get(i).getAttribute("innerText");
+            String text = experience.get(i).getAttribute("innerText");
             results.add(text);
         }
-
         results.add(shipStatsWithInfo.getAttribute("innerText"));
         return results;
     }
-
     public List<String> getSuitList() {
         List<String> suitList = new ArrayList<>();
         for (int i = 1; i <= 10; i++) {
-            String text = suitItems.get(i).getAttribute("innerText")
+            String text = suitItemsTxt.get(i).getAttribute("innerText")
                     + " -> " + shipDeckInfo.get(i).getAttribute("innerText");
             suitList.add(text);
         }
         return suitList;
     }
-
     public void printSuitList() {
         List<String> ll = getSuitList();
-        triggerOnBoardingButton();
+        triggerOnBoardingBtn();
         System.out.println("\n");
         for (String x : ll) {
             Log.info(x);
@@ -148,7 +138,6 @@ public class CruisePageActions {
     public int elevatorCount() {
         String[] elevatorText = numberOfElevatorsTxt.getAttribute("innerText").split(":");
         int elevatorCount = 0;
-
         try {
             elevatorCount = Integer.parseInt(elevatorText[1].trim());
         } catch (NumberFormatException e) {

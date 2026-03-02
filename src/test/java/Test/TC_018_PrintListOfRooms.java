@@ -17,7 +17,7 @@ public class TC_018_PrintListOfRooms extends BaseClass {
         cm.waitForDocumentReady(driver,10);
         cruise.ClosePopUp();
         cruise.chooseCruise();
-        cruise.triggerCruiseButton();
+        cruise.triggerCruiseBtn();
         cruise.clickStateRoom();
         cruise.printSuitList();
 

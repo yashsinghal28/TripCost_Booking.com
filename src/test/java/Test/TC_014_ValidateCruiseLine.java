@@ -18,7 +18,7 @@ public class TC_014_ValidateCruiseLine extends BaseClass{
         Commoncode.takeScreenShot(driver, "TC-14 Cookie Handled");
         Log.info("Validation of Cookies");
         cruise.chooseCruise();
-        Assert.assertEquals(cruise.CheckValidCurise.getText(), "Royal Caribbean Cruises");
+        Assert.assertEquals(cruise.checkValidCruise.getText(), "Royal Caribbean Cruises");
         Log.info("Validation of curise Line");
         Commoncode.takeScreenShot(driver, "TC-14 SuccessFull selected CruiseLine");
         Log.info("Choosing Cruise Line --> Passed");
