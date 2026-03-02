@@ -7,11 +7,11 @@
 
     <test name="Trip-Cost-Booking" preserve-order="true">
         <classes>
-            <class name="Test.TC_01_BookingsHomePopupHandling"/>
-            <class name="Test.TC_02_BookingsLocationInput"/>
-            <class name="Test.TC_03_DateSelection"/>
-            <class name="Test.TC_04_OccupancyAdjustment"/>
-            <class name="Test.TC_05_SearchAndNavigate"/>
+            <class name="Test.TC_001_BookingHomePopupHandlingandDisplay"/>
+            <class name="Test.TC_002_BookingLocationInput"/>
+            <class name="Test.TC_003_BookingDateSelection"/>
+            <class name="Test.TC_004_BookingOccupancyAdjustment"/>
+            <class name="Test.TC_005_BookingSearchAndNavigate"/>
             <class name="Test.TC_06_GetAllHotels"/>
             <class name="Test.TC_07_SortByReview"/>
             <class name="Test.TC_08_ElevatorFilter"/>
