@@ -41,7 +41,6 @@ public class BaseClass {
         driver.manage().window().maximize();
         cm.implicitWait(driver);
         wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-        home = new HomePageActions(driver);
         Log.info("Launched URL1 or URL2: " + url1 +"|" + url2 + " Driver started successfully");
     }
 

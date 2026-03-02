@@ -11,12 +11,17 @@ import java.io.IOException;
 
 import static CommonCode.Commoncode.takeScreenShot;
 
-public class TC_02_LocationInput extends BaseClass {
+public class TC_02_BookingsLocationInput extends BaseClass {
     @Test()
     public void tc_02_validateLocationInput() throws IOException {
         HomePageActions home = new HomePageActions(driver);
         driver.get(url1);
         home.closePopUp();
+        home.currencyBtn.click();
+        home.indianCurrencyText.click();
+        String currency = home.currenyText.getText();
+        Assert.assertEquals(currency,"INR");
+        Log.info("Indian Currency Selected");
         String location = Utils.fetchPropertyValue("location").toString();
         home.setLocation(location);
         Log.info("Typed location: " + location);
