@@ -16,13 +16,13 @@ public class TC_016_CruisePageValidation extends BaseClass {
         driver.get(url2);
         cruise.ClosePopUp();
         cruise.chooseCruise();
-        Assert.assertTrue(cruise.cruiseButton.isDisplayed(), "Cruise button not visible");
+        Assert.assertTrue(cruise.cruiseLinkButton.isDisplayed(), "Cruise button not visible");
         Log.info("Selected Cruise is Present and Verified Sailing Date");
         cruise.triggerCruiseButton();
-        String name = cruise.checkName.getText();
+        String name = cruise.checkNameText.getText();
         Assert.assertEquals(name, "3 Night Bahamas Getaway", "NOT SUCCESS");
         Log.info("Validated and Selected Correct Cruise");
-        takeScreenShot(driver, "TC-16 StateRooms ");
+        takeScreenShot(driver, "TC-16 of the Selected Correct Cruise");
     }
 
 }
