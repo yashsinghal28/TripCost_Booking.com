@@ -140,3 +140,130 @@
 16:37:39.449 INFO  Log - Selected check in and check out dates
 16:37:45.928 INFO  Log - Clicked Search on Home page.
 16:37:47.345 INFO  Log - Clicked Grid view button
+10:27:11.961 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+10:27:18.696 INFO  Log - Typed location: Nairobi
+10:27:18.746 INFO  Log - Captured location value: Nairobi
+10:27:19.159 INFO  Log - Selected check in and check out dates
+10:27:23.076 INFO  Log - Clicked Search on Home page.
+10:27:23.385 INFO  Log - Total hotels found: 2, prices found: 1
+10:27:26.219 INFO  Log - Hotel 1: 2 Bedrooms Gym Restaurant Kids Zone Swim
+10:27:26.221 INFO  Log - Price for 5 Days: ₹ 24,564
+10:27:26.221 INFO  Log - Price for 1 Day: ₹ 4912.8
+10:27:27.097 INFO  Log - Hotel data written to Excel file: C:\Users\2464017\IdeaProjects\TripCost_Booking.com/testdata/HotelData.xlsx
+10:27:27.285 INFO  Log - Captured final hotel results screenshot.
+10:27:29.433 INFO  Log - Driver quit successfully.
+10:31:22.024 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+10:31:28.371 INFO  Log - Typed location: Nairobi
+10:31:28.393 INFO  Log - Captured location value: Nairobi
+10:31:28.726 INFO  Log - Selected check in and check out dates
+10:31:32.357 INFO  Log - Clicked Search on Home page.
+10:31:32.818 INFO  Log - Total hotels found: 2, prices found: 1
+10:31:35.143 INFO  Log - Hotel 1: Alya Hotel & Suites Ltd
+10:31:35.144 INFO  Log - Price for 5 Days: ₹ 32,751
+10:31:35.144 INFO  Log - Price for 1 Day: ₹ 6550.2
+10:31:35.842 INFO  Log - All 1 hotel data written to Excel file: C:\Users\2464017\IdeaProjects\TripCost_Booking.com/testdata/HotelData.xlsx
+10:31:36.048 INFO  Log - Captured final hotel results screenshot.
+10:31:37.922 INFO  Log - Driver quit successfully.
+10:33:44.756 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+10:33:50.491 INFO  Log - Typed location: Nairobi
+10:33:50.512 INFO  Log - Captured location value: Nairobi
+10:33:50.801 INFO  Log - Selected check in and check out dates
+10:33:57.295 INFO  Log - Clicked Search on Home page.
+10:33:57.479 INFO  Log - Total hotels found: 4, prices found: 3
+10:33:59.629 INFO  Log - Hotel 1: Alya Hotel & Suites Ltd
+10:33:59.630 INFO  Log - Price for 5 Days: ₹ 32,751
+10:33:59.630 INFO  Log - Price for 1 Day: ₹ 6550.2
+10:33:59.675 INFO  Log - Hotel 2: 1BR Luxury suites near JKIA SGR with pool gym Cityview
+10:33:59.675 INFO  Log - Price for 5 Days: ₹ 50,037
+10:33:59.676 INFO  Log - Price for 1 Day: ₹ 10007.4
+10:33:59.718 INFO  Log - Hotel 3: Pax Manor Muthaiga
+10:33:59.718 INFO  Log - Price for 5 Days: ₹ 330,586
+10:33:59.718 INFO  Log - Price for 1 Day: ₹ 66117.2
+10:34:00.410 INFO  Log - Total 3 hotels written to Excel: C:\Users\2464017\IdeaProjects\TripCost_Booking.com/testdata/HotelData.xlsx
+10:34:00.608 INFO  Log - Captured final hotel results screenshot.
+10:34:02.503 INFO  Log - Driver quit successfully.
+10:40:26.747 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+10:40:34.641 INFO  Log - Typed location: Nairobi
+10:40:38.919 INFO  Log - Performed Search on Home page.
+10:40:39.291 INFO  Log - Total valid hotel entries found: 3
+10:40:44.138 INFO  Log - Driver quit successfully.
+10:41:01.202 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+10:41:07.178 INFO  Log - Typed location: Nairobi
+10:41:11.350 INFO  Log - Performed Search on Home page.
+10:41:11.869 INFO  Log - Total valid hotel entries found: 4
+10:41:16.279 INFO  Log - Driver quit successfully.
+10:42:37.388 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+10:42:43.358 INFO  Log - Typed location: Nairobi
+10:42:47.444 INFO  Log - Performed Search on Home page.
+10:42:47.893 INFO  Log - Total valid hotel entries found: 4
+10:42:51.266 INFO  Log - Total 4 hotels written to Excel: C:\Users\2464017\IdeaProjects\TripCost_Booking.com/testdata/HotelData.xlsx
+10:42:51.437 INFO  Log - Captured final hotel results screenshot.
+10:42:53.611 INFO  Log - Driver quit successfully.
+10:46:41.149 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+10:46:47.102 INFO  Log - Typed location: Nairobi
+10:46:47.115 INFO  Log - Captured location value: Nairobi
+10:46:47.557 INFO  Log - Selected check in and check out dates
+10:46:51.324 INFO  Log - Clicked Search on Home page.
+10:46:51.937 INFO  Log - Clicked Grid view button
+10:46:52.341 INFO  Log - Grid View button is displayed on the page
+10:46:54.120 INFO  Log - Driver quit successfully.
+10:50:24.352 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+10:50:31.606 INFO  Log - Typed location: Nairobi
+10:50:32.414 INFO  Log - Performed Search on Home page.
+10:50:36.275 INFO  Log - Total valid hotel entries found: 2
+10:50:38.676 INFO  Log - Driver quit successfully.
+10:50:58.960 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+10:51:05.218 INFO  Log - Typed location: Nairobi
+10:51:10.967 INFO  Log - Performed Search on Home page.
+10:51:11.212 INFO  Log - Total valid hotel entries found: 28
+10:51:13.598 INFO  Log - Driver quit successfully.
+10:55:35.527 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+10:55:41.141 INFO  Log - Typed location: Nairobi
+10:55:44.897 INFO  Log - Performed Search on Home page.
+10:55:45.499 INFO  Log - Total valid hotel entries found: 4
+10:55:47.862 INFO  Log - Driver quit successfully.
+10:56:20.624 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+10:56:26.806 INFO  Log - Typed location: Nairobi
+10:56:32.708 INFO  Log - Performed Search on Home page.
+10:56:33.357 INFO  Log - Total valid hotel entries found: 28
+10:56:36.886 INFO  Log - Driver quit successfully.
+10:56:52.597 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+10:56:58.931 INFO  Log - Typed location: Nairobi
+10:57:03.109 INFO  Log - Performed Search on Home page.
+10:57:03.816 INFO  Log - Total valid hotel entries found: 4
+10:57:06.127 INFO  Log - Driver quit successfully.
+10:57:20.811 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+10:57:26.749 INFO  Log - Typed location: Nairobi
+10:57:30.559 INFO  Log - Performed Search on Home page.
+10:57:30.994 INFO  Log - Total valid hotel entries found: 3
+10:57:33.706 INFO  Log - Driver quit successfully.
+10:58:55.122 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+10:59:01.739 INFO  Log - Typed location: Nairobi
+10:59:02.453 INFO  Log - Performed Search on Home page.
+10:59:06.375 INFO  Log - Total valid hotel entries found: 3
+10:59:10.999 INFO  Log - Driver quit successfully.
+11:01:53.952 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+11:02:01.399 INFO  Log - Typed location: Nairobi
+11:02:06.229 INFO  Log - Performed Search on Home page.
+11:02:06.811 INFO  Log - Total valid hotel entries found: 28
+11:02:11.815 INFO  Log - Driver quit successfully.
+11:03:40.238 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+11:03:46.750 INFO  Log - Typed location: Nairobi
+11:03:46.775 INFO  Log - Captured location value: Nairobi
+11:03:47.138 INFO  Log - Selected check in and check out dates
+11:03:51.034 INFO  Log - Clicked Search on Home page.
+11:03:51.852 INFO  Log - Total hotels found: 5, prices found: 4
+11:03:54.435 INFO  Log - Hotel 1: 2 Bedrooms Gym Restaurant Kids Zone Swim
+11:03:54.435 INFO  Log - Price for 5 Days: ₹ 24,564
+11:03:54.437 INFO  Log - Price for 1 Day: ₹ 4912.8
+11:03:54.488 INFO  Log - Hotel 2: Parachichi House, Kilimani
+11:03:54.489 INFO  Log - Price for 5 Days: ₹ 20,015
+11:03:54.489 INFO  Log - Price for 1 Day: ₹ 4003.0
+11:03:54.534 INFO  Log - Hotel 3: Cozy 2bed Apple Tree Apartment Nairobi
+11:03:54.534 INFO  Log - Price for 5 Days: ₹ 21,834
+11:03:54.534 INFO  Log - Price for 1 Day: ₹ 4366.8
+11:03:54.606 INFO  Log - Hotel 4: Cozy Studio Apartment Spa and Safaris
+11:03:54.606 INFO  Log - Price for 5 Days: ₹ 43,669
+11:03:54.606 INFO  Log - Price for 1 Day: ₹ 8733.8
+11:03:54.805 INFO  Log - Captured final hotel results screenshot.
+11:03:57.067 INFO  Log - Driver quit successfully.
