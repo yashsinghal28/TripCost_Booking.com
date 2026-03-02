@@ -4,9 +4,9 @@ import Logs.Log;
 import baseclass.BaseClass;
 import pages.HomePageActions;
 import pages.HotelPageActions;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import static CommonCode.Commoncode.takeScreenShot;
-import org.openqa.selenium.JavascriptExecutor;
 import utils.Utils;
 
 import java.io.IOException;
@@ -28,13 +28,12 @@ public class TC_011_GridView extends BaseClass {
         home.setOccupancy();
         home.searchResults();
         Log.info("Clicked Search on Home page.");
-
         hotelActions = new HotelPageActions(driver);
         hotelActions.waitForPageReady(driver);
         hotelActions.gridViewBtn.click();
         Log.info("Clicked Grid view button");
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollBy(0, 800);");
         takeScreenShot(driver, "TC11_Grid_Click");
+        Assert.assertTrue(hotelActions.gridViewBtn.isDisplayed(), "Grid View button is NOT displayed on the page");
+        Log.info("Grid View button is displayed on the page");
     }
 }

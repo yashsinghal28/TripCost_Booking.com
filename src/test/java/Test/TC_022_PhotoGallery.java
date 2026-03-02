@@ -24,7 +24,6 @@ public class TC_022_PhotoGallery extends BaseClass {
         cm.waitForDocumentReady(driver, 5);
         takeScreenShot(driver, "TC-22 photoGalleryScreenshot");
         Log.info("Gallery viewed Successfully");
-
     }
 }
 

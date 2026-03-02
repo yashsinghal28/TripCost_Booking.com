@@ -16,7 +16,7 @@ public class CruisePageActions {
     @FindBy(xpath = "//div[contains(text(),  'Royal Caribbean')]")
     public WebElement chooseCruiseLine;
 
-    @FindBy(xpath = "//h2[@id='brochureName1']") //h2[starts-with(text(),'3 Night Ensenada')]
+    @FindBy(xpath = "//h2[@id='brochureName1']")
     public WebElement cruiseButton;
 
     @FindBy(xpath = "//h3[@id='tabHeaderDining']")
