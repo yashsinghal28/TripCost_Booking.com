@@ -35,28 +35,28 @@ public class CruisePageActions {
     public WebElement getCruiseSailingMonth;
 
     @FindBy(xpath = "(//p[@class='ui-block-a'])[22]")
-    public WebElement numberOfElevators;
+    public WebElement numberOfElevatorsTxt;
 
     @FindBy(xpath = "//button[@class='onetrust-close-btn-handler onetrust-close-btn-ui banner-close-button ot-close-icon']")
     public WebElement closeButton;
 
     @FindBy(xpath = "//button[@id='expandCollapse_stateroom']")
-    public WebElement stateRoom;
+    public WebElement stateRoomBtn;
 
     @FindBy(xpath = "//button[@id='expandCollapse_onboardExperience']")
-    public WebElement onBoarding;
+    public WebElement onBoardingBtn;
 
     @FindBy(xpath = "//div[@id='expandCollapse_stateroom_Content']/div/div[1]")
     public List<WebElement> suitItems;
 
     @FindBy(xpath = "//div[@id='expandCollapse_stateroom_Content']/div/div[1]/div[1]")
-    public List<WebElement> deck;
+    public List<WebElement> shipDeckInfo;
 
     @FindBy(xpath = "//div[@class='ui-block-a mPadBottom']")
-    public WebElement stats;
+    public WebElement shipStatsWithInfo;
 
     @FindBy(xpath = "//a[@id='hp_searchContinue']")
-    public WebElement image;
+    public WebElement imageClick;
 
     @FindBy(xpath =  "(//p[@class='ui-block-a'])[10]")
     public WebElement numberOfCrew;
@@ -85,11 +85,11 @@ public class CruisePageActions {
     }
 
     public void clickStateRoom() {
-        stateRoom.click();
+        stateRoomBtn.click();
     }
 
     public void triggerOnBoardingButton() {
-        onBoarding.click();
+        onBoardingBtn.click();
     }
 
     public  void photoClickButton() {
@@ -97,7 +97,7 @@ public class CruisePageActions {
     }
 
     public WebElement img() {
-        return image;
+        return imageClick;
     }
 
     public List<String> getResult() {
@@ -109,7 +109,7 @@ public class CruisePageActions {
             results.add(text);
         }
 
-        results.add(stats.getAttribute("innerText"));
+        results.add(shipStatsWithInfo.getAttribute("innerText"));
         return results;
     }
 
@@ -117,7 +117,7 @@ public class CruisePageActions {
         List<String> suitList = new ArrayList<>();
         for (int i = 1; i <= 10; i++) {
             String text = suitItems.get(i).getAttribute("innerText")
-                    + " -> " + deck.get(i).getAttribute("innerText");
+                    + " -> " + shipDeckInfo.get(i).getAttribute("innerText");
             suitList.add(text);
         }
         return suitList;
@@ -134,7 +134,7 @@ public class CruisePageActions {
     }
 
     public void printStatsList() {
-        Log.info("<STATS>");
+        Log.info("<STATS Of Ship >");
         List<String> c = getResult();
         for (String cc : c) {
             Log.info(cc);
@@ -142,13 +142,13 @@ public class CruisePageActions {
     }
 
     public int elevatorCount() {
-        String[] elevatorText = numberOfElevators.getAttribute("innerText").split(":");
+        String[] elevatorText = numberOfElevatorsTxt.getAttribute("innerText").split(":");
         int elevatorCount = 0;
 
         try {
             elevatorCount = Integer.parseInt(elevatorText[1].trim());
         } catch (NumberFormatException e) {
-            Assert.fail("Elevator count is not a valid number: " + elevatorText[1].trim());
+            Assert.assertTrue(elevatorText[1].matches("\\d+"), "Elevator count is not a valid number: ");
         }
         return elevatorCount;
     }

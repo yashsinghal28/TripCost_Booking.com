@@ -11,7 +11,7 @@ import static CommonCode.Commoncode.takeScreenShot;
 public class TC_020_PrintStateList extends BaseClass {
 
     @Test
-    public void tc_20_shipDetailsPrint() throws InterruptedException {
+    public void tc_20_shipDetailsPrint() {
         cruise = new CruisePageActions(driver);
         driver.get(url2);
         cruise.ClosePopUp();
@@ -19,10 +19,11 @@ public class TC_020_PrintStateList extends BaseClass {
         cruise.triggerCruiseButton();
         cruise.triggerOnBoardingButton();
         cruise.printStatsList();
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollBy(0, 400);");
+
+        Commoncode.scrollBy(driver,0,410);
         cm.waitForDocumentReady(driver, 5);
-        js.executeScript("window.scrollBy(0,-600)");
+
+        Commoncode.scrollBy(driver,0,600);
         takeScreenShot(driver, "TC-20_Print_State_List");
     }
 }

@@ -1,20 +1,13 @@
 package Test;
-
 import CommonCode.Commoncode;
 import Logs.Log;
 import baseclass.BaseClass;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.CruisePageActions;
-
 import java.time.Duration;
-
 import static CommonCode.Commoncode.takeScreenShot;
-import static baseclass.BaseClass.driver;
 
 public class TC_018_PrintListOfRooms extends BaseClass {
     @Test
@@ -27,8 +20,10 @@ public class TC_018_PrintListOfRooms extends BaseClass {
         cruise.triggerCruiseButton();
         cruise.clickStateRoom();
         cruise.printSuitList();
+
         String source = driver.getPageSource();
         Assert.assertNotNull(source, "Page source is null!");
+
         cm.waitForDocumentReady(driver, 5);
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         Commoncode.scrollBy(driver,0,700);
