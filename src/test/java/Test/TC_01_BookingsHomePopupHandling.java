@@ -12,7 +12,6 @@ public class TC_01_BookingsHomePopupHandling extends BaseClass {
 
     @Test()
     public void tc_01_handleHomePopup() {
-
         home = new HomePageActions(driver);
         driver.get(url1);
 
@@ -28,9 +27,6 @@ public class TC_01_BookingsHomePopupHandling extends BaseClass {
         else{
             Log.info("Logo Image not Displayed");
         }
-
-
-
 
         takeScreenShot(driver, "TC01_Home_Popup_Handled");
     }

@@ -30,12 +30,11 @@ public class TC_018_PrintListOfRooms extends BaseClass {
         String source = driver.getPageSource();
         Assert.assertNotNull(source, "Page source is null!");
         cm.waitForDocumentReady(driver, 5);
-        JavascriptExecutor js = (JavascriptExecutor) driver;
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-         js.executeScript("window.scrollBy(0, 700);");
+        Commoncode.scrollBy(driver,0,700);
 
         takeScreenShot(driver, "TC-18 stateroom screenshot-1 captured ");
-        js.executeScript("window.scrollBy(0, 810);");
+        Commoncode.scrollBy(driver,0,810);
 
         takeScreenShot(driver, "TC-18 stateroom screenshot-2 captured ");
         Log.info("SuccessFull Print of Stats Of Cruise");
