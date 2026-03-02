@@ -29,7 +29,6 @@ public class TC_021_ValidatePriceOrCurrToken extends BaseClass {
         Assert.assertFalse(source.isEmpty(), "Page source is empty!");
         boolean hasCurrency = source.contains("$");
 
-//        js.executeScript("arguments[0].scrollIntoView()", cruise.shipStatsWithInfo);
         Commoncode.scrollBy(driver,0,600);
         cm.waitForDocumentReady(driver, 5);
         takeScreenShot(driver, "TC-21_OnboardingDetails");

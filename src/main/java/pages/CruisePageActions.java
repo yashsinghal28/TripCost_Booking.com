@@ -50,6 +50,8 @@ public class CruisePageActions {
     @FindBy(xpath = "//div[@id='expandCollapse_stateroom_Content']/div/div[1]")
     public List<WebElement> suitItems;
 
+    public By suiteText=By.xpath("//div[@id='expandCollapse_stateroom_Content']/h3[1]");
+
     @FindBy(xpath = "//div[@id='expandCollapse_stateroom_Content']/div/div[1]/div[1]")
     public List<WebElement> shipDeckInfo;
 
@@ -67,9 +69,6 @@ public class CruisePageActions {
 
     @FindBy(xpath = "(//a[@id ='swipe_1'])[1]")
     public WebElement photoButton;
-
-    @FindBy(xpath = "//div[@id='expandCollapse_stateroom_Content']/h3[1]")
-    public WebElement suiteText;
 
     public CruisePageActions(WebDriver driver) {
         PageFactory.initElements(driver, this);

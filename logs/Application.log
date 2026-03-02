@@ -615,3 +615,6 @@
 16:43:41.234 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
 16:44:07.672 INFO  Log - Gallery viewed Successfully
 16:44:09.883 INFO  Log - Driver quit successfully.
+16:51:48.483 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:52:08.364 INFO  Log - Test for Suit Element Passed
+16:52:11.290 INFO  Log - Driver quit successfully.
