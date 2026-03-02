@@ -21,7 +21,7 @@ public class TC_019_ValidateOnboarding  extends BaseClass {
         cm.waitForDocumentReady(driver, 5);
 
         Assert.assertFalse(driver.getPageSource().isEmpty(), "Page Source is unexpectedly empty!");
-        Assert.assertTrue(cruise.headerDining.isEnabled(), "Dining header is not visible!");
+        Assert.assertTrue(cruise.headerDiningText.isEnabled(), "Dining header is not visible!");
         Log.info("Presence of Header is Verified");
         int elevatorCount = cruise.elevatorCount();
 

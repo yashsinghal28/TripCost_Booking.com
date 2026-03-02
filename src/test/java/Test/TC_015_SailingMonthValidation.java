@@ -12,19 +12,17 @@ import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 
 public class TC_015_SailingMonthValidation extends BaseClass {
-
     @Test
     public void tc_15_checkSailingMonth() {
         cruise = new CruisePageActions(driver);
         driver.get(url2);
         cruise.ClosePopUp();
         Log.info("Validation of Cookies");
-
         cruise.chooseCruise();
-        Assert.assertEquals(cruise.validCurise.getText(), "Royal Caribbean Cruises");
+        Assert.assertEquals(cruise.CheckValidCurise.getText(), "Royal Caribbean Cruises");
         Log.info("Validation of Cruise Line");
 
-        String rawText = cruise.getCruiseSailingMonth.getText();
+        String rawText = cruise.getCruiseSailingMonthText.getText();
         String cleanedText = rawText.replaceAll("[^a-zA-Z0-9 ]", "").trim().replaceAll(" +", " ");
 
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMMM yyyy", Locale.ENGLISH);

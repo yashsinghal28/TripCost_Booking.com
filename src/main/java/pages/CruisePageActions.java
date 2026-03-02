@@ -1,7 +1,6 @@
 package pages;
 
 import Logs.Log;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -11,34 +10,32 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CruisePageActions {
-    public By onB = By.xpath("//div[@id='expandCollapse_stateroom_Content']/h3[1]");
+    @FindBy(xpath = "//button[@class='onetrust-close-btn-handler onetrust-close-btn-ui banner-close-button ot-close-icon']")
+    public WebElement closeButton;
+
+    @FindBy(xpath = "//input[@id='autoComplete']")
+    public WebElement searchValidation;
 
     @FindBy(xpath = "//div[contains(text(),  'Royal Caribbean')]")
     public WebElement chooseCruiseLine;
 
+    @FindBy(xpath = "//span[@property='item']/span")
+    public WebElement CheckValidCurise;
+
     @FindBy(xpath = "//h2[@id='brochureName1']")
-    public WebElement cruiseButton;
+    public WebElement cruiseLinkButton;
+
+    @FindBy(xpath = "//span[@id='defaultBreadcrumbs']")
+    public WebElement checkNameText;
 
     @FindBy(xpath = "//h3[@id='tabHeaderDining']")
-    public WebElement headerDining;
+    public WebElement headerDiningText;
+
+    @FindBy(xpath = "//div[@id='sailingDateList1']/ul/li[2]")
+    public WebElement getCruiseSailingMonthText;
 
     @FindBy(xpath = "//div[@id='expandCollapse_foodanddining_Content']/div/div[1]/div")
     public List<WebElement> exp;
-
-    @FindBy(xpath = "//span[@property='item']/span")
-    public WebElement validCurise;
-
-    @FindBy(xpath = "//span[@id='defaultBreadcrumbs']")
-    public WebElement checkName;
-
-    @FindBy(xpath = "//div[@id='sailingDateList1']/ul/li[2]")
-    public WebElement getCruiseSailingMonth;
-
-    @FindBy(xpath = "(//p[@class='ui-block-a'])[22]")
-    public WebElement numberOfElevators;
-
-    @FindBy(xpath = "//button[@class='onetrust-close-btn-handler onetrust-close-btn-ui banner-close-button ot-close-icon']")
-    public WebElement closeButton;
 
     @FindBy(xpath = "//button[@id='expandCollapse_stateroom']")
     public WebElement stateRoom;
@@ -58,6 +55,9 @@ public class CruisePageActions {
     @FindBy(xpath = "//a[@id='hp_searchContinue']")
     public WebElement image;
 
+    @FindBy(xpath = "(//p[@class='ui-block-a'])[22]")
+    public WebElement numberOfElevators;
+
     @FindBy(xpath =  "(//p[@class='ui-block-a'])[10]")
     public WebElement numberOfCrew;
 
@@ -67,42 +67,41 @@ public class CruisePageActions {
     @FindBy(xpath = "(//a[@id ='swipe_1'])[1]")
     public WebElement photoButton;
 
+    @FindBy(xpath = "//div[@id='expandCollapse_stateroom_Content']/h3[1]")
+    public WebElement suiteText;
 
     public CruisePageActions(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
-
     public void ClosePopUp() {
         closeButton.click();
     }
-
+    public void enterDestination(String searchDestination) {
+        searchValidation.clear();
+        searchValidation.sendKeys(searchDestination);
+    }
     public void chooseCruise() {
         chooseCruiseLine.click();
     }
-
     public void triggerCruiseButton() {
-        cruiseButton.click();
+        cruiseLinkButton.click();
     }
-
     public void clickStateRoom() {
         stateRoom.click();
     }
-
     public void triggerOnBoardingButton() {
         onBoarding.click();
     }
-
     public  void photoClickButton() {
         photoButton.click();
     }
-
     public WebElement img() {
         return image;
     }
 
     public List<String> getResult() {
         List<String> results = new ArrayList<>();
-        results.add(headerDining.getAttribute("innerText"));
+        results.add(headerDiningText.getAttribute("innerText"));
 
         for (int i = 1; i <= 10; i++) {
             String text = exp.get(i).getAttribute("innerText");
