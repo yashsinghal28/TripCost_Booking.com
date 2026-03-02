@@ -38,15 +38,6 @@ public class CruisePageActions {
     @FindBy(xpath = "//div[@id='expandCollapse_foodanddining_Content']/div/div[1]/div")
     public List<WebElement> exp;
 
-    @FindBy(xpath = "//span[@property='item']/span")
-    public WebElement validCurise;
-
-    @FindBy(xpath = "//span[@id='defaultBreadcrumbs']")
-    public WebElement checkName;
-
-    @FindBy(xpath = "//div[@id='sailingDateList1']/ul/li[2]")
-    public WebElement getCruiseSailingMonth;
-
     @FindBy(xpath = "(//p[@class='ui-block-a'])[22]")
     public WebElement numberOfElevatorsTxt;
 

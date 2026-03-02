@@ -11,7 +11,7 @@ import static CommonCode.Commoncode.takeScreenShot;
 
 public class TC_018_PrintListOfRooms extends BaseClass {
     @Test
-    public void tc_18_printListOfRooms() throws InterruptedException {
+    public void tc_18_printListOfRooms() {
         cruise = new CruisePageActions(driver);
         driver.get(url2);
         cm.waitForDocumentReady(driver,10);
