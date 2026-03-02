@@ -13,88 +13,63 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 public class HomePageActions extends BaseClass {
-
     public WebDriver driver;
-
     public HomePageActions(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
-
-
     @FindBy(xpath = "//form[@aria-label='Search properties']//button[@data-testid='occupancy-config']")
     public WebElement adultCnt;
-
     @FindBy(xpath = "//button[@aria-label = 'Dismiss sign-in info.']")
     public WebElement popupCloseBtn;
-
     @FindBy(xpath = "//form[@aria-label='Search properties']//input[@name='ss']")
     public WebElement locationInput;
-
     @FindBy(xpath = "//form[@aria-label='Search properties']//button[@data-testid='searchbox-dates-container']")
     public WebElement datePicker;
-
     @FindBy(xpath = "//form[@aria-label='Search properties']//button[@data-testid='occupancy-config']")
     public WebElement occupancyBtn;
-
     @FindBy(xpath = "(//button[@type='button' and @tabindex='-1'])[2]")
     public WebElement adultsIncrementBtn;
-
     @FindBy(xpath = "//form[@aria-label='Search properties']//input[@name='ss']")
     public WebElement externalBtn;
-
     @FindBy(xpath = "//form[@aria-label='Search properties']//button[@type='submit' and .//span[normalize-space()='Search']]")
     public WebElement searchBtn;
-
     @FindBy(xpath = "//a[@aria-label='Booking.com']")
-    public  WebElement  logoImage;
-
+    public  WebElement logoImg;
     @FindBy(xpath = "//button[@data-testid=\"header-currency-picker-trigger\" ]")
     public  WebElement currencyBtn;
     @FindBy(xpath = "//button[@data-testid='header-currency-picker-trigger']//span[@class='ca2ca5203b']")
-    public  WebElement currenyText;
-
+    public  WebElement currenyTxt;
     @FindBy(xpath = "//span[text()=\"Indian Rupee\" ]")
-    public  WebElement indianCurrencyText;
-
-
-
+    public  WebElement indianCurrencyTxt;
     public void closePopUp() {
         popupCloseBtn.click();
     }
-
     public void setLocation(String location) {
         locationInput.click();
         locationInput.clear();
         locationInput.sendKeys(location);
     }
-
     public void selectDateRange() {
         datePicker.click();
-
         LocalDate today = LocalDate.now();
         LocalDate tomorrow = today.plusDays(1);
         LocalDate after5FromTomorrow = tomorrow.plusDays(5);
-
         DateTimeFormatter fmt = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         String tomorrowStr = tomorrow.format(fmt);
         String after5Str = after5FromTomorrow.format(fmt);
-
         String tomorrowXPath = String.format("//td[@role='gridcell']//span[@role='button' and @data-date='%s']", tomorrowStr);
         String after5XPath = String.format("//td[@role='gridcell']//span[@role='button' and @data-date='%s']", after5Str);
-
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath(tomorrowXPath))).click();
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath(after5XPath))).click();
     }
-
     public void setOccupancy() {
         occupancyBtn.click();
         adultsIncrementBtn.click();
         adultsIncrementBtn.click();
         externalBtn.click();
     }
-
     public void searchResults() {
         searchBtn.click();
     }

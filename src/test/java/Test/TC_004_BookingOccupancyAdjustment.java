@@ -11,24 +11,22 @@ import java.io.IOException;
 
 import static CommonCode.Commoncode.takeScreenShot;
 
-public class TC_02_BookingsLocationInput extends BaseClass {
+public class TC_004_BookingOccupancyAdjustment extends BaseClass {
     @Test()
-    public void tc_02_validateLocationInput() throws IOException {
+    public void tc_04_adjustOccupancy() throws IOException {
         HomePageActions home = new HomePageActions(driver);
         driver.get(url1);
         home.closePopUp();
-        home.currencyBtn.click();
-        home.indianCurrencyText.click();
-        String currency = home.currenyText.getText();
-        Assert.assertEquals(currency,"INR");
-        Log.info("Indian Currency Selected");
         String location = Utils.fetchPropertyValue("location").toString();
         home.setLocation(location);
         Log.info("Typed location: " + location);
-
         String typed = home.locationInput.getAttribute("value");
         Log.info("Captured location value: " + typed);
-        Assert.assertEquals(typed, location);
-        takeScreenShot(driver, "TC02_Home_Location_Typed");
+        home.selectDateRange();
+        Log.info("Selected check in and check out dates");
+        home.setOccupancy();
+        takeScreenShot(driver, "TC04_Home_Occupancy_Updated");
+        Integer adultCnt = Integer.parseInt(String.valueOf(home.adultCnt.getText().charAt(0)));
+        Assert.assertEquals(adultCnt, 4);
     }
 }
