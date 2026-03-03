@@ -20,17 +20,14 @@ public class TC_018_PrintListOfRooms extends BaseClass {
         cruise.triggerCruiseBtn();
         cruise.clickStateRoom();
         cruise.printSuitList();
-
         String source = driver.getPageSource();
         Assert.assertNotNull(source, "Page source is null!");
 
         cm.waitForDocumentReady(driver, 5);
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         Commoncode.scrollBy(driver,0,700);
-
         takeScreenShot(driver, "TC-18 stateroom screenshot-1 captured ");
         Commoncode.scrollBy(driver,0,810);
-
         takeScreenShot(driver, "TC-18 stateroom screenshot-2 captured ");
         Log.info("SuccessFull Print of Stats Of Cruise");
     }

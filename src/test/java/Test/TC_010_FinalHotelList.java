@@ -51,14 +51,12 @@ public class TC_010_FinalHotelList extends BaseClass {
         for (int i = 0; i < toPrint; i++) {
             String hotelName = hotels.get(i).getText();
             String priceText = price.get(i).getText();
-
             float curNum = Float.parseFloat(priceText.replaceAll("[^0-9]", ""));
             float pricePerDay = curNum / 5;
 
             Log.info("Hotel " + (i + 1) + ": " + hotelName);
             Log.info("Price for 5 Days: " + priceText);
             Log.info("Price for 1 Day: ₹ " + pricePerDay);
-
             dataRows.add(new String[]{
                     String.valueOf(i + 1),
                     hotelName,
@@ -69,7 +67,6 @@ public class TC_010_FinalHotelList extends BaseClass {
 
         ExcelUtils.writeDataToExcel("test-output/HotelList.xlsx", "HotelList", headers, dataRows);
         Log.info("Hotel list written to Excel: test-output/HotelList.xlsx");
-
         takeScreenShot(driver, "TC10_Hotel_Results_Final");
         Log.info("Captured final hotel results screenshot.");
     }

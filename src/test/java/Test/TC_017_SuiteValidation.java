@@ -23,14 +23,12 @@ public class TC_017_SuiteValidation extends BaseClass {
         cruise.triggerCruiseBtn();
         cruise.clickStateRoom();
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(cruise.suiteTxt));
+        WebElement element = wait.until(ExpectedConditions.visibilityOf(cruise.suiteTxt));
         Commoncode.scrollBy(driver,0,200);
         String stateRoomText = element.getText();
         Assert.assertEquals(stateRoomText, "Suite");
-
         Log.info("Test for Suit Element Passed");
         Commoncode.scrollBy(driver,0,-500);
-
         takeScreenShot(driver, "TC-17 suit validation screenshot-2 captured ");
 
     }

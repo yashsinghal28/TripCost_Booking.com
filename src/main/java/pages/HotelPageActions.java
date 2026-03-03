@@ -29,10 +29,11 @@ public class HotelPageActions {
     public WebElement elevatorFilter;
 
     @FindBy(xpath = "//a[@data-testid='title-link']//div[@data-testid = 'title']")
-    public List<WebElement> hotelList;
+    public List<WebElement> hotelLst;
 
     @FindBy(xpath = "//span[@data-testid = 'price-and-discounted-price']")
-    public List<WebElement> priceList;
+    public List<WebElement> priceLst;
+
     @FindBy(xpath = "//label[text()='Grid']")
     public WebElement gridViewBtn;
 
@@ -51,9 +52,8 @@ public class HotelPageActions {
         elevatorFilter.click();
     }
 
-    // Kept the original method name; returns the hotel titles list
     public List<WebElement> getHoteList() {
-        return hotelList;
+        return hotelLst;
     }
 
     public void waitForPageReady(WebDriver driver) {
@@ -71,6 +71,6 @@ public class HotelPageActions {
     }
 
     public List<WebElement> getHotelPrice(){
-        return priceList;
+        return priceLst;
     }
 }

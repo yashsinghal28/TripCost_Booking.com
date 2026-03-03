@@ -24,7 +24,6 @@ public class TC_013_ClosePopUpCruise extends BaseClass {
         Assert.assertTrue(cruise.searchValidation.isEnabled(), "Search bar not clickable");
         cruise.enterDestination(Destination);
         Log.info("Search working Successfully");
-
         Commoncode.takeScreenShot(driver,"TC-13CookiesClosed and Search working");
     }
 

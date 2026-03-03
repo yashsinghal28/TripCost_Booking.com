@@ -17,9 +17,7 @@ public class TC_022_PhotoGallery extends BaseClass {
         cruise.triggerCruiseBtn();
         Commoncode.scrollBy(driver,0,200);
         cruise.photoClickBtn();
-
         takeScreenShot(driver, "TC-22 EnlargePhotoScreenshot");
-
         cm.waitForDocumentReady(driver, 5);
         takeScreenShot(driver, "TC-22 photoGalleryScreenshot");
         Log.info("Gallery viewed Successfully");

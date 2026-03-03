@@ -22,6 +22,5 @@ public class TC_014_ValidateCruiseLine extends BaseClass{
         Log.info("Validation of curise Line");
         Commoncode.takeScreenShot(driver, "TC-14 SuccessFull selected CruiseLine");
         Log.info("Choosing Cruise Line --> Passed");
-
     }
 }

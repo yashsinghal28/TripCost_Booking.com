@@ -18,10 +18,8 @@ public class TC_020_PrintStateList extends BaseClass {
         cruise.triggerCruiseBtn();
         cruise.triggerOnBoardingBtn();
         cruise.printStatsList();
-
         Commoncode.scrollBy(driver,0,410);
         cm.waitForDocumentReady(driver, 5);
-
         Commoncode.scrollBy(driver,0,600);
         takeScreenShot(driver, "TC-20_Print_State_List");
     }

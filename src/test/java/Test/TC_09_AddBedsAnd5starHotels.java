@@ -44,9 +44,7 @@ public class TC_09_AddBedsAnd5starHotels extends BaseClass {
         Log.info("selected 5star hotels");
         Actions a = new Actions(driver);
         a.doubleClick(hotelActions.selectNoOfBeds).perform();
-
         Log.info("Added 2 bedroom");
-
         takeScreenShot(driver, "TC09_Hotel_List_Present");
         Assert.assertTrue(hotelCount > 0 && priceCount > 0, "Hotel list and prices should not be empty.");
     }

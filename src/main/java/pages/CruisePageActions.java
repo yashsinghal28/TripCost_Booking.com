@@ -1,7 +1,6 @@
 package pages;
 
 import Logs.Log;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -50,7 +49,8 @@ public class CruisePageActions {
     @FindBy(xpath = "//div[@id='expandCollapse_stateroom_Content']/div/div[1]")
     public List<WebElement> suitItemsTxt;
 
-    public By suiteTxt =By.xpath("//div[@id='expandCollapse_stateroom_Content']/h3[1]");
+    @FindBy(xpath = "//div[@id='expandCollapse_stateroom_Content']/h3[1]")
+    public WebElement suiteTxt;
 
     @FindBy(xpath = "//div[@id='expandCollapse_stateroom_Content']/div/div[1]/div[1]")
     public List<WebElement> shipDeckInfo;

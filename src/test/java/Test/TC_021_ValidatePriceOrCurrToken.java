@@ -18,25 +18,20 @@ public class TC_021_ValidatePriceOrCurrToken extends BaseClass {
         cruise.chooseCruise();
         cruise.triggerCruiseBtn();
         cruise.triggerOnBoardingBtn();
-
         Commoncode.scrollBy(driver,0,400);
         Log.info("TC-18: Validate price/currency token on cruise details page");
-
         cm.waitForDocumentReady(driver, 5);
         takeScreenShot(driver, "TC-18_OnboardingExperience");
 
         String source = driver.getPageSource();
         Assert.assertFalse(source.isEmpty(), "Page source is empty!");
         boolean hasCurrency = source.contains("$");
-
         Commoncode.scrollBy(driver,0,600);
         cm.waitForDocumentReady(driver, 5);
         takeScreenShot(driver, "TC-21_OnboardingDetails");
-
         Assert.assertTrue(hasCurrency, "TC-20 FAILED: No currency/price related token found in page source!");
         Commoncode.scrollBy(driver,0,200);
         takeScreenShot(driver, "TC-20_Price");
-
         Log.info("TC-20 PASSED: Price/currency token detected.");
     }
 }

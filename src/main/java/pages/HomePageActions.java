@@ -18,38 +18,53 @@ public class HomePageActions extends BaseClass {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
+
     @FindBy(xpath = "//form[@aria-label='Search properties']//button[@data-testid='occupancy-config']")
     public WebElement adultCnt;
+
     @FindBy(xpath = "//button[@aria-label = 'Dismiss sign-in info.']")
     public WebElement popupCloseBtn;
+
     @FindBy(xpath = "//form[@aria-label='Search properties']//input[@name='ss']")
     public WebElement locationInput;
+
     @FindBy(xpath = "//form[@aria-label='Search properties']//button[@data-testid='searchbox-dates-container']")
     public WebElement datePicker;
+
     @FindBy(xpath = "//form[@aria-label='Search properties']//button[@data-testid='occupancy-config']")
     public WebElement occupancyBtn;
+
     @FindBy(xpath = "(//button[@type='button' and @tabindex='-1'])[2]")
     public WebElement adultsIncrementBtn;
+
     @FindBy(xpath = "//form[@aria-label='Search properties']//input[@name='ss']")
     public WebElement externalBtn;
+
     @FindBy(xpath = "//form[@aria-label='Search properties']//button[@type='submit' and .//span[normalize-space()='Search']]")
     public WebElement searchBtn;
+
     @FindBy(xpath = "//a[@aria-label='Booking.com']")
     public  WebElement logoImg;
+
     @FindBy(xpath = "//button[@data-testid=\"header-currency-picker-trigger\" ]")
     public  WebElement currencyBtn;
+
     @FindBy(xpath = "//button[@data-testid='header-currency-picker-trigger']//span[@class='ca2ca5203b']")
     public  WebElement currenyTxt;
+
     @FindBy(xpath = "//span[text()=\"Indian Rupee\" ]")
     public  WebElement indianCurrencyTxt;
+
     public void closePopUp() {
         popupCloseBtn.click();
     }
+
     public void setLocation(String location) {
         locationInput.click();
         locationInput.clear();
         locationInput.sendKeys(location);
     }
+
     public void selectDateRange() {
         datePicker.click();
         LocalDate today = LocalDate.now();
@@ -64,12 +79,14 @@ public class HomePageActions extends BaseClass {
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath(tomorrowXPath))).click();
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath(after5XPath))).click();
     }
+
     public void setOccupancy() {
         occupancyBtn.click();
         adultsIncrementBtn.click();
         adultsIncrementBtn.click();
         externalBtn.click();
     }
+
     public void searchResults() {
         searchBtn.click();
     }

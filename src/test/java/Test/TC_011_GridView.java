@@ -20,7 +20,6 @@ public class TC_011_GridView extends BaseClass {
         String location = Utils.fetchPropertyValue("location").toString();
         home.setLocation(location);
         Log.info("Typed location: " + location);
-
         String typed = home.locationInput.getAttribute("value");
         Log.info("Captured location value: " + typed);
         home.selectDateRange();
