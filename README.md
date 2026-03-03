@@ -26,7 +26,7 @@ The project is divided into **4 team members**, with each handling specific test
 ## Project Structure
 
 ```
-TripCost_Booking.com-satyam/
+TripCost_Booking.com/
 │
 ├── src/
 │   ├── main/
