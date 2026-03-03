@@ -5,10 +5,10 @@
 **TripCost_Booking.com** is an automated testing project that validates the functionality of the Booking.com website (both hotels and cruises). This project uses **Selenium WebDriver** for browser automation and **TestNG** for test management, following the **Page Object Model (POM)** design pattern.
 
 The project is divided into **4 team members**, with each handling specific test cases:
-- **Yash**: TC_01 - TC_05 (Home Page & Search)
-- **Anand**: TC_06 - TC_12 (Hotel Page & Filters)
-- **Ashish**: TC_13 - TC_16 (Cruise Page Initial)
-- **Satyam** (YOU): **TC_17 - TC_22** (Cruise Details & Validation)
+- **Anand**: TC_01 - TC_05 (Home Page & Search)
+- **Yash**: TC_06 - TC_11 (Hotel Page & Filters)
+- **Ashish**: TC_12 - TC_17 (Cruise Page Initial)
+- **Satyam**: TC_18 - TC_22 (Cruise Details & Validation)
 
 ---
 
@@ -16,8 +16,7 @@ The project is divided into **4 team members**, with each handling specific test
 - [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
 - [Setup & Installation](#setup--installation)
-- [Configuration](#configuration)
-- [Your Work: TC_17 to TC_22](#your-work-tc_17-to-tc_22)
+- [Test Case Details (All Members)](#test-case-details-all-members)
 - [How to Run Tests](#how-to-run-tests)
 - [Reports & Logging](#reports--logging)
 - [Key Classes & Components](#key-classes--components)
@@ -37,40 +36,51 @@ TripCost_Booking.com-satyam/
 │   │       ├── pages/
 │   │       │   ├── HomePageActions.java     # Hotel page interactions
 │   │       │   ├── HotelPageActions.java    # Hotel list & filters
-│   │       │   └── CruisePageActions.java   # Cruise page interactions (YOUR CLASS)
+│   │       │   └── CruisePageActions.java   # Cruise page interactions
 │   │       ├── CommonCode/
 │   │       │   └── Commoncode.java          # Utility methods (screenshots, waits)
 │   │       ├── Logs/
 │   │       │   └── Log.java                 # Logging wrapper for Log4j
 │   │       └── utils/
-│   │           └── Utils.java               # Configuration property reader
-│   │
+│   │           └── Utils.java               # Utility helpers
+│   │       
 │   └── test/
 │       ├── java/
 │       │   ├── Test/
-│       │   │   ├── TC_01_HomePopupHandling.java
-│       │   │   ├── TC_02_LocationInput.java
-│       │   │   ├── ...
-│       │   │   ├── TC_017_SuiteValidation.java         # YOUR TEST
-│       │   │   ├── TC_018_PrintListOfRooms.java        # YOUR TEST
-│       │   │   ├── TC_019_ValidateOnboarding.java      # YOUR TEST
-│       │   │   ├── TC_020_PrintStateList.java          # YOUR TEST
-│       │   │   ├── TC_021_ValidatePriceOrCurrToken.java # YOUR TEST
-│       │   │   └── TC_022_PhotoGallery.java            # YOUR TEST
-│       │   │
+│       │   │   ├── TC_001_BookingHomePopupHandlingandDisplay.java
+│       │   │   ├── TC_002_BookingLocationInput.java
+│       │   │   ├── TC_003_BookingDateSelection.java
+│       │   │   ├── TC_004_BookingOccupancyAdjustment.java
+│       │   │   ├── TC_005_BookingSearchAndNavigate.java
+│       │   │   ├── TC_06_GetAllHotels.java
+│       │   │   ├── TC_07_SortByReview.java
+│       │   │   ├── TC_08_ElevatorFilter.java
+│       │   │   ├── TC_09_AddBedsAnd5starHotels.java
+│       │   │   ├── TC_010_FinalHotelList.java
+│       │   │   ├── TC_011_GridView.java
+│       │   │   ├── TC_012_SecondURLOpen.java
+│       │   │   ├── TC_013_ClosePopUpCruise.java
+│       │   │   ├── TC_014_ValidateCruiseLine.java
+│       │   │   ├── TC_015_SailingMonthValidation.java
+│       │   │   ├── TC_016_CruisePageValidation.java
+│       │   │   ├── TC_017_SuiteValidation.java
+│       │   │   ├── TC_018_PrintListOfRooms.java
+│       │   │   ├── TC_019_ValidateOnboarding.java
+│       │   │   ├── TC_020_PrintStateList.java
+│       │   │   ├── TC_021_ValidatePriceOrCurrToken.java
+│       │   │   └── TC_022_PhotoGallery.java
+│       │   │   
 │       │   └── reports/
 │       │       └── ExtentReportManager.java # Report generation listener
-│       │
+│       │   
 │       └── resources/
 │           └── log4j2.xml                   # Logging configuration
 │
-├── config.properties                        # Browser & URL configuration
 ├── testng.xml                              # Test suite configuration
 ├── pom.xml                                 # Maven dependencies
 ├── logs/                                   # Generated log files
 ├── reports/                                # Generated HTML reports
 └── ScreenShot/                             # Generated screenshots
-
 ```
 
 ---
@@ -118,131 +128,302 @@ TripCost_Booking.com-satyam/
 
 ---
 
-## Configuration
+## Test Case Details (All Members)
 
-### config.properties
-Located at root level, contains:
-```properties
-browser=chrome              # Options: chrome, firefox, edge
-URL1=https://www.booking.com/        # Hotel booking URL
-URL2=https://cruises.booking.com/    # Cruise booking URL (YOUR TESTS USE THIS)
-```
+### Anand (TC_01 - TC_05) — Home Page & Search
 
-### testng.xml
-Controls which tests run:
-```xml
-<test name="Trip-Cost-Booking" preserve-order="true">
-    <classes>
-        <!-- YOUR TESTS -->
-        <class name="Test.TC_017_SuiteValidation"/>
-        <class name="Test.TC_018_PrintListOfRooms"/>
-        <class name="Test.TC_019_ValidateOnboarding"/>
-        <class name="Test.TC_020_PrintStateList"/>
-        <class name="Test.TC_021_ValidatePriceOrCurrToken"/>
-        <class name="Test.TC_022_PhotoGallery"/>
-    </classes>
-</test>
-```
+#### **TC_001: Booking Home Popup Handling & Display**
+- **Purpose**: Ensure the home popup can be closed and the Booking.com logo is visible.
+- **Steps**:
+  1. Open the Booking.com home page (URL1).
+  2. If popup appears, close it.
+  3. Check if the Booking.com logo is displayed.
+  4. Capture screenshot.
+- **Assertions**:
+  - Popup closes successfully if displayed.
+  - Logo image is visible on the page.
+
+#### **TC_002: Booking Location Input**
+- **Purpose**: Validate location input and currency selection on the home page.
+- **Steps**:
+  1. Open the Booking.com home page.
+  2. Close popup if present.
+  3. Select INR currency.
+  4. Enter location from properties file.
+  5. Capture screenshot.
+- **Assertions**:
+  - Currency text equals INR.
+  - Location input field value matches expected location.
+
+#### **TC_003: Booking Date Selection**
+- **Purpose**: Validate date range selection works correctly.
+- **Steps**:
+  1. Open home page.
+  2. Close popup.
+  3. Enter location.
+  4. Select check-in and check-out dates.
+  5. Capture screenshot.
+- **Assertions**:
+  - Date picker remains displayed after selection.
+
+#### **TC_004: Booking Occupancy Adjustment**
+- **Purpose**: Validate occupancy adjustment for adults.
+- **Steps**:
+  1. Open home page.
+  2. Close popup.
+  3. Enter location.
+  4. Select dates.
+  5. Adjust occupancy (adults).
+  6. Capture screenshot.
+- **Assertions**:
+  - Adult count equals expected value (4).
+
+#### **TC_005: Booking Search & Navigate**
+- **Purpose**: Validate search results load after entering data.
+- **Steps**:
+  1. Open home page.
+  2. Close popup.
+  3. Enter location.
+  4. Select dates and occupancy.
+  5. Click Search.
+  6. Capture screenshot.
+- **Assertions**:
+  - Results page title is non-empty.
 
 ---
 
-## Your Work: TC_17 to TC_22
+### Yash (TC_06 - TC_11) — Hotel Page & Filters
 
-### Overview
-You are handling **6 test cases** that validate the **Cruise Booking functionality** on Booking.com.
-
-### Test Case Details
-
-#### **TC_017: Suite Validation** ✓
-- **Purpose**: Validates that stateroom types (Suite, Balcony, etc.) display correctly
+#### **TC_06: Get All Hotels**
+- **Purpose**: Validate hotel list visibility and log all hotel names.
 - **Steps**:
-  1. Navigate to cruise booking page (URL2)
-  2. Close popup
-  3. Select "Royal Caribbean" cruise line
-  4. Choose a specific cruise
-  5. Click "Stateroom" section
-  6. Verify "Suite" text is visible
-- **Assertion**: Stateroom type should be "Suite"
-
-#### **TC_018: Print List of Rooms** 📋
-- **Purpose**: Extract and display all available staterooms with their deck information
-- **Steps**:
-  1. Navigate to cruise page
-  2. Select cruise and open Stateroom section
-  3. Extract all room types and deck numbers
-  4. Print list to logs for documentation
-  5. Take screenshots at different scroll levels
-- **Output**: List of rooms like "Balcony Suite -> Deck 9"
-
-#### **TC_019: Validate Onboarding** ✅
-- **Purpose**: Verify cruise amenities and ship specifications are accessible
-- **Steps**:
-  1. Navigate to cruise page
-  2. Click "Onboarding Experience" section
-  3. Verify "Dining" header is visible
-  4. Extract elevator count from ship details
-  5. Get crew size and passenger capacity
+  1. Perform hotel search from home page.
+  2. Wait for results page to load.
+  3. Verify Options/Filters button.
+  4. Fetch all hotels and log names.
+  5. Capture screenshot.
 - **Assertions**:
-  - Dining header should be enabled
-  - Elevator count should be > 0
+  - Options/Filters button is visible.
+  - Hotel list is not empty.
 
-#### **TC_020: Print State List** 📊
-- **Purpose**: Extract and log all cruise ship statistics and amenities
+#### **TC_07: Sort by Review**
+- **Purpose**: Ensure hotels can be sorted by top reviewed.
 - **Steps**:
-  1. Navigate to cruise page
-  2. Open Onboarding section
-  3. Collect all statistics (dining, decks, capacity, crew, elevators)
-  4. Print to logs
-  5. Take screenshots
-- **Output**: Complete ship specifications in logs
+  1. Search hotels.
+  2. Apply “Top Reviewed” sorting.
+  3. Capture screenshot.
+- **Assertions**:
+  - Sorting applied successfully (options button still visible).
 
-#### **TC_021: Validate Price/Currency Token** 💰
-- **Purpose**: Ensure prices and currency symbols display on the page
+#### **TC_08: Elevator Filter**
+- **Purpose**: Validate elevator accessibility filter.
 - **Steps**:
-  1. Navigate to cruise details
-  2. Get page source (all HTML)
-  3. Search for currency symbol "$"
-  4. Take screenshots of pricing areas
-- **Assertion**: Page should contain "$" symbol
+  1. Search hotels.
+  2. Apply elevator accessibility filter.
+  3. Capture screenshot.
+- **Assertions**:
+  - Elevator filter is displayed/active.
 
-#### **TC_022: Photo Gallery** 📸
-- **Purpose**: Validate that cruise photo gallery opens and functions
+#### **TC_09: Add Beds & 5-Star Hotels**
+- **Purpose**: Validate 5-star filter and bed selection.
 - **Steps**:
-  1. Navigate to cruise page
-  2. Scroll down
-  3. Click photo gallery button
-  4. Verify gallery opens
-  5. Take screenshot
-- **Purpose**: Users need to view cruise photos for decision-making
+  1. Search hotels.
+  2. Fetch hotel list and prices.
+  3. Select 5-star filter.
+  4. Increase bed count to 2.
+  5. Capture screenshot.
+- **Assertions**:
+  - Hotels and prices are not empty.
+
+#### **TC_010: Final Hotel List**
+- **Purpose**: Capture top hotel results and export to Excel.
+- **Steps**:
+  1. Search hotels.
+  2. Fetch hotel list and prices.
+  3. Select 5-star hotels.
+  4. Increase bed count.
+  5. For top 10 hotels, calculate price per day.
+  6. Export results to Excel.
+  7. Capture screenshot.
+- **Assertions**:
+  - Data rows generated for hotels.
+  - Excel file written successfully.
+
+#### **TC_011: Grid View**
+- **Purpose**: Validate grid view layout on hotel results page.
+- **Steps**:
+  1. Search hotels.
+  2. Click grid view button.
+  3. Capture screenshot.
+- **Assertions**:
+  - Grid view button remains displayed.
+
+---
+
+### Ashish (TC_12 - TC_17) — Cruise Page Initial
+
+#### **TC_012: Second URL Open**
+- **Purpose**: Validate cruise booking page loads successfully.
+- **Steps**:
+  1. Navigate to cruise URL (URL2).
+  2. Capture screenshot.
+  3. Check cruise logo display.
+- **Assertions**:
+  - Cruise logo is displayed.
+
+#### **TC_013: Close Cruise Popup**
+- **Purpose**: Validate cookie popup handling and search bar on cruise page.
+- **Steps**:
+  1. Navigate to cruise URL.
+  2. Validate title.
+  3. Close popup.
+  4. Enter destination in search bar.
+  5. Capture screenshot.
+- **Assertions**:
+  - Title matches expected.
+  - Search bar displayed and enabled.
+
+#### **TC_014: Validate Cruise Line**
+- **Purpose**: Ensure correct cruise line selection.
+- **Steps**:
+  1. Navigate to cruise URL.
+  2. Close popup.
+  3. Select “Royal Caribbean”.
+  4. Capture screenshots.
+- **Assertions**:
+  - Cruise line text matches expected.
+
+#### **TC_015: Sailing Month Validation**
+- **Purpose**: Validate cruise sailing month is not in the past.
+- **Steps**:
+  1. Navigate to cruise URL.
+  2. Close popup.
+  3. Select cruise line.
+  4. Read sailing month text.
+  5. Parse into YearMonth.
+  6. Capture screenshot.
+- **Assertions**:
+  - Sailing month is not before current month.
+
+#### **TC_016: Cruise Page Validation**
+- **Purpose**: Validate cruise page header and visibility of key elements.
+- **Steps**:
+  1. Navigate to cruise URL.
+  2. Close popup.
+  3. Select cruise line.
+  4. Validate cruise card display.
+  5. Capture screenshot.
+- **Assertions**:
+  - Cruise card/section is visible.
+
+#### **TC_017: Suite Validation**
+- **Purpose**: Validate stateroom section shows “Suite”.
+- **Steps**:
+  1. Navigate to cruise URL.
+  2. Close popup.
+  3. Select cruise line.
+  4. Open cruise details.
+  5. Expand stateroom section.
+  6. Capture screenshot.
+- **Assertions**:
+  - Suite text is visible in stateroom list.
+
+---
+
+### Satyam (TC_18 - TC_22) — Cruise Details & Validation
+
+#### **TC_018: Print List of Rooms**
+- **Purpose**: Extract and log all stateroom types with deck info.
+- **Steps**:
+  1. Navigate to cruise URL.
+  2. Close popup and select cruise.
+  3. Expand stateroom section.
+  4. Print room list.
+  5. Take multiple screenshots.
+- **Assertions**:
+  - Room list extracted successfully.
+
+#### **TC_019: Validate Onboarding**
+- **Purpose**: Validate onboarding section and ship stats.
+- **Steps**:
+  1. Navigate to cruise URL.
+  2. Close popup and select cruise.
+  3. Expand onboarding section.
+  4. Validate dining header.
+  5. Extract elevator count, crew, capacity.
+- **Assertions**:
+  - Dining header enabled.
+  - Elevator count > 0.
+
+#### **TC_020: Print State List**
+- **Purpose**: Print and log ship statistics.
+- **Steps**:
+  1. Navigate to cruise URL.
+  2. Close popup and select cruise.
+  3. Expand onboarding section.
+  4. Print statistics list.
+  5. Capture screenshots.
+- **Assertions**:
+  - Statistics list printed successfully.
+
+#### **TC_021: Validate Price/Currency Token**
+- **Purpose**: Ensure pricing and currency symbols appear.
+- **Steps**:
+  1. Navigate to cruise details.
+  2. Get page source.
+  3. Search for "$" symbol.
+  4. Capture screenshots.
+- **Assertions**:
+  - Page source contains "$" symbol.
+
+#### **TC_022: Photo Gallery**
+- **Purpose**: Validate cruise photo gallery opens correctly.
+- **Steps**:
+  1. Navigate to cruise URL.
+  2. Close popup and select cruise.
+  3. Scroll and open photo gallery.
+  4. Capture screenshots.
+- **Assertions**:
+  - Photo gallery opens successfully.
 
 ---
 
 ## How to Run Tests
 
-### Run All Your Tests (TC_17-TC_22):
+### Run All Tests:
 ```bash
 mvn clean test
 ```
 
-### Run Only Your Test Suite:
+### Run Only Test Suite:
 ```bash
 mvn clean test -Dsuites=testng.xml
 ```
 
 ### Run Specific Test Case:
 ```bash
+mvn test -Dtest=TC_001_BookingHomePopupHandlingandDisplay
+mvn test -Dtest=TC_002_BookingLocationInput
+mvn test -Dtest=TC_003_BookingDateSelection
+mvn test -Dtest=TC_004_BookingOccupancyAdjustment
+mvn test -Dtest=TC_005_BookingSearchAndNavigate
+mvn test -Dtest=TC_06_GetAllHotels
+mvn test -Dtest=TC_07_SortByReview
+mvn test -Dtest=TC_08_ElevatorFilter
+mvn test -Dtest=TC_09_AddBedsAnd5starHotels
+mvn test -Dtest=TC_010_FinalHotelList
+mvn test -Dtest=TC_011_GridView
+mvn test -Dtest=TC_012_SecondURLOpen
+mvn test -Dtest=TC_013_ClosePopUpCruise
+mvn test -Dtest=TC_014_ValidateCruiseLine
+mvn test -Dtest=TC_015_SailingMonthValidation
+mvn test -Dtest=TC_016_CruisePageValidation
 mvn test -Dtest=TC_017_SuiteValidation
 mvn test -Dtest=TC_018_PrintListOfRooms
 mvn test -Dtest=TC_019_ValidateOnboarding
 mvn test -Dtest=TC_020_PrintStateList
 mvn test -Dtest=TC_021_ValidatePriceOrCurrToken
 mvn test -Dtest=TC_022_PhotoGallery
-```
-
-### Run with Different Browser:
-Edit `config.properties`:
-```properties
-browser=firefox  # or edge
 ```
 
 ---
@@ -291,13 +472,12 @@ ScreenShot/TC-22_PhotoGalleryScreenshot.jpeg
 Role: Foundation for all tests
 Provides:
   - Browser initialization (Chrome/Firefox/Edge)
-  - URL loading from config.properties
   - Implicit wait setup (10 seconds)
   - Explicit wait setup (15 seconds)
   - Browser cleanup after each test
 ```
 
-### **CruisePageActions.java** (YOUR MAIN CLASS)
+### **CruisePageActions.java**
 ```
 Role: Page Object Model for cruise page
 Contains:
@@ -305,19 +485,6 @@ Contains:
   - Action methods (clickButton, scroll, etc.)
   - Data extraction methods (getSuitList, getResult)
   - Helper methods (elevatorCount, etc.)
-
-Key Methods for Your Tests:
-  - ClosePopUp()              // Closes popup
-  - chooseCruise()            // Selects Royal Caribbean
-  - triggerCruiseButton()     // Selects specific cruise
-  - clickStateRoom()          // Expands stateroom section
-  - triggerOnBoardingButton() // Expands amenities section
-  - photoClickButton()        // Opens photo gallery
-  - getSuitList()             // Returns list of rooms
-  - getResult()               // Returns ship statistics
-  - elevatorCount()           // Returns elevator count
-  - printSuitList()           // Prints room list
-  - printStatsList()          // Prints all stats
 ```
 
 ### **CommonCode.java**
@@ -328,254 +495,22 @@ Utility Methods:
   - waitForDocumentReady(driver, sec) // Waits for page load
 ```
 
-### **Log.java**
-```
-Logging Wrapper:
-  - Log.info(message)  // Logs informational message
-  - Log.warn(message)  // Logs warning message
-```
-
-### **Utils.java**
-```
-Configuration Reader:
-  - fetchPropertyValue(key) // Reads from config.properties
-```
-
-### **ExtentReportManager.java**
-```
-Report Listener:
-  - Implements ITestListener
-  - Captures test results
-  - Generates HTML report in reports/
-  - Shows Pass/Fail/Skip status
-```
-
----
-
-## Page Object Model (POM) Structure
-
-Your tests use **POM** design pattern:
-
-```
-Instead of writing in test:
-❌ driver.findElement(By.xpath("//button[@id='expandCollapse_stateroom']")).click();
-
-You use in CruisePageActions:
-✅ @FindBy(xpath = "//button[@id='expandCollapse_stateroom']")
-   public WebElement stateRoom;
-   
-   public void clickStateRoom() {
-       stateRoom.click();
-   }
-
-Then in test:
-✅ cruise.clickStateRoom();
-```
-
-**Benefits:**
-- Cleaner test code
-- Easier maintenance (change XPath once in POM)
-- Better reusability
-- Follows industry standards
-
----
-
-## Test Execution Flow (Example: TC_019)
-
-```
-1. TestNG Framework calls test method
-   ↓
-2. BaseClass.setUp() runs:
-   - Launches Chrome browser
-   - Maximizes window
-   - Sets implicit wait (10 sec)
-   - Sets explicit wait (15 sec)
-   ↓
-3. Test method executes:
-   - cruise = new CruisePageActions(driver)
-   - driver.get(url2)  // https://cruises.booking.com/
-   - cruise.ClosePopUp()
-   - cruise.chooseCruise()
-   - cruise.triggerCruiseButton()
-   - cruise.triggerOnBoardingButton()
-   ↓
-4. Assertions validate:
-   - headerDining.isEnabled() ✓
-   - elevatorCount() > 0 ✓
-   ↓
-5. Logs recorded:
-   - "Presence of Header is Verified"
-   - "Presence of Elevators is valid: 5"
-   ↓
-6. ExtentReportManager listens:
-   - onTestSuccess() called
-   - Status = PASSED
-   ↓
-7. BaseClass.tearDown() runs:
-   - driver.quit() closes browser
-   ↓
-8. Result in ExtentReport.html:
-   - TC_019_ValidateOnboarding - PASSED ✓
-```
-
----
-
-## Maven Build Lifecycle
-
-```bash
-mvn clean          # Deletes target/ folder
-mvn compile        # Compiles source code
-mvn test          # Runs all tests (calls setUp, test, tearDown)
-mvn package       # Creates JAR file
-mvn clean install # Clean + Compile + Test + Package
-```
-
-### Common Maven Commands:
-```bash
-# Run tests with logging
-mvn clean test -X
-
-# Run tests in parallel
-mvn test -DparallelSuites=2
-
-# Skip tests but compile
-mvn clean install -DskipTests
-
-# Run single test class
-mvn test -Dtest=TC_017_SuiteValidation
-```
-
----
-
-## Dependency Overview
-
-### pom.xml Dependencies:
-
-| Dependency | Version | Purpose |
-|-----------|---------|---------|
-| selenium-java | 4.39.0 | Browser automation |
-| testng | 7.12.0 | Test framework & assertions |
-| extentreports | 5.1.2 | Beautiful test reports |
-| log4j-core | 2.25.3 | Logging |
-| commons-io | Latest | File operations |
-
-All dependencies are managed by Maven - no manual installation needed!
-
----
-
-## Best Practices Used
-
-✅ **Page Object Model (POM)** - Centralized element locators  
-✅ **DRY Principle** - Reusable methods in CommonCode  
-✅ **Explicit Waits** - WebDriverWait for reliability  
-✅ **Logging** - Track every action  
-✅ **Assertions** - Validate expected vs actual  
-✅ **Screenshots** - Evidence of test execution  
-✅ **Configuration Files** - Easy to change URLs/browsers  
-✅ **Reporting** - Beautiful HTML reports with ExtentReports  
-
----
-
-## Interview Q&A - Your Part
-
-### Q: What are you testing in TC_17-TC_22?
-**A:** "I'm testing the Cruise Booking section with 6 test cases that validate stateroom types, extract cruise specifications, verify ship amenities, check pricing, and test the photo gallery."
-
-### Q: What's the purpose of CruisePageActions?
-**A:** "It's a Page Object Model class that contains all XPath locators and action methods for the cruise page. This centralizes element identification and makes tests more maintainable."
-
-### Q: How do your tests handle waits?
-**A:** "We use implicit waits (10 seconds) for general element visibility and explicit waits (15 seconds) for specific critical elements. We also have a waitForDocumentReady method to ensure the page is fully loaded."
-
-### Q: What happens when a test fails?
-**A:** "The ExtentReportManager listener captures the failure, logs the error, and the test is marked as FAILED in the HTML report. We also take screenshots at key points for evidence."
-
-### Q: How do you ensure test reliability?
-**A:** "By using proper waits, assertions, logging, and following POM pattern. We also use explicit waits with ExpectedConditions for critical elements."
-
----
-
-## Troubleshooting
-
-### Issue: Tests not finding elements
-**Solution**: Increase wait times in BaseClass or check if XPaths have changed
-
-### Issue: Browser not launching
-**Solution**: Check config.properties - verify browser name matches installed browser
-
-### Issue: Screenshots not saved
-**Solution**: Verify ScreenShot/ folder exists and has write permissions
-
-### Issue: Report not generated
-**Solution**: Check if ExtentReportManager listener is in testng.xml
-
 ---
 
 ## Project Team
 
 | Member | Test Cases | Focus |
 |--------|-----------|-------|
-| Yash | TC_01-TC_05 | Home page & search functionality |
-| Anand | TC_06-TC_12 | Hotel listings & filters |
-| Ashish | TC_13-TC_16 | Cruise page initial validation |
-| **Satyam (YOU)** | **TC_17-TC_22** | **Cruise details & validation** |
-
----
-
-## Quick Reference - Your Commands
-
-```bash
-# Run your tests
-mvn clean test
-
-# Run specific test
-mvn test -Dtest=TC_017_SuiteValidation
-
-# View test report
-open reports/ExtentReport.html  # macOS
-start reports/ExtentReport.html # Windows
-
-# Check logs
-cat logs/Application.log        # Linux/macOS
-type logs/Application.log       # Windows
-
-# Build without testing
-mvn clean install -DskipTests
-```
-
----
-
-## Resources
-
-- [Selenium Documentation](https://www.selenium.dev/documentation/)
-- [TestNG Documentation](https://testng.org/doc/)
-- [ExtentReports](https://www.extentreports.com/)
-- [Log4j Documentation](https://logging.apache.org/log4j/2.x/)
-- [Maven Documentation](https://maven.apache.org/guides/index.html)
-
----
-
-## Version Information
-
-- **Project Version**: 1.0-SNAPSHOT
-- **Java Version**: 17
-- **Maven Compiler**: Java 17
-- **Last Updated**: February 2026
-
----
-
-## License
-
-This is a **group project** for **automation testing practice**. Internal use only.
-
-**Team Members**: Yash, Satyam, Anand, Ashish
+| Anand | TC_01-TC_05 | Home page & search functionality |
+| Yash | TC_06-TC_11 | Hotel listings & filters |
+| Ashish | TC_12-TC_17 | Cruise page initial validation |
+| Satyam | TC_18-TC_22 | Cruise details & validation |
 
 ---
 
 ## Notes
 
-- All tests use the **same browser and URL configuration** from config.properties
-- Tests are **independent** - each can run in any order
+- Tests are **independent** — each can run in any order
 - **Screenshots** are taken for every test for audit trail
 - **Logs** track all activities for debugging
 - **ExtentReports** generates a professional test summary
@@ -583,5 +518,3 @@ This is a **group project** for **automation testing practice**. Internal use on
 ---
 
 **Happy Testing! 🚀**
-
-For questions about your part (TC_17-TC_22), refer to the "Your Work" section above.
