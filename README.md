@@ -112,7 +112,7 @@ TripCost_Booking.com/
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/yashsinghal28/TripCost_Booking.com.git
-   cd TripCost_Booking.com-satyam
+   cd TripCost_Booking.com
    ```
 
 2. **Install dependencies:**
