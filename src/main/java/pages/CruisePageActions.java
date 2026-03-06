@@ -37,7 +37,7 @@ public class CruisePageActions {
     @FindBy(xpath = "//div[@id='expandCollapse_foodanddining_Content']/div/div[1]/div")
     public List<WebElement> experience;
 
-    @FindBy(xpath = "(//p[@class='ui-block-a'])[22]")
+    @FindBy(xpath = "(//p[@class='ui-block-a'])[21]")
     public WebElement numberOfElevatorsTxt;
 
     @FindBy(xpath = "//button[@id='expandCollapse_stateroom']")
@@ -138,10 +138,11 @@ public class CruisePageActions {
     public int elevatorCount() {
         String[] elevatorText = numberOfElevatorsTxt.getAttribute("innerText").split(":");
         int elevatorCount = 0;
+
         try {
             elevatorCount = Integer.parseInt(elevatorText[1].trim());
         } catch (NumberFormatException e) {
-            Assert.assertTrue(elevatorText[1].matches("\\d+"), "Elevator count is not a valid number: ");
+            Assert.fail("Elevator count is not a valid number: " + elevatorText[1].trim());
         }
         return elevatorCount;
     }
