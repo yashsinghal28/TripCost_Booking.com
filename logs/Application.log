@@ -985,3 +985,8 @@
 15:53:51.008 INFO  Log - Driver quit successfully.
 15:57:18.209 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
 15:57:35.981 INFO  Log - Driver quit successfully.
+16:31:46.371 INFO  Log - Launched URL1 or URL2: https://www.booking.com/|https://cruises.booking.com/ Driver started successfully
+16:32:04.094 INFO  Log - Indian Currency Selected
+16:32:04.542 INFO  Log - Typed location: Nairobi
+16:32:04.575 INFO  Log - Captured location value: Nairobi
+16:32:08.703 INFO  Log - Driver quit successfully.

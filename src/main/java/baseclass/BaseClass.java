@@ -34,9 +34,7 @@ public class BaseClass {
         url1 = Utils.fetchPropertyValue("URL1").toString();
         url2 = Utils.fetchPropertyValue("URL2").toString();
         if(Utils.fetchPropertyValue("browser").equals("chrome")) {
-            ChromeOptions options = new ChromeOptions();
-            options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1080");
-            driver = new ChromeDriver(options);
+            driver = new ChromeDriver();
         }
         else if(Utils.fetchPropertyValue("browser").equals("firefox")){
             driver = new FirefoxDriver();
