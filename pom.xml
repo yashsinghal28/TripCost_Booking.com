@@ -104,6 +104,29 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.2.5</version>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.2.5</version>
+                <configuration>
+                    <includes>
+                        <include>**/*Test.java</include>
+                        <include>**/*Tests.java</include>
+                        <include>**/*TestCase.java</include>
+                        <!-- Add your patterns -->
+                        <include>**/*IT.java</include>
+                        <include>**/*Spec.java</include>
+                        <include>**/BaseTest.java</include>
+                    </includes>
+                    <!-- If you use TestNG: -->
+                    <!-- <suiteXmlFiles>
+                      <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+                    </suiteXmlFiles> -->
+                </configuration>
+            </plugin>
         </plugins>
+
+
     </build>
+
 </project>
